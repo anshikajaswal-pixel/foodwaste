@@ -1,0 +1,220 @@
+{
+  "summary_metrics": {
+    "total_waste_kg": 18260.08,
+    "average_daily_waste_kg": 309.493,
+    "std_daily_waste_kg": 161.934,
+    "record_count": 1338,
+    "date_range": {
+      "start": "2026-01-01",
+      "end": "2026-03-02"
+    }
+  },
+  "top_foods": {
+    "Base": 14756.23,
+    "Plate Waste": 2156.66,
+    "Vegetable Dry": 306.51,
+    "Rice & Biryanis": 250.17,
+    "Vegetable Gravy": 137.54
+  },
+  "time_analysis": {
+    "waste_by_time_of_day": {
+      "Lunch": 10592.3,
+      "Breakfast": 5149.37,
+      "Dinner": 2137.32,
+      "Snacks": 216.51,
+      "Others": 164.58
+    },
+    "waste_by_weekday": {
+      "Monday": 2503.71,
+      "Tuesday": 3321.71,
+      "Wednesday": 2837.01,
+      "Thursday": 3247.49,
+      "Friday": 3530.21,
+      "Saturday": 961.53,
+      "Sunday": 1858.42
+    },
+    "monthly_trend": {
+      "2026-01": 7993.38,
+      "2026-02": 9706.82,
+      "2026-03": 559.88
+    }
+  },
+  "waste_type_analysis": {
+    "Peel Waste": 6889.21,
+    "Production Waste": 6798.6,
+    "Plate Waste": 2156.66,
+    "Bain Marie Waste": 1592.4,
+    "Spoiled Waste": 721.73,
+    "Donation": 77.88,
+    "Repurpose": 23.6
+  },
+  "anomalies": [
+    {
+      "date": "2026-02-24",
+      "daily_waste_kg": 644.3,
+      "anomaly_score": 2.068,
+      "method": "zscore"
+    },
+    {
+      "date": "2026-02-26",
+      "daily_waste_kg": 761.72,
+      "anomaly_score": 2.793,
+      "method": "zscore"
+    },
+    {
+      "date": "2026-02-27",
+      "daily_waste_kg": 909.51,
+      "anomaly_score": 3.705,
+      "method": "zscore"
+    }
+  ],
+  "predictions_next_7_days": [
+    {
+      "date": "2026-03-03",
+      "predicted_waste_kg": 351.034
+    },
+    {
+      "date": "2026-03-04",
+      "predicted_waste_kg": 377.217
+    },
+    {
+      "date": "2026-03-05",
+      "predicted_waste_kg": 364.398
+    },
+    {
+      "date": "2026-03-06",
+      "predicted_waste_kg": 387.372
+    },
+    {
+      "date": "2026-03-07",
+      "predicted_waste_kg": 81.91
+    },
+    {
+      "date": "2026-03-08",
+      "predicted_waste_kg": 131.943
+    },
+    {
+      "date": "2026-03-09",
+      "predicted_waste_kg": 297.518
+    }
+  ],
+  "kpis": {
+    "Food Waste Intensity Score": 309.493,
+    "Peak Waste Ratio": 4.98,
+    "Operational Efficiency Score": 47.68,
+    "Waste Volatility Index": 0.523,
+    "Top Loss Contributor": {
+      "food_name": "Base",
+      "waste_kg": 14756.23,
+      "share_pct": 80.81
+    },
+    "Peak Waste Time": "Lunch"
+  },
+  "advanced_insights": {
+    "waste_concentration_top_food_pct": 80.81,
+    "peak_waste_time": "Lunch",
+    "inefficient_production_windows": [
+      {
+        "hour_category": "Lunch",
+        "day_of_week": "Tuesday",
+        "waste_kg": 1879.72
+      },
+      {
+        "hour_category": "Lunch",
+        "day_of_week": "Friday",
+        "waste_kg": 1461.09
+      },
+      {
+        "hour_category": "Lunch",
+        "day_of_week": "Wednesday",
+        "waste_kg": 1355.59
+      }
+    ],
+    "anomaly_method": "zscore",
+    "anomaly_days": [
+      {
+        "date": "2026-02-24",
+        "daily_waste_kg": 644.3,
+        "anomaly_score": 2.068,
+        "method": "zscore"
+      },
+      {
+        "date": "2026-02-26",
+        "daily_waste_kg": 761.72,
+        "anomaly_score": 2.793,
+        "method": "zscore"
+      },
+      {
+        "date": "2026-02-27",
+        "daily_waste_kg": 909.51,
+        "anomaly_score": 3.705,
+        "method": "zscore"
+      }
+    ],
+    "growth_rate_level": "weekly",
+    "growth_rate_trend": [
+      {
+        "period": "2026-01-04",
+        "waste_kg": 703.63,
+        "growth_pct": null
+      },
+      {
+        "period": "2026-01-11",
+        "waste_kg": 1655.47,
+        "growth_pct": 135.28
+      },
+      {
+        "period": "2026-01-18",
+        "waste_kg": 1682.68,
+        "growth_pct": 1.64
+      },
+      {
+        "period": "2026-01-25",
+        "waste_kg": 1977.45,
+        "growth_pct": 17.52
+      },
+      {
+        "period": "2026-02-01",
+        "waste_kg": 2208.77,
+        "growth_pct": 11.7
+      },
+      {
+        "period": "2026-02-08",
+        "waste_kg": 1916.19,
+        "growth_pct": -13.25
+      },
+      {
+        "period": "2026-02-15",
+        "waste_kg": 1725.84,
+        "growth_pct": -9.93
+      },
+      {
+        "period": "2026-02-22",
+        "waste_kg": 2387.95,
+        "growth_pct": 38.36
+      },
+      {
+        "period": "2026-03-01",
+        "waste_kg": 3834.38,
+        "growth_pct": 60.57
+      },
+      {
+        "period": "2026-03-08",
+        "waste_kg": 167.72,
+        "growth_pct": -95.63
+      }
+    ]
+  },
+  "model_diagnostics": {
+    "model_name": "RandomForestRegressor",
+    "mae": 192.8315,
+    "feature_importance": {
+      "day_of_week": 0.44878,
+      "lag_7": 0.16156,
+      "lag_1": 0.15897,
+      "rolling_3": 0.10628,
+      "is_weekend": 0.10018,
+      "month": 0.02423
+    }
+  }
+}

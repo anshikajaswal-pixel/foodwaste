@@ -1,0 +1,374 @@
+{
+  "analytics_summary": {
+    "total_waste_kg": 1282.64,
+    "waste_by_meal_type": {
+      "Lunch": 685.95,
+      "Dinner": 406.28,
+      "Breakfast": 190.41
+    },
+    "waste_by_commodity": {
+      "Dal": 262.93,
+      "Chicken": 222.61,
+      "Vegetables": 220.85,
+      "Rice": 214.43,
+      "Roti": 192.89,
+      "Salad": 168.93
+    },
+    "waste_by_kitchen": {
+      "Kitchen-A": 521.59,
+      "Kitchen-B": 418.1,
+      "Kitchen-C": 342.95
+    },
+    "daily_waste_trend": [
+      {
+        "date": "2026-01-05",
+        "waste_kg": 13.58
+      },
+      {
+        "date": "2026-01-06",
+        "waste_kg": 20.830000000000002
+      },
+      {
+        "date": "2026-01-07",
+        "waste_kg": 23.009999999999998
+      },
+      {
+        "date": "2026-01-08",
+        "waste_kg": 8.38
+      },
+      {
+        "date": "2026-01-09",
+        "waste_kg": 17.48
+      },
+      {
+        "date": "2026-01-10",
+        "waste_kg": 35.5
+      },
+      {
+        "date": "2026-01-11",
+        "waste_kg": 14.56
+      },
+      {
+        "date": "2026-01-12",
+        "waste_kg": 30.7
+      },
+      {
+        "date": "2026-01-13",
+        "waste_kg": 23.5
+      },
+      {
+        "date": "2026-01-14",
+        "waste_kg": 38.08
+      },
+      {
+        "date": "2026-01-15",
+        "waste_kg": 21.54
+      },
+      {
+        "date": "2026-01-16",
+        "waste_kg": 18.48
+      },
+      {
+        "date": "2026-01-17",
+        "waste_kg": 20.67
+      },
+      {
+        "date": "2026-01-18",
+        "waste_kg": 14.06
+      },
+      {
+        "date": "2026-01-19",
+        "waste_kg": 18.31
+      },
+      {
+        "date": "2026-01-20",
+        "waste_kg": 16.19
+      },
+      {
+        "date": "2026-01-21",
+        "waste_kg": 23.15
+      },
+      {
+        "date": "2026-01-22",
+        "waste_kg": 31.65
+      },
+      {
+        "date": "2026-01-23",
+        "waste_kg": 26.39
+      },
+      {
+        "date": "2026-01-24",
+        "waste_kg": 22.07
+      },
+      {
+        "date": "2026-01-25",
+        "waste_kg": 11.11
+      },
+      {
+        "date": "2026-01-26",
+        "waste_kg": 18.57
+      },
+      {
+        "date": "2026-01-27",
+        "waste_kg": 18.330000000000002
+      },
+      {
+        "date": "2026-01-28",
+        "waste_kg": 10.39
+      },
+      {
+        "date": "2026-01-29",
+        "waste_kg": 17.41
+      },
+      {
+        "date": "2026-01-30",
+        "waste_kg": 17.88
+      },
+      {
+        "date": "2026-01-31",
+        "waste_kg": 41.050000000000004
+      },
+      {
+        "date": "2026-02-01",
+        "waste_kg": 29.05
+      },
+      {
+        "date": "2026-02-02",
+        "waste_kg": 28.89
+      },
+      {
+        "date": "2026-02-03",
+        "waste_kg": 33.95
+      },
+      {
+        "date": "2026-02-04",
+        "waste_kg": 20.62
+      },
+      {
+        "date": "2026-02-05",
+        "waste_kg": 11.4
+      },
+      {
+        "date": "2026-02-06",
+        "waste_kg": 16.79
+      },
+      {
+        "date": "2026-02-07",
+        "waste_kg": 28.79
+      },
+      {
+        "date": "2026-02-08",
+        "waste_kg": 20.490000000000002
+      },
+      {
+        "date": "2026-02-09",
+        "waste_kg": 24.939999999999998
+      },
+      {
+        "date": "2026-02-10",
+        "waste_kg": 8.5
+      },
+      {
+        "date": "2026-02-11",
+        "waste_kg": 11.86
+      },
+      {
+        "date": "2026-02-12",
+        "waste_kg": 19.009999999999998
+      },
+      {
+        "date": "2026-02-13",
+        "waste_kg": 26.89
+      },
+      {
+        "date": "2026-02-14",
+        "waste_kg": 23.95
+      },
+      {
+        "date": "2026-02-15",
+        "waste_kg": 18.8
+      },
+      {
+        "date": "2026-02-16",
+        "waste_kg": 9.43
+      },
+      {
+        "date": "2026-02-17",
+        "waste_kg": 28.02
+      },
+      {
+        "date": "2026-02-18",
+        "waste_kg": 31.810000000000002
+      },
+      {
+        "date": "2026-02-19",
+        "waste_kg": 21.29
+      },
+      {
+        "date": "2026-02-20",
+        "waste_kg": 31.14
+      },
+      {
+        "date": "2026-02-21",
+        "waste_kg": 29.37
+      },
+      {
+        "date": "2026-02-22",
+        "waste_kg": 17.830000000000002
+      },
+      {
+        "date": "2026-02-23",
+        "waste_kg": 32.19
+      },
+      {
+        "date": "2026-02-24",
+        "waste_kg": 10.280000000000001
+      },
+      {
+        "date": "2026-02-25",
+        "waste_kg": 16.82
+      },
+      {
+        "date": "2026-02-26",
+        "waste_kg": 6.25
+      },
+      {
+        "date": "2026-02-27",
+        "waste_kg": 21.29
+      },
+      {
+        "date": "2026-02-28",
+        "waste_kg": 14.7
+      },
+      {
+        "date": "2026-03-01",
+        "waste_kg": 33.51
+      },
+      {
+        "date": "2026-03-02",
+        "waste_kg": 24.130000000000003
+      },
+      {
+        "date": "2026-03-03",
+        "waste_kg": 26.240000000000002
+      },
+      {
+        "date": "2026-03-04",
+        "waste_kg": 21.15
+      },
+      {
+        "date": "2026-03-05",
+        "waste_kg": 10.39
+      }
+    ]
+  },
+  "anomalies": [
+    {
+      "date": "2026-01-31",
+      "waste_kg": 41.05,
+      "affected_commodity": "Rice",
+      "commodity_waste_kg": 14.03,
+      "z_score": 2.46
+    },
+    {
+      "date": "2026-01-14",
+      "waste_kg": 38.08,
+      "affected_commodity": "Chicken",
+      "commodity_waste_kg": 13.36,
+      "z_score": 2.09
+    }
+  ],
+  "forecast": [
+    {
+      "date": "2026-03-06",
+      "predicted_waste_kg": 21.17,
+      "lower_kg": 13.19,
+      "upper_kg": 29.15
+    },
+    {
+      "date": "2026-03-07",
+      "predicted_waste_kg": 21.16,
+      "lower_kg": 13.18,
+      "upper_kg": 29.15
+    },
+    {
+      "date": "2026-03-08",
+      "predicted_waste_kg": 21.16,
+      "lower_kg": 13.17,
+      "upper_kg": 29.14
+    },
+    {
+      "date": "2026-03-09",
+      "predicted_waste_kg": 21.15,
+      "lower_kg": 13.17,
+      "upper_kg": 29.13
+    },
+    {
+      "date": "2026-03-10",
+      "predicted_waste_kg": 21.14,
+      "lower_kg": 13.16,
+      "upper_kg": 29.13
+    },
+    {
+      "date": "2026-03-11",
+      "predicted_waste_kg": 21.14,
+      "lower_kg": 13.15,
+      "upper_kg": 29.12
+    },
+    {
+      "date": "2026-03-12",
+      "predicted_waste_kg": 21.13,
+      "lower_kg": 13.14,
+      "upper_kg": 29.11
+    },
+    {
+      "date": "2026-03-13",
+      "predicted_waste_kg": 21.12,
+      "lower_kg": 13.14,
+      "upper_kg": 29.11
+    },
+    {
+      "date": "2026-03-14",
+      "predicted_waste_kg": 21.11,
+      "lower_kg": 13.13,
+      "upper_kg": 29.1
+    },
+    {
+      "date": "2026-03-15",
+      "predicted_waste_kg": 21.11,
+      "lower_kg": 13.12,
+      "upper_kg": 29.09
+    },
+    {
+      "date": "2026-03-16",
+      "predicted_waste_kg": 21.1,
+      "lower_kg": 13.12,
+      "upper_kg": 29.08
+    },
+    {
+      "date": "2026-03-17",
+      "predicted_waste_kg": 21.09,
+      "lower_kg": 13.11,
+      "upper_kg": 29.08
+    },
+    {
+      "date": "2026-03-18",
+      "predicted_waste_kg": 21.09,
+      "lower_kg": 13.1,
+      "upper_kg": 29.07
+    },
+    {
+      "date": "2026-03-19",
+      "predicted_waste_kg": 21.08,
+      "lower_kg": 13.1,
+      "upper_kg": 29.06
+    }
+  ],
+  "chart_paths": {
+    "waste_trend": "/Users/anshikajaswal/Desktop/FOODWASTE/food_waste_ai/outputs/charts/waste_trend.html",
+    "top_wasted_commodities": "/Users/anshikajaswal/Desktop/FOODWASTE/food_waste_ai/outputs/charts/top_wasted_commodities.html",
+    "waste_by_meal_type": "/Users/anshikajaswal/Desktop/FOODWASTE/food_waste_ai/outputs/charts/waste_by_meal_type.html",
+    "anomaly_detection": "/Users/anshikajaswal/Desktop/FOODWASTE/food_waste_ai/outputs/charts/anomaly_detection.html",
+    "forecast": "/Users/anshikajaswal/Desktop/FOODWASTE/food_waste_ai/outputs/charts/forecast.html"
+  }
+}

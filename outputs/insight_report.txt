@@ -1,0 +1,77 @@
+INSIGHT 1:
+- Observation: Total waste reached 18260.08 kg with daily average 309.49 kg.
+- Why it matters: High baseline waste implies process-level inefficiency across preparation and service windows.
+- Financial impact estimation logic: Estimated cost impact = wasted_kg x average food cost per kg. Using 3.50 currency/kg, impact ~= 63910.28.
+- Recommendation: Create station-level waste targets and track variance daily.
+
+INSIGHT 2:
+- Observation: Peak waste occurs during Lunch.
+- Why it matters: Concentrated waste windows are typically linked to overproduction or poor demand timing.
+- Financial impact estimation logic: Estimated cost impact = wasted_kg x average food cost per kg. Using 3.50 currency/kg, impact ~= 37073.05.
+- Recommendation: Adjust batch sizes and prep schedules in the peak time window.
+
+INSIGHT 3:
+- Observation: Top loss contributor is Base at 14756.23 kg.
+- Why it matters: A single dominant category indicates targeted interventions can yield outsized returns.
+- Financial impact estimation logic: Estimated cost impact = wasted_kg x average food cost per kg. Using 3.50 currency/kg, impact ~= 51646.81.
+- Recommendation: Redesign recipes/portioning and procurement standards for this item.
+
+INSIGHT 4:
+- Observation: Waste volatility index is 0.523.
+- Why it matters: Volatile operations make staffing and purchasing less predictable.
+- Financial impact estimation logic: Estimated cost impact = wasted_kg x average food cost per kg. Using 3.50 currency/kg, impact ~= 566.77.
+- Recommendation: Add forecast-driven daily production planning with buffer caps.
+
+INSIGHT 5:
+- Observation: Detected 3 anomaly day(s) in waste behavior.
+- Why it matters: Anomalies often map to demand shocks, inventory issues, or process non-compliance.
+- Financial impact estimation logic: Estimated cost impact = wasted_kg x average food cost per kg. Using 3.50 currency/kg, impact ~= 8104.35.
+- Recommendation: Introduce anomaly alerts and mandatory root-cause logging for those days.
+
+INSIGHT 6:
+- Observation: Top-food concentration is 80.81%.
+- Why it matters: Reducing one concentrated stream lowers overall disposal footprint quickly.
+- Financial impact estimation logic: Emissions impact can be estimated by multiplying wasted kg with food-specific CO2e factors.
+- Recommendation: Prioritize prevention initiatives for high-share waste categories.
+
+INSIGHT 7:
+- Observation: Weekend flagging enabled with weekday profile showing uneven waste distribution.
+- Why it matters: Schedule-specific waste indicates opportunities for targeted sustainability campaigns.
+- Financial impact estimation logic: Lower waste days can be used as operational benchmarks for carbon-intensity reduction.
+- Recommendation: Replicate low-waste SOPs from best-performing weekdays.
+
+INSIGHT 8:
+- Observation: Monthly trend reveals directional change in waste load.
+- Why it matters: Sustained increases can compromise ESG targets and reporting performance.
+- Financial impact estimation logic: Trend delta x disposal fee gives monthly sustainability cost drift.
+- Recommendation: Set monthly reduction checkpoints with accountable owners.
+
+INSIGHT 9:
+- Observation: Batch overproduction appears in inefficient production windows.
+- Why it matters: Improved batch control directly reduces raw material and labor waste.
+- Financial impact estimation logic: Savings = avoidable overproduction kg x ingredient cost/kg.
+- Recommendation: Deploy smaller rolling batches with intra-shift demand recalibration.
+
+INSIGHT 10:
+- Observation: Waste by type segmentation highlights process-specific losses.
+- Why it matters: Segmented losses allow targeted CAPEX/OPEX decisions.
+- Financial impact estimation logic: Savings = reduced segment waste x segment-specific cost factor.
+- Recommendation: Launch separate interventions for prep loss vs production loss streams.
+
+INSIGHT 11:
+- Observation: Operational Efficiency Score can improve through standardization.
+- Why it matters: Higher efficiency correlates with lower procurement variance and spoilage.
+- Financial impact estimation logic: Cost avoided = baseline waste - post-improvement waste, monetized by unit cost.
+- Recommendation: Use SOP checklists and digital sign-off in high-loss shifts.
+
+INSIGHT 12:
+- Observation: Next 7-day forecast averages 284.48 kg/day.
+- Why it matters: Forward visibility enables proactive procurement and labor planning.
+- Financial impact estimation logic: Estimated cost impact = wasted_kg x average food cost per kg. Using 3.50 currency/kg, impact ~= 6969.87.
+- Recommendation: Align purchasing limits to forecast plus controlled safety stock.
+
+INSIGHT 13:
+- Observation: Predicted 7-day total waste is 1991.39 kg.
+- Why it matters: Anticipating near-term waste helps avoid preventable financial leakage.
+- Financial impact estimation logic: Estimated cost impact = wasted_kg x average food cost per kg. Using 3.50 currency/kg, impact ~= 6969.87.
+- Recommendation: Run a pre-week waste prevention plan focused on top contributors.

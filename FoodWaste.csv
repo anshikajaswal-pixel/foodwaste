@@ -1,0 +1,1339 @@
+SR NO,Date,Device Serial No,Food Waste Type,Meal Type,Weight (KG),Commodity
+1,01-01-2026 13:05,CFS01,Peel Waste,Lunch,14.92,Base
+2,01-01-2026 14:24,CFS01,Production Waste,Lunch,14.04,Base
+3,01-01-2026 14:27,CFS01,Peel Waste,Lunch,13.59,Base
+4,01-01-2026 15:00,CFS01,Peel Waste,Lunch,12.25,Base
+5,01-01-2026 15:01,CFS01,Peel Waste,Dinner,11.78,Base
+6,01-01-2026 15:23,CFS01,Production Waste,Lunch,5.01,Base
+7,01-01-2026 16:23,CFS01,Production Waste,Dinner,14.65,Base
+8,01-01-2026 16:27,CFS01,Plate Waste,Lunch,2.73,Plate Waste
+9,01-01-2026 16:30,CFS01,Peel Waste,Dinner,29.11,Base
+10,02-01-2026 9:26,CFS01,Plate Waste,Breakfast,2.74,Plate Waste
+11,02-01-2026 9:36,CFS01,Bain Marie Waste,Breakfast,7.22,Base
+12,02-01-2026 9:38,CFS01,Production Waste,Breakfast,18.75,Base
+13,02-01-2026 11:35,CFS01,Production Waste,Lunch,34.07,Base
+14,02-01-2026 12:13,CFS01,Peel Waste,Breakfast,17.68,Base
+15,02-01-2026 12:14,CFS01,Peel Waste,Lunch,12.2,Base
+16,02-01-2026 13:52,CFS01,Production Waste,Lunch,18.09,Base
+17,02-01-2026 14:24,CFS02,Plate Waste,Lunch,27.78,Plate Waste
+18,02-01-2026 14:25,CFS02,Peel Waste,Others,3.41,Vegetable Dry
+19,02-01-2026 14:44,CFS01,Peel Waste,Dinner,8.01,Base
+20,02-01-2026 15:10,CFS01,Production Waste,Lunch,8.25,Base
+21,02-01-2026 15:11,CFS01,Peel Waste,Lunch,11.58,Base
+22,02-01-2026 15:21,CFS01,Production Waste,Lunch,40.84,Base
+23,02-01-2026 15:38,CFS01,Plate Waste,Lunch,13.15,Plate Waste
+24,03-01-2026 11:25,CFS01,Production Waste,Lunch,21.01,Base
+25,03-01-2026 12:04,CFS01,Production Waste,Lunch,41.8,Base
+26,03-01-2026 15:25,CFS01,Peel Waste,Lunch,24.46,Base
+27,03-01-2026 15:39,CFS01,Plate Waste,Lunch,14.6,Plate Waste
+28,03-01-2026 15:40,CFS01,Production Waste,Dinner,22.58,Base
+29,03-01-2026 15:41,CFS01,Bain Marie Waste,Lunch,4.52,Base
+30,03-01-2026 15:44,CFS01,Peel Waste,Dinner,9.41,Base
+31,04-01-2026 10:35,CFS01,Peel Waste,Breakfast,14.77,Base
+32,04-01-2026 10:39,CFS01,Plate Waste,Breakfast,3.21,Plate Waste
+33,04-01-2026 10:40,CFS01,Peel Waste,Breakfast,26.77,Base
+34,04-01-2026 17:47,CFS01,Peel Waste,Lunch,30.08,Base
+35,04-01-2026 17:48,CFS01,Peel Waste,Lunch,41.72,Base
+36,04-01-2026 17:49,CFS01,Peel Waste,Dinner,13.23,Base
+37,04-01-2026 17:50,CFS01,Production Waste,Lunch,15.28,Base
+38,04-01-2026 17:51,CFS01,Bain Marie Waste,Lunch,5.82,Base
+39,04-01-2026 17:53,CFS01,Production Waste,Lunch,30.32,Base
+40,04-01-2026 17:57,CFS01,Production Waste,Lunch,24.5,Base
+41,04-01-2026 17:58,CFS01,Production Waste,Dinner,17.7,Base
+42,05-01-2026 9:52,CFS01,Plate Waste,Breakfast,4.7,Plate Waste
+43,05-01-2026 9:56,CFS01,Production Waste,Breakfast,25.84,Base
+44,05-01-2026 9:58,CFS01,Bain Marie Waste,Breakfast,11.37,Base
+45,05-01-2026 12:04,CFS01,Production Waste,Lunch,18.12,Base
+46,05-01-2026 12:07,CFS01,Production Waste,Lunch,7.26,Base
+47,05-01-2026 14:06,CFS01,Production Waste,Lunch,20.41,Base
+48,05-01-2026 14:13,CFS01,Peel Waste,Breakfast,11.6,Base
+49,05-01-2026 14:31,CFS01,Peel Waste,Lunch,18.65,Base
+50,05-01-2026 14:42,CFS02,Peel Waste,Others,4.94,Vegetable Dry
+51,05-01-2026 14:52,CFS02,Plate Waste,Lunch,31.35,Plate Waste
+52,05-01-2026 15:20,CFS01,Plate Waste,Breakfast,4.97,Plate Waste
+53,05-01-2026 15:21,CFS01,Plate Waste,Lunch,5.28,Plate Waste
+54,05-01-2026 15:22,CFS01,Bain Marie Waste,Lunch,6.07,Base
+55,05-01-2026 15:29,CFS01,Peel Waste,Lunch,26.3,Base
+56,05-01-2026 15:35,CFS01,Production Waste,Lunch,10.03,Base
+57,05-01-2026 15:36,CFS01,Peel Waste,Lunch,10.3,Base
+58,06-01-2026 9:30,CFS01,Plate Waste,Breakfast,5.87,Plate Waste
+59,06-01-2026 9:32,CFS01,Bain Marie Waste,Breakfast,13.22,Base
+60,06-01-2026 9:34,CFS01,Production Waste,Breakfast,36.72,Base
+61,06-01-2026 12:13,CFS01,Production Waste,Lunch,20.14,Base
+62,06-01-2026 13:01,CFS01,Peel Waste,Breakfast,11.06,Base
+63,06-01-2026 13:03,CFS01,Peel Waste,Lunch,29.51,Base
+64,06-01-2026 13:04,CFS01,Peel Waste,Lunch,15.98,Base
+65,06-01-2026 13:05,CFS01,Production Waste,Lunch,23.91,Base
+66,06-01-2026 14:19,CFS01,Peel Waste,Lunch,24,Base
+67,06-01-2026 14:21,CFS01,Production Waste,Lunch,17.76,Base
+68,06-01-2026 14:30,CFS02,Peel Waste,Others,5.34,Vegetable Dry
+69,06-01-2026 14:31,CFS02,Plate Waste,Lunch,28.84,Plate Waste
+70,06-01-2026 14:36,CFS02,Bain Marie Waste,Lunch,1.3,Eggs
+71,06-01-2026 15:36,CFS01,Plate Waste,Lunch,4.29,Plate Waste
+72,06-01-2026 15:38,CFS01,Production Waste,Lunch,6.64,Base
+73,06-01-2026 15:53,CFS01,Peel Waste,Dinner,25.77,Base
+74,06-01-2026 15:55,CFS01,Peel Waste,Dinner,32.22,Base
+75,07-01-2026 9:42,CFS01,Production Waste,Breakfast,15.2,Base
+76,07-01-2026 10:26,CFS01,Plate Waste,Breakfast,3.27,Plate Waste
+77,07-01-2026 10:28,CFS01,Bain Marie Waste,Breakfast,10.39,Base
+78,07-01-2026 10:29,CFS01,Production Waste,Breakfast,22.47,Base
+79,07-01-2026 11:57,CFS01,Spoiled Waste,Lunch,41.07,Base
+80,07-01-2026 12:00,CFS01,Spoiled Waste,Lunch,13.08,Base
+81,07-01-2026 12:23,CFS01,Production Waste,Lunch,18.03,Base
+82,07-01-2026 12:26,CFS01,Production Waste,Lunch,11.06,Base
+83,07-01-2026 13:24,CFS01,Peel Waste,Lunch,24.27,Base
+84,07-01-2026 13:29,CFS01,Peel Waste,Lunch,11.32,Base
+85,07-01-2026 13:49,CFS01,Production Waste,Lunch,29.57,Base
+86,07-01-2026 13:52,CFS01,Peel Waste,Lunch,17.56,Base
+87,07-01-2026 14:14,CFS01,Peel Waste,Dinner,18.32,Base
+88,07-01-2026 14:48,CFS02,Peel Waste,Others,4.23,Vegetable Dry
+89,07-01-2026 14:49,CFS02,Plate Waste,Lunch,37.54,Plate Waste
+90,07-01-2026 15:40,CFS01,Peel Waste,Lunch,11.56,Base
+91,07-01-2026 15:42,CFS01,Plate Waste,Lunch,7.27,Plate Waste
+92,07-01-2026 15:43,CFS01,Production Waste,Dinner,13.21,Base
+93,07-01-2026 15:44,CFS01,Peel Waste,Dinner,11.83,Base
+94,07-01-2026 15:46,CFS01,Production Waste,Dinner,25.31,Base
+95,08-01-2026 9:22,CFS01,Plate Waste,Breakfast,3.87,Plate Waste
+96,08-01-2026 9:24,CFS01,Bain Marie Waste,Breakfast,9.63,Base
+97,08-01-2026 10:32,CFS01,Production Waste,Breakfast,10.82,Base
+98,08-01-2026 12:02,CFS01,Production Waste,Lunch,22.27,Base
+99,08-01-2026 13:47,CFS01,Peel Waste,Lunch,14.99,Base
+100,08-01-2026 13:50,CFS01,Peel Waste,Lunch,17.07,Base
+101,08-01-2026 14:36,CFS02,Bain Marie Waste,Lunch,1.7,Rice & Biryanis
+102,08-01-2026 14:36,CFS02,Bain Marie Waste,Lunch,0.6,Vegetable Dry
+103,08-01-2026 14:37,CFS02,Bain Marie Waste,Lunch,0.9,Snacks / Starters Non Veg
+104,08-01-2026 14:51,CFS02,Peel Waste,Others,1.79,Vegetable Dry
+105,08-01-2026 14:53,CFS01,Peel Waste,Lunch,18.67,Base
+106,08-01-2026 14:59,CFS02,Plate Waste,Lunch,34.68,Plate Waste
+107,08-01-2026 15:08,CFS01,Plate Waste,Lunch,7.85,Plate Waste
+108,08-01-2026 16:19,CFS01,Production Waste,Lunch,29.95,Base
+109,08-01-2026 17:08,CFS01,Peel Waste,Lunch,14.6,Base
+110,08-01-2026 21:46,CFS01,Peel Waste,Dinner,14.42,Base
+111,08-01-2026 21:48,CFS01,Peel Waste,Dinner,17.32,Base
+112,08-01-2026 21:50,CFS01,Production Waste,Dinner,16.77,Base
+113,08-01-2026 21:53,CFS01,Production Waste,Dinner,23.22,Base
+114,09-01-2026 7:49,CFS01,Spoiled Waste,Lunch,32.65,Base
+115,09-01-2026 9:13,CFS01,Plate Waste,Breakfast,2.25,Plate Waste
+116,09-01-2026 9:16,CFS01,Bain Marie Waste,Breakfast,9.31,Base
+117,09-01-2026 11:59,CFS01,Spoiled Waste,Lunch,15.25,Base
+118,09-01-2026 12:00,CFS01,Production Waste,Lunch,13.6,Base
+119,09-01-2026 12:02,CFS01,Production Waste,Lunch,6.8,Base
+120,09-01-2026 14:21,CFS01,Peel Waste,Lunch,10.56,Base
+121,09-01-2026 14:28,CFS01,Peel Waste,Lunch,23.11,Base
+122,09-01-2026 14:35,CFS01,Peel Waste,Lunch,21.77,Base
+123,09-01-2026 14:42,CFS02,Peel Waste,Others,6.66,Vegetable Dry
+124,09-01-2026 14:44,CFS02,Plate Waste,Lunch,28.16,Plate Waste
+125,09-01-2026 14:50,CFS01,Production Waste,Lunch,28.75,Base
+126,09-01-2026 15:04,CFS01,Peel Waste,Lunch,15.77,Base
+127,09-01-2026 15:19,CFS01,Bain Marie Waste,Lunch,5.51,Base
+128,09-01-2026 15:22,CFS01,Production Waste,Lunch,17.89,Base
+129,09-01-2026 15:28,CFS01,Plate Waste,Lunch,8.72,Plate Waste
+130,10-01-2026 14:11,CFS01,Plate Waste,Breakfast,7.96,Plate Waste
+131,10-01-2026 15:12,CFS01,Peel Waste,Lunch,6.31,Base
+132,10-01-2026 15:13,CFS01,Peel Waste,Lunch,10.42,Base
+133,10-01-2026 15:14,CFS01,Plate Waste,Lunch,3.95,Plate Waste
+134,10-01-2026 15:16,CFS01,Production Waste,Lunch,16.92,Base
+135,10-01-2026 15:18,CFS01,Bain Marie Waste,Lunch,10.52,Base
+136,10-01-2026 15:20,CFS01,Peel Waste,Lunch,21.35,Base
+137,10-01-2026 15:21,CFS01,Production Waste,Lunch,15,Base
+138,11-01-2026 9:06,CFS01,Plate Waste,Breakfast,6.23,Plate Waste
+139,11-01-2026 9:09,CFS01,Production Waste,Breakfast,14.6,Base
+140,11-01-2026 13:35,CFS01,Peel Waste,Lunch,18.42,Base
+141,11-01-2026 13:37,CFS01,Peel Waste,Lunch,15.15,Base
+142,11-01-2026 13:38,CFS01,Peel Waste,Lunch,30.76,Base
+143,11-01-2026 15:07,CFS01,Plate Waste,Lunch,5.06,Plate Waste
+144,11-01-2026 15:08,CFS01,Peel Waste,Lunch,22.83,Base
+145,11-01-2026 15:10,CFS01,Production Waste,Lunch,21.51,Base
+146,11-01-2026 15:20,CFS01,Peel Waste,Lunch,40.14,Base
+147,11-01-2026 15:27,CFS01,Production Waste,Dinner,14.14,Base
+148,12-01-2026 9:35,CFS01,Plate Waste,Breakfast,3.89,Plate Waste
+149,12-01-2026 9:39,CFS01,Bain Marie Waste,Breakfast,7.12,Base
+150,12-01-2026 9:41,CFS01,Production Waste,Breakfast,23.77,Base
+151,12-01-2026 9:45,CFS01,Peel Waste,Breakfast,25.34,Base
+152,12-01-2026 12:17,CFS01,Production Waste,Lunch,15.93,Base
+153,12-01-2026 12:18,CFS01,Peel Waste,Lunch,15.45,Base
+154,12-01-2026 13:43,CFS01,Production Waste,Lunch,13.61,Base
+155,12-01-2026 14:43,CFS02,Plate Waste,Lunch,33.16,Plate Waste
+156,12-01-2026 14:44,CFS02,Peel Waste,Others,4.31,Vegetable Dry
+157,12-01-2026 14:52,CFS01,Production Waste,Lunch,26.7,Base
+158,12-01-2026 15:04,CFS01,Peel Waste,Lunch,18.99,Base
+159,12-01-2026 15:05,CFS01,Peel Waste,Lunch,14.41,Base
+160,12-01-2026 15:35,CFS01,Production Waste,Lunch,9.15,Base
+161,12-01-2026 15:36,CFS01,Production Waste,Lunch,4.96,Base
+162,12-01-2026 15:54,CFS01,Production Waste,Lunch,18.88,Base
+163,12-01-2026 15:56,CFS01,Plate Waste,Lunch,8.54,Plate Waste
+164,12-01-2026 15:58,CFS01,Plate Waste,Lunch,8.1,Plate Waste
+165,12-01-2026 16:23,CFS01,Peel Waste,Dinner,17.92,Base
+166,12-01-2026 16:24,CFS01,Peel Waste,Dinner,22.91,Base
+167,12-01-2026 16:25,CFS01,Peel Waste,Dinner,23.11,Base
+168,13-01-2026 08:26,CFS01,Production Waste,Breakfast,11.66,Base
+169,13-01-2026 08:56,CFS01,Production Waste,Breakfast,17.3,Base
+170,13-01-2026 09:24,CFS01,Plate Waste,Breakfast,2.64,Plate Waste
+171,13-01-2026 09:25,CFS01,Bain Marie Waste,Breakfast,11.48,Base
+172,13-01-2026 10:37,CFS01,Peel Waste,Lunch,17.07,Base
+173,13-01-2026 11:24,CFS01,Production Waste,Lunch,15.03,Base
+174,13-01-2026 11:50,CFS01,Peel Waste,Lunch,15.3,Base
+175,13-01-2026 12:38,CFS01,Production Waste,Lunch,15.29,Base
+176,13-01-2026 12:39,CFS01,Production Waste,Lunch,17.58,Base
+177,13-01-2026 12:41,CFS01,Production Waste,Lunch,21.01,Base
+178,13-01-2026 13:42,CFS01,Peel Waste,Lunch,22.6,Base
+179,13-01-2026 13:43,CFS01,Peel Waste,Lunch,12.94,Base
+180,13-01-2026 13:48,CFS01,Spoiled Waste,Lunch,7.25,Base
+181,13-01-2026 14:20,CFS01,Peel Waste,Lunch,17.11,Base
+182,13-01-2026 14:38,CFS02,Bain Marie Waste,Lunch,2.29,Rice & Biryanis
+183,13-01-2026 14:38,CFS02,Bain Marie Waste,Lunch,0.6,Sauces for Choix
+184,13-01-2026 14:39,CFS02,Bain Marie Waste,Lunch,1.05,Snacks / Starters Non Veg
+185,13-01-2026 14:39,CFS02,Bain Marie Waste,Lunch,0.7,Vegetable Dry
+186,13-01-2026 14:43,CFS02,Peel Waste,Others,5.03,Vegetable Dry
+187,13-01-2026 14:54,CFS02,Plate Waste,Lunch,23.85,Plate Waste
+188,13-01-2026 14:58,CFS02,Plate Waste,Lunch,23.85,Plate Waste
+189,13-01-2026 15:26,CFS01,Plate Waste,Lunch,6.92,Plate Waste
+190,13-01-2026 15:37,CFS01,Spoiled Waste,Lunch,8.22,Base
+191,13-01-2026 15:38,CFS01,Production Waste,Lunch,25.29,Base
+192,13-01-2026 15:39,CFS01,Production Waste,Lunch,20.27,Base
+193,14-01-2026 09:07,CFS01,Plate Waste,Breakfast,5.88,Plate Waste
+194,14-01-2026 09:11,CFS01,Bain Marie Waste,Breakfast,3.86,Base
+195,14-01-2026 09:17,CFS01,Production Waste,Breakfast,10.69,Base
+196,14-01-2026 10:52,CFS01,Peel Waste,Lunch,18.02,Base
+197,14-01-2026 12:08,CFS01,Production Waste,Lunch,27.98,Base
+198,14-01-2026 13:05,CFS01,Peel Waste,Lunch,20.88,Base
+199,14-01-2026 13:11,CFS01,Peel Waste,Breakfast,16.72,Base
+200,14-01-2026 13:47,CFS01,Production Waste,Lunch,16.38,Base
+201,14-01-2026 14:13,CFS01,Production Waste,Lunch,19.09,Base
+202,14-01-2026 14:38,CFS02,Peel Waste,Others,2.99,Vegetable Dry
+203,14-01-2026 14:39,CFS02,Plate Waste,Lunch,37.51,Plate Waste
+204,14-01-2026 15:32,CFS01,Bain Marie Waste,Lunch,14.11,Base
+205,14-01-2026 15:34,CFS01,Peel Waste,Lunch,14.71,Base
+206,14-01-2026 15:35,CFS01,Peel Waste,Lunch,17.27,Base
+207,14-01-2026 15:39,CFS01,Peel Waste,Lunch,19.09,Base
+208,14-01-2026 15:41,CFS01,Peel Waste,Lunch,15.08,Base
+209,14-01-2026 15:43,CFS01,Plate Waste,Lunch,8.3,Plate Waste
+210,14-01-2026 17:02,CFS01,Production Waste,Lunch,39.84,Base
+211,15-01-2026 09:38,CFS01,Plate Waste,Breakfast,2.64,Plate Waste
+212,15-01-2026 09:39,CFS01,Bain Marie Waste,Breakfast,7.32,Base
+213,15-01-2026 09:40,CFS01,Peel Waste,Breakfast,24.83,Base
+214,15-01-2026 09:43,CFS01,Production Waste,Breakfast,28.58,Base
+215,15-01-2026 09:44,CFS01,Peel Waste,Breakfast,9.93,Base
+216,15-01-2026 12:28,CFS01,Production Waste,Lunch,14.38,Base
+217,15-01-2026 12:31,CFS01,Production Waste,Lunch,28.6,Base
+218,15-01-2026 12:32,CFS01,Peel Waste,Lunch,11.44,Base
+219,15-01-2026 12:36,CFS01,Production Waste,Lunch,16.02,Base
+220,15-01-2026 12:37,CFS01,Peel Waste,Lunch,9.55,Base
+221,15-01-2026 14:12,CFS01,Production Waste,Lunch,6.57,Indian Breads
+222,15-01-2026 14:46,CFS01,Peel Waste,Others,2.66,Vegetable Dry
+223,15-01-2026 14:47,CFS01,Plate Waste,Lunch,41.36,Plate Waste
+224,15-01-2026 14:50,CFS01,Bain Marie Waste,Lunch,1.22,Rice & Biryanis
+225,15-01-2026 14:51,CFS01,Bain Marie Waste,Lunch,0.6,Paneer
+226,15-01-2026 14:52,CFS01,Bain Marie Waste,Lunch,1.31,Base
+227,15-01-2026 15:03,CFS01,Peel Waste,Lunch,17.29,Base
+228,15-01-2026 15:28,CFS01,Bain Marie Waste,Lunch,8.11,Base
+229,15-01-2026 15:43,CFS01,Plate Waste,Lunch,7.08,Plate Waste
+230,16-01-2026 08:49,CFS01,Production Waste,Breakfast,35.61,Base
+231,16-01-2026 09:26,CFS01,Plate Waste,Breakfast,3.84,Plate Waste
+232,16-01-2026 09:29,CFS01,Bain Marie Waste,Breakfast,7.79,Base
+233,16-01-2026 11:23,CFS01,Peel Waste,Lunch,13.53,Base
+234,16-01-2026 12:14,CFS01,Production Waste,Lunch,24.07,Base
+235,16-01-2026 12:28,CFS01,Production Waste,Lunch,11.92,Base
+236,16-01-2026 13:16,CFS01,Peel Waste,Lunch,20.24,Base
+237,16-01-2026 14:51,CFS01,Production Waste,Lunch,10.7,Base
+238,16-01-2026 15:03,CFS02,Peel Waste,Others,6.75,Vegetable Dry
+239,16-01-2026 15:06,CFS02,Bain Marie Waste,Lunch,2.94,Rice & Biryanis
+240,16-01-2026 15:07,CFS02,Plate Waste,Lunch,30.38,Plate Waste
+241,16-01-2026 15:25,CFS01,Bain Marie Waste,Lunch,8.16,Base
+242,16-01-2026 15:29,CFS01,Production Waste,Lunch,40.8,Base
+243,16-01-2026 15:52,CFS01,Plate Waste,Lunch,15.27,Plate Waste
+244,17-01-2026 08:55,CFS01,Plate Waste,Breakfast,1.52,Plate Waste
+245,17-01-2026 08:59,CFS01,Bain Marie Waste,Breakfast,6.14,Base
+246,17-01-2026 12:48,CFS01,Peel Waste,Lunch,23.85,Base
+247,17-01-2026 15:17,CFS01,Plate Waste,Lunch,5.5,Plate Waste
+248,17-01-2026 16:17,CFS01,Production Waste,Lunch,9.49,Base
+249,17-01-2026 16:24,CFS01,Production Waste,Lunch,10.28,Base
+250,18-01-2026 10:24,CFS01,Plate Waste,Breakfast,1.6,Plate Waste
+251,18-01-2026 10:28,CFS01,Bain Marie Waste,Breakfast,17.42,Base
+252,18-01-2026 13:26,CFS01,Peel Waste,Lunch,21.59,Base
+253,18-01-2026 13:32,CFS01,Peel Waste,Lunch,7.49,Base
+254,18-01-2026 13:33,CFS01,Peel Waste,Lunch,21.15,Base
+255,18-01-2026 14:16,CFS01,Peel Waste,Lunch,12.62,Base
+256,18-01-2026 14:18,CFS01,Peel Waste,Lunch,15.11,Base
+257,18-01-2026 14:57,CFS01,Production Waste,Lunch,15.63,Base
+258,18-01-2026 15:04,CFS01,Production Waste,Lunch,11.95,Base
+259,18-01-2026 15:07,CFS01,Production Waste,Lunch,23.34,Base
+260,18-01-2026 15:09,CFS01,Plate Waste,Lunch,3.92,Plate Waste
+261,18-01-2026 15:30,CFS01,Production Waste,Lunch,13.23,Base
+262,18-01-2026 15:32,CFS01,Peel Waste,Lunch,21.31,Base
+263,18-01-2026 15:50,CFS01,Peel Waste,Lunch,21.07,Base
+264,19-01-2026 09:39,CFS01,Bain Marie Waste,Breakfast,16.19,Base
+265,19-01-2026 09:40,CFS01,Plate Waste,Breakfast,2.24,Plate Waste
+266,19-01-2026 09:42,CFS01,Production Waste,Breakfast,19.82,Base
+267,19-01-2026 09:43,CFS01,Production Waste,Breakfast,23.14,Base
+268,19-01-2026 11:07,CFS01,Peel Waste,Lunch,17.72,Base
+269,19-01-2026 12:03,CFS01,Production Waste,Lunch,20.1,Base
+270,19-01-2026 12:04,CFS01,Production Waste,Lunch,16.93,Base
+271,19-01-2026 12:08,CFS01,Spoiled Waste,Lunch,16.04,Non Veg Gravy
+272,19-01-2026 12:59,CFS01,Peel Waste,Lunch,20.98,Base
+273,19-01-2026 13:30,CFS01,Production Waste,Lunch,21.87,Base
+274,19-01-2026 14:31,CFS02,Peel Waste,Others,5.65,Vegetable Dry
+275,19-01-2026 14:32,CFS02,Plate Waste,Lunch,36.78,Plate Waste
+276,19-01-2026 14:38,CFS01,Peel Waste,Lunch,17.31,Base
+277,19-01-2026 15:23,CFS01,Bain Marie Waste,Lunch,16.14,Base
+278,19-01-2026 15:25,CFS01,Peel Waste,Lunch,24.07,Base
+279,19-01-2026 16:01,CFS01,Peel Waste,Lunch,16.58,Base
+280,19-01-2026 16:05,CFS01,Plate Waste,Lunch,10.34,Plate Waste
+281,20-01-2026 09:49,CFS01,Plate Waste,Breakfast,2.62,Plate Waste
+282,20-01-2026 09:51,CFS01,Bain Marie Waste,Breakfast,18,Base
+283,20-01-2026 09:53,CFS01,Production Waste,Breakfast,44.53,Base
+284,20-01-2026 10:15,CFS01,Peel Waste,Breakfast,27.56,Base
+285,20-01-2026 10:47,CFS01,Peel Waste,Breakfast,12.97,Base
+286,20-01-2026 11:20,CFS01,Spoiled Waste,Lunch,42.83,Base
+287,20-01-2026 11:40,CFS01,Production Waste,Lunch,15.4,Base
+288,20-01-2026 11:49,CFS01,Production Waste,Lunch,12.29,Base
+289,20-01-2026 12:16,CFS01,Production Waste,Lunch,17.13,Base
+290,20-01-2026 12:32,CFS01,Spoiled Waste,Lunch,11.55,Base
+291,20-01-2026 13:29,CFS01,Spoiled Waste,Lunch,11.19,Base
+292,20-01-2026 13:31,CFS01,Peel Waste,Lunch,18.1,Base
+293,20-01-2026 13:32,CFS01,Peel Waste,Lunch,15.82,Base
+294,20-01-2026 13:34,CFS01,Production Waste,Lunch,22.45,Base
+295,20-01-2026 14:31,CFS02,Peel Waste,Others,4.53,Vegetable Dry
+296,20-01-2026 14:32,CFS02,Plate Waste,Lunch,31.13,Plate Waste
+297,20-01-2026 14:37,CFS01,Peel Waste,Lunch,20.04,Base
+298,20-01-2026 14:38,CFS02,Bain Marie Waste,Lunch,1.79,Rice & Biryanis
+299,20-01-2026 14:39,CFS02,Bain Marie Waste,Lunch,0.2,Rice & Biryanis
+300,20-01-2026 14:45,CFS02,Bain Marie Waste,Lunch,1,Eggs
+301,20-01-2026 14:50,CFS01,Peel Waste,Lunch,21.53,Base
+302,20-01-2026 14:51,CFS01,Peel Waste,Lunch,15.35,Base
+303,20-01-2026 14:53,CFS01,Peel Waste,Lunch,20.02,Base
+304,20-01-2026 14:56,CFS01,Peel Waste,Dinner,21.88,Base
+305,20-01-2026 15:17,CFS01,Plate Waste,Lunch,10.84,Plate Waste
+306,20-01-2026 15:42,CFS01,Production Waste,Lunch,30.21,Base
+307,20-01-2026 15:44,CFS01,Peel Waste,Dinner,16.41,Base
+308,21-01-2026 08:57,CFS01,Production Waste,Breakfast,17.16,Base
+309,21-01-2026 08:58,CFS01,Production Waste,Breakfast,30.08,Base
+310,21-01-2026 09:00,CFS01,Production Waste,Breakfast,8.8,Base
+311,21-01-2026 09:01,CFS01,Production Waste,Breakfast,19.66,Base
+312,21-01-2026 09:43,CFS01,Plate Waste,Breakfast,4.01,Plate Waste
+313,21-01-2026 09:45,CFS01,Bain Marie Waste,Breakfast,17.49,Base
+314,21-01-2026 11:45,CFS01,Production Waste,Lunch,18.03,Base
+315,21-01-2026 12:09,CFS01,Spoiled Waste,Lunch,16.41,Base
+316,21-01-2026 12:17,CFS01,Production Waste,Lunch,33.41,Base
+317,21-01-2026 12:22,CFS01,Production Waste,Lunch,18.26,Base
+318,21-01-2026 12:28,CFS01,Peel Waste,Lunch,13.21,Base
+319,21-01-2026 12:29,CFS01,Peel Waste,Lunch,9.64,Base
+320,21-01-2026 12:30,CFS01,Peel Waste,Lunch,34.03,Base
+321,21-01-2026 14:19,CFS01,Peel Waste,Lunch,17.14,Base
+322,21-01-2026 14:43,CFS02,Plate Waste,Lunch,27.53,Plate Waste
+323,21-01-2026 14:44,CFS02,Peel Waste,Others,3.91,Vegetable Dry
+324,21-01-2026 15:50,CFS01,Plate Waste,Lunch,6.92,Plate Waste
+325,21-01-2026 15:51,CFS01,Production Waste,Lunch,33.75,Base
+326,21-01-2026 15:53,CFS01,Peel Waste,Lunch,16.01,Base
+327,21-01-2026 15:53,CFS01,Peel Waste,Dinner,18.21,Base
+328,21-01-2026 15:55,CFS01,Production Waste,Lunch,8.54,Base
+329,21-01-2026 15:57,CFS01,Bain Marie Waste,Lunch,11.31,Base
+330,22-01-2026 08:58,CFS01,Production Waste,Breakfast,25.55,Base
+331,22-01-2026 09:29,CFS01,Plate Waste,Breakfast,2.18,Plate Waste
+332,22-01-2026 09:32,CFS01,Bain Marie Waste,Breakfast,19.97,Base
+333,22-01-2026 09:51,CFS01,Production Waste,Breakfast,12.14,Base
+334,22-01-2026 11:18,CFS01,Peel Waste,Lunch,15.17,Base
+335,22-01-2026 11:20,CFS01,Peel Waste,Lunch,13.08,Base
+336,22-01-2026 11:43,CFS01,Production Waste,Lunch,29.81,Base
+337,22-01-2026 12:04,CFS01,Production Waste,Lunch,22.41,Base
+338,22-01-2026 12:06,CFS01,Production Waste,Lunch,19.85,Base
+339,22-01-2026 14:44,CFS02,Bain Marie Waste,Lunch,2.26,Rice & Biryanis
+340,22-01-2026 14:47,CFS02,Bain Marie Waste,Lunch,1,Sauces for Choix
+341,22-01-2026 14:50,CFS02,Plate Waste,Lunch,14.27,Plate Waste
+342,22-01-2026 14:51,CFS02,Peel Waste,Others,2.08,Vegetable Dry
+343,22-01-2026 14:58,CFS01,Production Waste,Lunch,7.6,Base
+344,22-01-2026 14:59,CFS01,Peel Waste,Lunch,3.03,Base
+345,22-01-2026 15:17,CFS01,Plate Waste,Lunch,11.16,Plate Waste
+346,22-01-2026 15:20,CFS01,Bain Marie Waste,Lunch,7.91,Base
+347,22-01-2026 15:21,CFS01,Peel Waste,Dinner,27.96,Base
+348,22-01-2026 15:22,CFS01,Peel Waste,Dinner,18.93,Base
+349,22-01-2026 15:58,CFS01,Production Waste,Dinner,16.49,Base
+350,22-01-2026 15:59,CFS01,Peel Waste,Dinner,23.32,Base
+351,22-01-2026 16:01,CFS01,Peel Waste,Dinner,19.45,Base
+352,23-01-2026 06:27,CFS01,Peel Waste,Breakfast,20.76,Base
+353,23-01-2026 09:16,CFS01,Plate Waste,Breakfast,6.57,Plate Waste
+354,23-01-2026 09:50,CFS01,Bain Marie Waste,Breakfast,23.64,Base
+355,23-01-2026 09:51,CFS01,Peel Waste,Breakfast,21.26,Base
+356,23-01-2026 11:56,CFS01,Peel Waste,Lunch,26.32,Base
+357,23-01-2026 12:33,CFS01,Production Waste,Lunch,10.49,Base
+358,23-01-2026 12:34,CFS01,Production Waste,Lunch,44.64,Base
+359,23-01-2026 12:36,CFS01,Production Waste,Lunch,18,Base
+360,23-01-2026 12:40,CFS01,Peel Waste,Lunch,15.84,Base
+361,23-01-2026 14:20,CFS01,Peel Waste,Lunch,14.58,Base
+362,23-01-2026 14:49,CFS02,Plate Waste,Lunch,31.26,Plate Waste
+363,23-01-2026 14:50,CFS02,Peel Waste,Others,4.75,Vegetable Dry
+364,23-01-2026 14:54,CFS02,Bain Marie Waste,Lunch,4,Rice & Biryanis
+365,23-01-2026 16:30,CFS01,Plate Waste,Lunch,8.06,Plate Waste
+366,24-01-2026 09:13,CFS01,Plate Waste,Breakfast,1.81,Plate Waste
+367,24-01-2026 09:16,CFS01,Production Waste,Breakfast,17.37,Base
+368,24-01-2026 09:18,CFS01,Bain Marie Waste,Breakfast,3.32,Base
+369,24-01-2026 09:20,CFS01,Production Waste,Breakfast,11.67,Base
+370,24-01-2026 15:14,CFS01,Plate Waste,Lunch,3.81,Plate Waste
+371,24-01-2026 15:17,CFS01,Bain Marie Waste,Lunch,4.67,Base
+372,24-01-2026 15:22,CFS01,Peel Waste,Lunch,19.54,Base
+373,25-01-2026 09:30,CFS01,Plate Waste,Breakfast,5.06,Plate Waste
+374,25-01-2026 09:33,CFS01,Bain Marie Waste,Breakfast,20.89,Base
+375,25-01-2026 09:35,CFS01,Production Waste,Breakfast,38.02,Base
+376,25-01-2026 14:24,CFS01,Peel Waste,Lunch,18.68,Base
+377,25-01-2026 14:25,CFS01,Peel Waste,Lunch,18.8,Base
+378,25-01-2026 14:31,CFS01,Peel Waste,Dinner,26.06,Base
+379,25-01-2026 15:26,CFS01,Peel Waste,Lunch,6.83,Base
+380,25-01-2026 15:39,CFS01,Plate Waste,Lunch,3.6,Plate Waste
+381,25-01-2026 17:14,CFS01,Production Waste,Lunch,14.9,Base
+382,25-01-2026 17:18,CFS01,Peel Waste,Dinner,43.85,Base
+383,26-01-2026 10:08,CFS01,Plate Waste,Breakfast,2.05,Plate Waste
+384,26-01-2026 10:10,CFS01,Bain Marie Waste,Breakfast,9.94,Base
+385,26-01-2026 10:11,CFS01,Peel Waste,Breakfast,17.1,Base
+386,26-01-2026 10:13,CFS01,Production Waste,Breakfast,12.23,Base
+387,26-01-2026 15:13,CFS01,Plate Waste,Lunch,3.46,Plate Waste
+388,26-01-2026 15:14,CFS01,Production Waste,Lunch,27.82,Base
+389,26-01-2026 15:15,CFS01,Bain Marie Waste,Lunch,13.7,Base
+390,26-01-2026 15:27,CFS01,Peel Waste,Lunch,19.57,Base
+391,26-01-2026 15:30,CFS01,Production Waste,Lunch,17.41,Base
+392,26-01-2026 15:35,CFS01,Peel Waste,Dinner,48.18,Base
+393,26-01-2026 17:18,CFS01,Production Waste,Lunch,8.85,Base
+394,27-01-2026 08:13,CFS01,Production Waste,Lunch,14.91,Base
+395,27-01-2026 08:15,CFS01,Production Waste,Breakfast,27.8,Base
+396,27-01-2026 09:53,CFS01,Bain Marie Waste,Breakfast,14,Base
+397,27-01-2026 09:55,CFS01,Peel Waste,Lunch,15.84,Base
+398,27-01-2026 12:44,CFS01,Production Waste,Lunch,23.36,Base
+399,27-01-2026 12:47,CFS01,Production Waste,Lunch,30.51,Base
+400,27-01-2026 12:54,CFS01,Peel Waste,Lunch,17.54,Base
+401,27-01-2026 13:35,CFS01,Peel Waste,Lunch,21.16,Base
+402,27-01-2026 13:38,CFS01,Production Waste,Lunch,19.97,Base
+403,27-01-2026 14:06,CFS01,Production Waste,Lunch,38.7,Base
+404,27-01-2026 14:21,CFS01,Peel Waste,Dinner,21.76,Base
+405,27-01-2026 14:31,CFS02,Peel Waste,Others,4.82,Vegetable Dry
+406,27-01-2026 14:34,CFS02,Bain Marie Waste,Lunch,1.96,Rice & Biryanis
+407,27-01-2026 14:36,CFS02,Bain Marie Waste,Lunch,1.26,Paneer
+408,27-01-2026 14:48,CFS02,Plate Waste,Lunch,21.96,Plate Waste
+409,27-01-2026 14:54,CFS01,Peel Waste,Lunch,19.77,Base
+410,27-01-2026 14:56,CFS01,Production Waste,Lunch,15.94,Base
+411,27-01-2026 14:59,CFS01,Peel Waste,Dinner,38.2,Base
+412,27-01-2026 15:27,CFS01,Bain Marie Waste,Lunch,19.6,Base
+413,27-01-2026 15:32,CFS01,Plate Waste,Lunch,10.27,Plate Waste
+414,27-01-2026 17:37,CFS01,Peel Waste,Dinner,26.63,Base
+415,27-01-2026 17:38,CFS01,Peel Waste,Dinner,30,Base
+416,27-01-2026 19:31,CFS01,Peel Waste,Dinner,29.66,Base
+417,27-01-2026 20:05,CFS01,Production Waste,Dinner,19.76,Base
+418,28-01-2026 09:19,CFS01,Production Waste,Breakfast,18.22,Base
+419,28-01-2026 09:28,CFS01,Peel Waste,Breakfast,25.93,Base
+420,28-01-2026 09:29,CFS01,Production Waste,Breakfast,18.87,Base
+421,28-01-2026 09:30,CFS01,Production Waste,Breakfast,19.8,Base
+422,28-01-2026 09:31,CFS01,Spoiled Waste,Breakfast,36.08,Base
+423,28-01-2026 09:40,CFS01,Plate Waste,Breakfast,2.36,Plate Waste
+424,28-01-2026 09:43,CFS01,Bain Marie Waste,Breakfast,10.2,Base
+425,28-01-2026 12:10,CFS01,Production Waste,Lunch,32.36,Base
+426,28-01-2026 12:32,CFS01,Peel Waste,Lunch,21.17,Base
+427,28-01-2026 13:38,CFS01,Peel Waste,Dinner,34.73,Base
+428,28-01-2026 14:09,CFS02,Bain Marie Waste,Lunch,1.22,Non Veg Gravy
+429,28-01-2026 14:11,CFS02,Bain Marie Waste,Lunch,2.13,Rice & Biryanis
+430,28-01-2026 14:16,CFS02,Peel Waste,Others,5.5,Vegetable Dry
+431,28-01-2026 14:16,CFS02,Plate Waste,Lunch,28.38,Plate Waste
+432,28-01-2026 14:23,CFS01,Peel Waste,Dinner,18.3,Base
+433,28-01-2026 14:24,CFS01,Peel Waste,Dinner,18.25,Base
+434,28-01-2026 14:32,CFS01,Peel Waste,Dinner,18.66,Base
+435,28-01-2026 14:43,CFS01,Peel Waste,Lunch,18.28,Base
+436,28-01-2026 15:00,CFS01,Production Waste,Lunch,8.34,Base
+437,28-01-2026 15:06,CFS01,Production Waste,Lunch,10.63,Base
+438,28-01-2026 15:17,CFS01,Production Waste,Lunch,20.52,Base
+439,28-01-2026 15:19,CFS01,Bain Marie Waste,Lunch,6.17,Base
+440,28-01-2026 15:32,CFS01,Plate Waste,Lunch,5.99,Plate Waste
+441,28-01-2026 16:48,CFS01,Peel Waste,Dinner,35.24,Base
+442,28-01-2026 16:49,CFS01,Peel Waste,Dinner,31.69,Base
+443,28-01-2026 17:05,CFS01,Production Waste,Dinner,14.65,Base
+444,29-01-2026 06:36,CFS01,Production Waste,Breakfast,11.79,Base
+445,29-01-2026 07:53,CFS01,Spoiled Waste,Breakfast,19.15,Base
+446,29-01-2026 07:54,CFS01,Spoiled Waste,Breakfast,5.24,Base
+447,29-01-2026 07:56,CFS01,Production Waste,Breakfast,10.6,Base
+448,29-01-2026 07:59,CFS01,Production Waste,Breakfast,23.03,Base
+449,29-01-2026 08:03,CFS01,Production Waste,Breakfast,39.27,Base
+450,29-01-2026 08:55,CFS01,Plate Waste,Breakfast,7.61,Plate Waste
+451,29-01-2026 09:00,CFS01,Bain Marie Waste,Breakfast,13.2,Base
+452,29-01-2026 11:48,CFS01,Production Waste,Lunch,32.77,Base
+453,29-01-2026 11:49,CFS01,Production Waste,Lunch,25.69,Base
+454,29-01-2026 11:54,CFS01,Spoiled Waste,Lunch,20.73,Base
+455,29-01-2026 12:42,CFS01,Peel Waste,Lunch,25.1,Base
+456,29-01-2026 12:44,CFS01,Peel Waste,Lunch,40.92,Base
+457,29-01-2026 14:08,CFS01,Peel Waste,Lunch,21.32,Base
+458,29-01-2026 14:27,CFS02,Bain Marie Waste,Lunch,2.12,Rice & Biryanis
+459,29-01-2026 14:30,CFS02,Bain Marie Waste,Lunch,2.52,Non Veg Dry
+460,29-01-2026 14:31,CFS02,Bain Marie Waste,Lunch,1.52,Sauces for Choix
+461,29-01-2026 14:47,CFS02,Peel Waste,Others,4.14,Vegetable Dry
+462,29-01-2026 14:48,CFS02,Plate Waste,Lunch,37.59,Plate Waste
+463,29-01-2026 15:40,CFS01,Peel Waste,Lunch,24.27,Base
+464,29-01-2026 15:45,CFS01,Peel Waste,Lunch,13.43,Base
+465,29-01-2026 15:51,CFS01,Plate Waste,Lunch,7.3,Plate Waste
+466,29-01-2026 15:53,CFS01,Peel Waste,Lunch,7.01,Base
+467,29-01-2026 15:54,CFS01,Production Waste,Lunch,9.37,Base
+468,30-01-2026 08:44,CFS01,Peel Waste,Breakfast,30.17,Base
+469,30-01-2026 08:45,CFS01,Production Waste,Breakfast,31.62,Base
+470,30-01-2026 08:46,CFS01,Production Waste,Breakfast,9.57,Base
+471,30-01-2026 09:17,CFS01,Plate Waste,Breakfast,4.72,Plate Waste
+472,30-01-2026 09:18,CFS01,Bain Marie Waste,Breakfast,24.84,Base
+473,30-01-2026 11:47,CFS01,Spoiled Waste,Lunch,12.75,Paneer
+474,30-01-2026 12:06,CFS01,Peel Waste,Lunch,21.84,Base
+475,30-01-2026 12:15,CFS01,Production Waste,Lunch,20.39,Base
+476,30-01-2026 12:16,CFS01,Production Waste,Lunch,16.1,Base
+477,30-01-2026 12:17,CFS01,Production Waste,Lunch,15.21,Base
+478,30-01-2026 14:38,CFS02,Bain Marie Waste,Lunch,5.57,Rice & Biryanis
+479,30-01-2026 14:41,CFS02,Bain Marie Waste,Lunch,1.96,Paneer
+480,30-01-2026 14:45,CFS02,Peel Waste,Others,6.02,Vegetable Dry
+481,30-01-2026 14:47,CFS02,Plate Waste,Lunch,32.13,Plate Waste
+482,30-01-2026 15:11,CFS01,Production Waste,Lunch,10.11,Base
+483,30-01-2026 15:13,CFS01,Production Waste,Lunch,8.73,Base
+484,30-01-2026 15:15,CFS01,Peel Waste,Lunch,22.2,Base
+485,30-01-2026 15:16,CFS01,Production Waste,Lunch,12.02,Base
+486,30-01-2026 15:20,CFS01,Spoiled Waste,Lunch,5.42,Base
+487,30-01-2026 15:35,CFS01,Bain Marie Waste,Lunch,25.56,Base
+488,30-01-2026 16:38,CFS01,Plate Waste,Breakfast,15.35,Plate Waste
+489,31-01-2026 11:23,CFS01,Production Waste,Lunch,15.04,Base
+490,31-01-2026 11:27,CFS01,Production Waste,Lunch,14.37,Base
+491,31-01-2026 11:28,CFS01,Production Waste,Lunch,14.17,Base
+492,31-01-2026 11:30,CFS01,Plate Waste,Lunch,13.47,Plate Waste
+493,31-01-2026 14:26,CFS01,Peel Waste,Lunch,18.99,Base
+494,31-01-2026 15:04,CFS01,Bain Marie Waste,Lunch,12.18,Base
+495,31-01-2026 15:10,CFS01,Peel Waste,Lunch,18.6,Base
+496,01-02-2026 10:03,CFS01,Production Waste,Breakfast,8.68,Base
+497,01-02-2026 10:04,CFS01,Production Waste,Breakfast,7.84,Base
+498,01-02-2026 10:05,CFS01,Peel Waste,Breakfast,19.41,Base
+499,01-02-2026 10:06,CFS01,Peel Waste,Breakfast,12.71,Base
+500,01-02-2026 10:07,CFS01,Plate Waste,Breakfast,4.1,Plate Waste
+501,01-02-2026 10:22,CFS01,Bain Marie Waste,Breakfast,32.08,Base
+502,01-02-2026 12:44,CFS01,Peel Waste,Lunch,27.47,Base
+503,01-02-2026 14:59,CFS01,Plate Waste,Lunch,5.31,Plate Waste
+504,01-02-2026 15:02,CFS01,Bain Marie Waste,Lunch,16.11,Base
+505,01-02-2026 15:39,CFS01,Production Waste,Lunch,15.68,Base
+506,01-02-2026 15:40,CFS01,Production Waste,Lunch,7.22,Base
+507,01-02-2026 15:42,CFS01,Peel Waste,Lunch,13.02,Base
+508,01-02-2026 15:53,CFS01,Peel Waste,Lunch,31.13,Base
+509,01-02-2026 15:54,CFS01,Production Waste,Lunch,17.02,Base
+510,01-02-2026 15:56,CFS01,Peel Waste,Lunch,16.84,Base
+511,02-02-2026 8:35,CFS01,Production Waste,Breakfast,15.64,Base
+512,02-02-2026 8:37,CFS01,Production Waste,Breakfast,24.87,Base
+513,02-02-2026 9:46,CFS01,Plate Waste,Breakfast,4.59,Plate Waste
+514,02-02-2026 9:49,CFS01,Bain Marie Waste,Breakfast,14.36,Base
+515,02-02-2026 11:58,CFS01,Production Waste,Lunch,16.6,Base
+516,02-02-2026 12:06,CFS01,Production Waste,Lunch,10.44,Base
+517,02-02-2026 12:55,CFS01,Peel Waste,Breakfast,19.25,Base
+518,02-02-2026 13:39,CFS01,Peel Waste,Lunch,18.27,Base
+519,02-02-2026 14:10,CFS01,Peel Waste,Lunch,47.22,Base
+520,02-02-2026 14:36,CFS02,Peel Waste,Others,3.02,Vegetable Dry
+521,02-02-2026 14:38,CFS02,Plate Waste,Lunch,22.16,Plate Waste
+522,02-02-2026 14:45,CFS01,Peel Waste,Lunch,18.96,Base
+523,02-02-2026 14:56,CFS01,Production Waste,Lunch,22.67,Base
+524,02-02-2026 15:25,CFS01,Peel Waste,Lunch,15.74,Base
+525,02-02-2026 15:52,CFS01,Peel Waste,Lunch,14.11,Base
+526,02-02-2026 15:53,CFS01,Production Waste,Lunch,14.48,Base
+527,02-02-2026 15:58,CFS01,Peel Waste,Lunch,14.46,Base
+528,02-02-2026 15:59,CFS01,Peel Waste,Lunch,19.69,Base
+529,03-02-2026 6:16,CFS01,Production Waste,Breakfast,21.39,Base
+530,03-02-2026 6:18,CFS01,Production Waste,Breakfast,28.39,Base
+531,03-02-2026 9:23,CFS01,Production Waste,Breakfast,38.4,Base
+532,03-02-2026 9:29,CFS01,Spoiled Waste,Breakfast,13.4,Base
+533,03-02-2026 9:38,CFS01,Plate Waste,Breakfast,3.09,Plate Waste
+534,03-02-2026 9:40,CFS01,Bain Marie Waste,Breakfast,7.3,Base
+535,03-02-2026 11:24,CFS01,Peel Waste,Breakfast,18.95,Base
+536,03-02-2026 11:30,CFS01,Peel Waste,Lunch,19.06,Base
+537,03-02-2026 11:37,CFS01,Peel Waste,Lunch,18.45,Base
+538,03-02-2026 11:40,CFS01,Spoiled Waste,Lunch,4.6,Base
+539,03-02-2026 14:28,CFS02,Peel Waste,Others,2.63,Vegetable Dry
+540,03-02-2026 14:35,CFS02,Bain Marie Waste,Lunch,3.1,Rice & Biryanis
+541,03-02-2026 14:36,CFS02,Bain Marie Waste,Lunch,1.65,Sauces for Choix
+542,03-02-2026 14:44,CFS02,Plate Waste,Lunch,44.33,Plate Waste
+543,03-02-2026 15:17,CFS01,Peel Waste,Lunch,14.8,Base
+544,03-02-2026 15:18,CFS01,Production Waste,Lunch,23.12,Base
+545,03-02-2026 15:19,CFS01,Peel Waste,Lunch,12.7,Base
+546,03-02-2026 15:21,CFS01,Peel Waste,Lunch,17.17,Base
+547,03-02-2026 15:29,CFS01,Bain Marie Waste,Lunch,7.7,Base
+548,03-02-2026 15:51,CFS01,Plate Waste,Lunch,5.79,Plate Waste
+549,03-02-2026 15:53,CFS01,Production Waste,Lunch,31.11,Base
+550,04-02-2026 6:25,CFS01,Production Waste,Breakfast,24.79,Base
+551,04-02-2026 6:27,CFS01,Peel Waste,Breakfast,23.59,Base
+552,04-02-2026 6:29,CFS01,Peel Waste,Breakfast,14.26,Base
+553,04-02-2026 6:47,CFS01,Production Waste,Breakfast,27,Base
+554,04-02-2026 9:26,CFS01,Plate Waste,Breakfast,2.01,Plate Waste
+555,04-02-2026 9:28,CFS01,Bain Marie Waste,Breakfast,15.36,Base
+556,04-02-2026 11:54,CFS01,Peel Waste,Lunch,18.49,Base
+557,04-02-2026 11:57,CFS01,Production Waste,Lunch,14.97,Base
+558,04-02-2026 12:10,CFS01,Spoiled Waste,Lunch,12.47,Base
+559,04-02-2026 12:11,CFS01,Production Waste,Lunch,19.62,Base
+560,04-02-2026 12:51,CFS01,Peel Waste,Lunch,27.16,Base
+561,04-02-2026 13:33,CFS01,Peel Waste,Lunch,14.21,Base
+562,04-02-2026 13:42,CFS01,Spoiled Waste,Lunch,13.93,Base
+563,04-02-2026 14:18,CFS01,Peel Waste,Lunch,23.77,Base
+564,04-02-2026 14:28,CFS02,Peel Waste,Others,2.81,Vegetable Dry
+565,04-02-2026 14:29,CFS01,Peel Waste,Lunch,17.22,Base
+566,04-02-2026 14:31,CFS02,Bain Marie Waste,Lunch,1.43,Rice & Biryanis
+567,04-02-2026 14:33,CFS02,Bain Marie Waste,Lunch,1.59,Paneer
+568,04-02-2026 14:34,CFS02,Bain Marie Waste,Others,1.17,Non Veg Gravy
+569,04-02-2026 14:36,CFS02,Plate Waste,Lunch,21.07,Plate Waste
+570,04-02-2026 15:38,CFS01,Peel Waste,Dinner,21.49,Base
+571,04-02-2026 15:39,CFS01,Peel Waste,Dinner,20.36,Base
+572,04-02-2026 15:41,CFS01,Peel Waste,Dinner,21.48,Base
+573,04-02-2026 15:48,CFS01,Plate Waste,Lunch,7.26,Plate Waste
+574,04-02-2026 15:55,CFS01,Production Waste,Lunch,34.7,Base
+575,04-02-2026 15:59,CFS01,Production Waste,Lunch,7.33,Base
+576,04-02-2026 16:00,CFS01,Peel Waste,Lunch,10.71,Base
+577,05-02-2026 6:34,CFS01,Production Waste,Breakfast,16.6,Base
+578,05-02-2026 6:35,CFS01,Peel Waste,Breakfast,16.41,Base
+579,05-02-2026 6:41,CFS01,Production Waste,Breakfast,26.71,Base
+580,05-02-2026 6:43,CFS01,Production Waste,Breakfast,16.84,Base
+581,05-02-2026 9:53,CFS01,Production Waste,Breakfast,16.99,Base
+582,05-02-2026 9:55,CFS01,Bain Marie Waste,Breakfast,22.22,Base
+583,05-02-2026 12:27,CFS01,Production Waste,Lunch,27.73,Base
+584,05-02-2026 12:28,CFS01,Production Waste,Lunch,21.23,Base
+585,05-02-2026 12:31,CFS01,Production Waste,Lunch,20.15,Base
+586,05-02-2026 12:33,CFS01,Peel Waste,Lunch,14.71,Base
+587,05-02-2026 12:34,CFS01,Peel Waste,Lunch,22.19,Base
+588,05-02-2026 12:35,CFS01,Peel Waste,Lunch,17.71,Base
+589,05-02-2026 12:36,CFS01,Peel Waste,Lunch,11.73,Base
+590,05-02-2026 12:38,CFS01,Peel Waste,Lunch,10.3,Base
+591,05-02-2026 13:54,CFS01,Peel Waste,Dinner,15,Base
+592,05-02-2026 14:25,CFS02,Peel Waste,Others,4.73,Vegetable Dry
+593,05-02-2026 14:33,CFS02,Bain Marie Waste,Lunch,1.62,Rice & Biryanis
+594,05-02-2026 14:35,CFS02,Bain Marie Waste,Lunch,1.51,Vegetable Dry
+595,05-02-2026 14:36,CFS02,Bain Marie Waste,Lunch,1.05,Paneer
+596,05-02-2026 14:38,CFS02,Bain Marie Waste,Lunch,1.75,Non Veg Gravy
+597,05-02-2026 14:39,CFS02,Plate Waste,Lunch,17.04,Plate Waste
+598,05-02-2026 15:07,CFS01,Production Waste,Lunch,22,Base
+599,05-02-2026 15:29,CFS01,Plate Waste,Lunch,6.77,Plate Waste
+600,05-02-2026 15:46,CFS01,Production Waste,Lunch,7.49,Base
+601,05-02-2026 15:49,CFS01,Production Waste,Lunch,12.88,Base
+602,05-02-2026 15:51,CFS01,Production Waste,Lunch,8.8,Base
+603,06-02-2026 6:19,CFS01,Production Waste,Breakfast,24.97,Base
+604,06-02-2026 6:20,CFS01,Production Waste,Breakfast,28.45,Base
+605,06-02-2026 6:23,CFS01,Production Waste,Breakfast,9.32,Base
+606,06-02-2026 6:32,CFS01,Peel Waste,Breakfast,21.8,Base
+607,06-02-2026 8:06,CFS01,Production Waste,Breakfast,33.71,Base
+608,06-02-2026 8:07,CFS01,Production Waste,Breakfast,34.89,Base
+609,06-02-2026 9:43,CFS01,Plate Waste,Breakfast,1.97,Plate Waste
+610,06-02-2026 9:46,CFS01,Bain Marie Waste,Breakfast,10.61,Base
+611,06-02-2026 10:53,CFS01,Production Waste,Lunch,44.59,Base
+612,06-02-2026 11:00,CFS01,Spoiled Waste,Lunch,18.41,Base
+613,06-02-2026 11:23,CFS01,Peel Waste,Lunch,18.13,Base
+614,06-02-2026 12:06,CFS01,Production Waste,Lunch,16.59,Base
+615,06-02-2026 12:16,CFS01,Production Waste,Lunch,27.05,Base
+616,06-02-2026 13:07,CFS01,Peel Waste,Lunch,14.97,Base
+617,06-02-2026 14:31,CFS02,Peel Waste,Others,3.4,Vegetable Dry
+618,06-02-2026 14:34,CFS02,Bain Marie Waste,Lunch,8.01,Rice & Biryanis
+619,06-02-2026 14:36,CFS02,Bain Marie Waste,Lunch,2.14,Non Veg Dry
+620,06-02-2026 14:38,CFS02,Plate Waste,Lunch,18.88,Plate Waste
+621,06-02-2026 14:46,CFS01,Spoiled Waste,Lunch,27.83,Base
+622,06-02-2026 14:48,CFS01,Production Waste,Lunch,29.24,Base
+623,06-02-2026 15:20,CFS01,Plate Waste,Lunch,9.86,Plate Waste
+624,06-02-2026 15:22,CFS01,Bain Marie Waste,Lunch,21.61,Base
+625,06-02-2026 15:29,CFS01,Peel Waste,Dinner,17.78,Base
+626,06-02-2026 15:30,CFS01,Peel Waste,Dinner,16.77,Base
+627,06-02-2026 15:33,CFS01,Peel Waste,Dinner,19.14,Base
+628,09-02-2026 10:23,CFS01,Bain Marie Waste,Breakfast,15.09,Base
+629,09-02-2026 10:23,CFS01,Production Waste,Breakfast,28.77,Base
+630,09-02-2026 10:24,CFS01,Peel Waste,Breakfast,16.82,Base
+631,09-02-2026 10:36,CFS01,Plate Waste,Breakfast,2.14,Plate Waste
+632,09-02-2026 11:44,CFS01,Production Waste,Lunch,24.04,Base
+633,09-02-2026 11:45,CFS01,Production Waste,Lunch,16.06,Base
+634,09-02-2026 12:32,CFS01,Production Waste,Lunch,8.86,Base
+635,09-02-2026 12:34,CFS01,Spoiled Waste,Lunch,7.3,Base
+636,09-02-2026 13:43,CFS01,Production Waste,Lunch,29.91,Base
+637,09-02-2026 14:19,CFS02,Peel Waste,Others,2.28,Vegetable Dry
+638,09-02-2026 14:39,CFS02,Bain Marie Waste,Lunch,0.6,Rice & Biryanis
+639,09-02-2026 14:42,CFS02,Plate Waste,Lunch,22.25,Plate Waste
+640,09-02-2026 15:26,CFS01,Peel Waste,Lunch,19.23,Base
+641,09-02-2026 15:27,CFS01,Peel Waste,Dinner,25.89,Base
+642,09-02-2026 15:40,CFS01,Plate Waste,Lunch,7.66,Plate Waste
+643,09-02-2026 15:47,CFS01,Bain Marie Waste,Lunch,13.42,Base
+644,09-02-2026 15:57,CFS01,Peel Waste,Dinner,19.92,Base
+645,09-02-2026 16:23,CFS01,Peel Waste,Dinner,21.6,Base
+646,10-02-2026 6:18,CFS01,Peel Waste,Breakfast,25.3,Base
+647,10-02-2026 6:31,CFS01,Peel Waste,Breakfast,30.23,Base
+648,10-02-2026 9:42,CFS01,Plate Waste,Breakfast,3.07,Plate Waste
+649,10-02-2026 9:45,CFS01,Bain Marie Waste,Breakfast,13.99,Base
+650,10-02-2026 9:47,CFS01,Production Waste,Breakfast,29.17,Base
+651,10-02-2026 11:56,CFS01,Production Waste,Lunch,23.05,Base
+652,10-02-2026 12:24,CFS01,Peel Waste,Lunch,14.15,Base
+653,10-02-2026 12:25,CFS01,Peel Waste,Lunch,14.71,Base
+654,10-02-2026 12:26,CFS01,Production Waste,Lunch,14.95,Base
+655,10-02-2026 12:28,CFS01,Production Waste,Lunch,22.61,Base
+656,10-02-2026 14:25,CFS01,Peel Waste,Dinner,17.69,Base
+657,10-02-2026 14:26,CFS01,Peel Waste,Dinner,18.02,Base
+658,10-02-2026 14:32,CFS02,Peel Waste,Others,2.39,Vegetable Dry
+659,10-02-2026 14:33,CFS02,Plate Waste,Lunch,21.46,Plate Waste
+660,10-02-2026 14:46,CFS01,Production Waste,Lunch,12.91,Base
+661,10-02-2026 14:47,CFS01,Peel Waste,Dinner,14.3,Base
+662,10-02-2026 14:53,CFS01,Peel Waste,Lunch,17.97,Base
+663,10-02-2026 15:46,CFS01,Peel Waste,Dinner,18.07,Base
+664,10-02-2026 15:47,CFS01,Peel Waste,Dinner,16.41,Base
+665,10-02-2026 15:51,CFS01,Production Waste,Snacks,20.08,Base
+666,10-02-2026 15:57,CFS01,Production Waste,Lunch,8.32,Base
+667,10-02-2026 15:58,CFS01,Plate Waste,Lunch,6.97,Plate Waste
+668,10-02-2026 16:01,CFS01,Bain Marie Waste,Lunch,29.04,Base
+669,11-02-2026 14:29,CFS02,Peel Waste,Others,4.24,Vegetable Dry
+670,11-02-2026 14:32,CFS02,Plate Waste,Lunch,14.18,Plate Waste
+671,12-02-2026 9:04,CFS01,Plate Waste,Breakfast,2.45,Plate Waste
+672,12-02-2026 9:08,CFS01,Bain Marie Waste,Breakfast,32.78,Base
+673,12-02-2026 9:09,CFS01,Production Waste,Breakfast,21.23,Base
+674,12-02-2026 9:11,CFS01,Production Waste,Breakfast,25.26,Base
+675,12-02-2026 11:49,CFS01,Spoiled Waste,Lunch,25.25,Base
+676,12-02-2026 11:50,CFS01,Peel Waste,Breakfast,16.07,Base
+677,12-02-2026 11:51,CFS01,Production Waste,Lunch,9.38,Base
+678,12-02-2026 12:10,CFS01,Production Waste,Lunch,31.83,Base
+679,12-02-2026 14:33,CFS02,Peel Waste,Others,2.8,Vegetable Dry
+680,12-02-2026 14:37,CFS02,Plate Waste,Lunch,16.97,Plate Waste
+681,12-02-2026 15:27,CFS01,Plate Waste,Lunch,8.87,Plate Waste
+682,12-02-2026 15:29,CFS01,Peel Waste,Lunch,17.26,Base
+683,12-02-2026 15:31,CFS01,Peel Waste,Lunch,24.68,Base
+684,12-02-2026 15:36,CFS01,Bain Marie Waste,Lunch,16.92,Base
+685,12-02-2026 16:07,CFS01,Production Waste,Dinner,22.05,Base
+686,13-02-2026 05:09,CFS01,Peel Waste,Breakfast,13.06,Base
+687,13-02-2026 06:54,CFS01,Production Waste,Breakfast,21.9,Base
+688,13-02-2026 06:57,CFS01,Production Waste,Breakfast,34.5,Base
+689,13-02-2026 07:13,CFS01,Production Waste,Breakfast,38.44,Base
+690,13-02-2026 07:34,CFS01,Production Waste,Breakfast,38.95,Base
+691,13-02-2026 09:45,CFS01,Plate Waste,Breakfast,3.32,Plate Waste
+692,13-02-2026 09:47,CFS01,Bain Marie Waste,Breakfast,5.56,Base
+693,13-02-2026 12:09,CFS01,Peel Waste,Lunch,14.06,Base
+694,13-02-2026 12:10,CFS01,Peel Waste,Lunch,15.68,Base
+695,13-02-2026 12:11,CFS01,Peel Waste,Lunch,9.96,Base
+696,13-02-2026 12:30,CFS01,Spoiled Waste,Lunch,30.04,Base
+697,13-02-2026 13:08,CFS01,Production Waste,Lunch,26.35,Base
+698,13-02-2026 13:10,CFS01,Production Waste,Lunch,34.05,Base
+699,13-02-2026 13:47,CFS01,Production Waste,Lunch,38.04,Base
+700,13-02-2026 14:38,CFS02,Peel Waste,Others,4.9,Vegetable Dry
+701,13-02-2026 14:39,CFS02,Plate Waste,Lunch,18.97,Plate Waste
+702,13-02-2026 18:05,CFS01,Bain Marie Waste,Lunch,17.39,Base
+703,13-02-2026 18:29,CFS01,Plate Waste,Lunch,16.58,Plate Waste
+704,13-02-2026 18:38,CFS01,Peel Waste,Lunch,16.36,Base
+705,14-02-2026 15:42,CFS01,Peel Waste,Lunch,15.46,Base
+706,14-02-2026 15:45,CFS01,Production Waste,Lunch,21.2,Base
+707,14-02-2026 15:47,CFS01,Production Waste,Lunch,19.2,Base
+708,14-02-2026 16:29,CFS01,Peel Waste,Lunch,14.11,Base
+709,14-02-2026 16:31,CFS01,Plate Waste,Lunch,6.28,Plate Waste
+710,14-02-2026 16:32,CFS01,Peel Waste,Lunch,9.29,Base
+711,14-02-2026 16:46,CFS01,Production Waste,Lunch,5.32,Base
+712,15-02-2026 09:29,CFS01,Plate Waste,Breakfast,6.18,Plate Waste
+713,15-02-2026 09:32,CFS01,Production Waste,Breakfast,11.66,Base
+714,15-02-2026 09:33,CFS01,Production Waste,Breakfast,15.47,Base
+715,15-02-2026 09:34,CFS01,Bain Marie Waste,Breakfast,16.85,Base
+716,15-02-2026 15:27,CFS01,Production Waste,Lunch,13.7,Base
+717,15-02-2026 15:29,CFS01,Peel Waste,Lunch,11.32,Base
+718,15-02-2026 15:31,CFS01,Production Waste,Lunch,26.96,Base
+719,15-02-2026 15:35,CFS01,Production Waste,Lunch,20.24,Base
+720,15-02-2026 15:43,CFS01,Plate Waste,Lunch,4.76,Plate Waste
+721,15-02-2026 15:45,CFS01,Production Waste,Dinner,17.07,Base
+722,15-02-2026 15:47,CFS01,Peel Waste,Lunch,17.11,Base
+723,15-02-2026 15:49,CFS01,Production Waste,Lunch,32.75,Base
+724,15-02-2026 19:09,CFS01,Peel Waste,Dinner,43.81,Base
+725,15-02-2026 21:04,CFS01,Peel Waste,Dinner,30.07,Base
+726,16-02-2026 09:22,CFS01,Plate Waste,Breakfast,3.27,Plate Waste
+727,16-02-2026 09:24,CFS01,Bain Marie Waste,Breakfast,8.66,Base
+728,16-02-2026 09:25,CFS01,Production Waste,Breakfast,19.39,Base
+729,16-02-2026 12:03,CFS01,Production Waste,Lunch,29.22,Base
+730,16-02-2026 12:27,CFS01,Peel Waste,Lunch,18.4,Base
+731,16-02-2026 12:28,CFS01,Peel Waste,Lunch,16.6,Base
+732,16-02-2026 13:15,CFS01,Peel Waste,Lunch,14.61,Base
+733,16-02-2026 14:33,CFS02,Peel Waste,Others,5,Vegetable Dry
+734,16-02-2026 14:39,CFS01,Peel Waste,Dinner,25.08,Base
+735,16-02-2026 14:42,CFS01,Production Waste,Lunch,22.47,Base
+736,16-02-2026 14:43,CFS01,Production Waste,Lunch,19.04,Base
+737,16-02-2026 14:44,CFS01,Production Waste,Lunch,14.86,Base
+738,16-02-2026 14:46,CFS01,Peel Waste,Dinner,19.76,Base
+739,16-02-2026 14:47,CFS01,Peel Waste,Dinner,15.48,Base
+740,16-02-2026 14:52,CFS02,Plate Waste,Lunch,18.3,Plate Waste
+741,16-02-2026 15:34,CFS01,Peel Waste,Dinner,21.76,Base
+742,16-02-2026 15:35,CFS01,Plate Waste,Lunch,7.27,Plate Waste
+743,16-02-2026 15:39,CFS01,Peel Waste,Dinner,11.6,Base
+744,16-02-2026 15:40,CFS01,Bain Marie Waste,Lunch,15.55,Base
+745,17-02-2026 06:30,CFS01,Peel Waste,Breakfast,22.42,Base
+746,17-02-2026 06:35,CFS01,Peel Waste,Breakfast,13.08,Base
+747,17-02-2026 09:11,CFS01,Plate Waste,Breakfast,3.77,Plate Waste
+748,17-02-2026 09:12,CFS01,Production Waste,Breakfast,17.68,Base
+749,17-02-2026 09:15,CFS01,Bain Marie Waste,Breakfast,16.32,Base
+750,17-02-2026 09:16,CFS01,Production Waste,Breakfast,36.02,Base
+751,17-02-2026 09:17,CFS01,Production Waste,Breakfast,22.34,Base
+752,17-02-2026 10:12,CFS01,Peel Waste,Lunch,16.44,Base
+753,17-02-2026 10:59,CFS01,Production Waste,Lunch,15.83,Base
+754,17-02-2026 11:02,CFS01,Spoiled Waste,Lunch,30.15,Base
+755,17-02-2026 11:17,CFS01,Production Waste,Lunch,17.5,Base
+756,17-02-2026 12:07,CFS01,Peel Waste,Dinner,20.37,Base
+757,17-02-2026 12:46,CFS01,Production Waste,Lunch,19.29,Base
+758,17-02-2026 14:26,CFS01,Production Waste,Lunch,25.48,Base
+759,17-02-2026 14:26,CFS02,Peel Waste,Others,5.1,Vegetable Dry
+760,17-02-2026 14:32,CFS02,Plate Waste,Lunch,19.58,Plate Waste
+761,17-02-2026 15:03,CFS01,Plate Waste,Lunch,6.34,Plate Waste
+762,17-02-2026 15:56,CFS01,Bain Marie Waste,Lunch,38.25,Base
+763,17-02-2026 16:20,CFS01,Peel Waste,Dinner,21.81,Base
+764,18-02-2026 06:22,CFS01,Peel Waste,Breakfast,8.77,Base
+765,18-02-2026 06:58,CFS01,Production Waste,Breakfast,23.59,Base
+766,18-02-2026 06:59,CFS01,Production Waste,Breakfast,8.9,Base
+767,18-02-2026 07:10,CFS01,Production Waste,Breakfast,25.45,Base
+768,18-02-2026 07:12,CFS01,Production Waste,Breakfast,23.7,Base
+769,18-02-2026 09:32,CFS01,Plate Waste,Breakfast,2.56,Plate Waste
+770,18-02-2026 09:33,CFS01,Bain Marie Waste,Breakfast,19.63,Base
+771,18-02-2026 10:04,CFS01,Production Waste,Breakfast,13.88,Base
+772,18-02-2026 10:10,CFS01,Production Waste,Lunch,12.95,Base
+773,18-02-2026 12:06,CFS01,Production Waste,Lunch,40.5,Base
+774,18-02-2026 12:27,CFS01,Production Waste,Lunch,23.03,Base
+775,18-02-2026 13:13,CFS01,Peel Waste,Lunch,25.84,Base
+776,18-02-2026 14:12,CFS01,Peel Waste,Dinner,20.57,Base
+777,18-02-2026 14:16,CFS01,Production Waste,Lunch,25.44,Base
+778,18-02-2026 14:21,CFS02,Peel Waste,Others,3.17,Vegetable Dry
+779,18-02-2026 14:32,CFS01,Spoiled Waste,Lunch,29.11,Base
+780,18-02-2026 14:35,CFS02,Plate Waste,Lunch,20.5,Plate Waste
+781,18-02-2026 15:35,CFS01,Plate Waste,Lunch,8.31,Plate Waste
+782,18-02-2026 15:38,CFS01,Bain Marie Waste,Lunch,6.42,Base
+783,18-02-2026 16:37,CFS01,Peel Waste,Lunch,28.7,Base
+784,18-02-2026 16:39,CFS01,Peel Waste,Dinner,29.7,Base
+785,18-02-2026 16:43,CFS01,Production Waste,Dinner,16.49,Base
+786,18-02-2026 17:09,CFS01,Peel Waste,Dinner,24.84,Base
+787,19-02-2026 04:01,CFS01,Peel Waste,Breakfast,29.88,Base
+788,19-02-2026 06:34,CFS01,Peel Waste,Breakfast,15.62,Base
+789,19-02-2026 06:54,CFS01,Spoiled Waste,Breakfast,26.17,Base
+790,19-02-2026 07:10,CFS01,Production Waste,Breakfast,24.27,Base
+791,19-02-2026 07:12,CFS01,Production Waste,Breakfast,17.87,Base
+792,19-02-2026 07:15,CFS01,Production Waste,Breakfast,35.34,Base
+793,19-02-2026 09:12,CFS01,Bain Marie Waste,Breakfast,12.66,Base
+794,19-02-2026 10:08,CFS01,Plate Waste,Breakfast,9.12,Plate Waste
+795,19-02-2026 10:26,CFS01,Production Waste,Breakfast,15.06,Base
+796,19-02-2026 11:46,CFS01,Production Waste,Lunch,9.05,Base
+797,19-02-2026 12:02,CFS01,Production Waste,Lunch,24.44,Base
+798,19-02-2026 12:03,CFS01,Peel Waste,Lunch,14.57,Base
+799,19-02-2026 12:04,CFS01,Peel Waste,Lunch,16.64,Base
+800,19-02-2026 12:06,CFS01,Peel Waste,Lunch,11.22,Base
+801,19-02-2026 13:02,CFS01,Spoiled Waste,Lunch,33.11,Base
+802,19-02-2026 14:04,CFSO3,Spoiled Waste,Breakfast,0.06,North Breakfast & Snacks Veg
+803,19-02-2026 14:05,CFSO3,Peel Waste,Dinner,0.06,Non Veg Gravy
+804,19-02-2026 14:05,CFSO3,Donation,Breakfast,0.06,Rice & Biryanis
+805,19-02-2026 14:06,CFSO3,Bain Marie Waste,Breakfast,0.04,Indian Breads
+806,19-02-2026 14:06,CFSO3,Production Waste,Snacks,0.02,Indian Desserts
+807,19-02-2026 14:07,CFSO3,Production Waste,Snacks,0.06,Indian Desserts
+808,19-02-2026 14:07,CFSO3,Production Waste,Snacks,0.06,Indian Desserts
+809,19-02-2026 14:14,CFS02,Peel Waste,Others,2.7,Vegetable Dry
+810,19-02-2026 14:25,CFS02,Plate Waste,Lunch,18.92,Plate Waste
+811,19-02-2026 14:38,CFSO3,Production Waste,Snacks,0.1,Indian Breads
+812,19-02-2026 14:39,CFSO3,Spoiled Waste,Dinner,15.91,Non Veg Dry
+813,19-02-2026 14:41,CFSO3,Bain Marie Waste,Dinner,1.12,North Breakfast & Snacks Veg
+814,19-02-2026 14:42,CFSO3,Production Waste,Dinner,1.12,Indian Desserts
+815,19-02-2026 14:44,CFSO3,Production Waste,Dinner,1.12,Indian Desserts
+816,19-02-2026 14:45,CFSO3,Spoiled Waste,Breakfast,1.12,Indian Desserts
+817,19-02-2026 14:45,CFSO3,Production Waste,Snacks,0.02,North Breakfast & Snacks Veg
+818,19-02-2026 14:46,CFSO3,Spoiled Waste,Breakfast,1.1,Non Veg Dry
+819,19-02-2026 14:46,CFSO3,Bain Marie Waste,Snacks,0.02,North Breakfast & Snacks Veg
+820,19-02-2026 14:46,CFSO3,Spoiled Waste,Breakfast,1.1,Non Veg Dry
+821,19-02-2026 15:00,CFSO3,Production Waste,Snacks,1.12,Indian Desserts
+822,19-02-2026 15:08,CFSO3,Spoiled Waste,Breakfast,1.14,Non Veg Dry
+823,19-02-2026 15:09,CFSO3,Donation,Breakfast,1.1,Indian Desserts
+824,19-02-2026 15:09,CFSO3,Spoiled Waste,Snacks,1.06,Non Veg Dry
+825,19-02-2026 15:09,CFSO3,Spoiled Waste,Breakfast,0.1,Non Veg Dry
+826,19-02-2026 15:17,CFSO3,Production Waste,Lunch,1.54,Indian Breads
+827,19-02-2026 15:17,CFSO3,Peel Waste,Dinner,1.54,Base
+828,19-02-2026 15:20,CFSO3,Bain Marie Waste,Lunch,1.54,North Breakfast & Snacks Veg
+829,19-02-2026 15:20,CFSO3,Bain Marie Waste,Breakfast,1.54,North Breakfast & Snacks Veg
+830,19-02-2026 15:20,CFSO3,Bain Marie Waste,Breakfast,0.01,North Breakfast & Snacks Veg
+831,19-02-2026 15:20,CFSO3,Plate Waste,Breakfast,13.56,Plate Waste
+832,19-02-2026 15:20,CFSO3,Bain Marie Waste,Snacks,4.56,North Breakfast & Snacks Veg
+833,19-02-2026 15:21,CFSO3,Production Waste,Snacks,17.15,North Breakfast & Snacks Veg
+834,19-02-2026 15:22,CFSO3,Production Waste,Dinner,4.08,North Breakfast & Snacks Non Veg
+835,19-02-2026 15:24,CFSO3,Production Waste,Breakfast,13.38,North Breakfast & Snacks Veg
+836,19-02-2026 15:33,CFSO3,Peel Waste,Breakfast,5.64,Base
+837,19-02-2026 15:33,CFS01,Plate Waste,Lunch,4.18,Plate Waste
+838,19-02-2026 15:33,CFSO3,Peel Waste,Breakfast,5.64,Base
+839,19-02-2026 15:34,CFSO3,Peel Waste,Breakfast,5.64,Indian Breads
+840,19-02-2026 15:34,CFSO3,Production Waste,Dinner,5.64,Indian Desserts
+841,19-02-2026 15:34,CFSO3,Bain Marie Waste,Dinner,5.64,North Breakfast & Snacks Veg
+842,19-02-2026 15:35,CFSO3,Bain Marie Waste,Dinner,5.64,Non Veg Gravy
+843,19-02-2026 15:35,CFS01,Bain Marie Waste,Lunch,4.99,Base
+844,19-02-2026 15:38,CFS01,Peel Waste,Lunch,32.85,Base
+845,19-02-2026 15:43,CFS01,Production Waste,Lunch,20.1,Base
+846,19-02-2026 16:06,CFSO3,Peel Waste,Breakfast,1.06,Base
+847,19-02-2026 16:08,CFSO3,Production Waste,Breakfast,1.02,Base
+848,19-02-2026 16:09,CFSO3,Peel Waste,Dinner,1.04,Salads
+849,19-02-2026 16:58,CFSO3,Peel Waste,Breakfast,0.8,Non Veg Dry
+850,19-02-2026 16:58,CFSO3,Spoiled Waste,Breakfast,0.8,Vegetable Gravy
+851,19-02-2026 16:59,CFSO3,Production Waste,Breakfast,0.9,Indian Desserts
+852,19-02-2026 17:14,CFSO3,Peel Waste,Dinner,1.02,Indian Desserts
+853,19-02-2026 17:14,CFSO3,Production Waste,Breakfast,1.02,Indian Desserts
+854,19-02-2026 17:15,CFSO3,Plate Waste,Lunch,0.02,Plate Waste
+855,19-02-2026 17:15,CFSO3,Production Waste,Breakfast,1,Indian Desserts
+856,19-02-2026 17:16,CFSO3,Production Waste,Dinner,1.02,Indian Desserts
+857,19-02-2026 17:17,CFSO3,Production Waste,Breakfast,1,Indian Desserts
+858,20-02-2026 06:02,CFS01,Production Waste,Breakfast,15.97,Base
+859,20-02-2026 06:20,CFS01,Peel Waste,Breakfast,10.09,Base
+860,20-02-2026 06:33,CFS01,Production Waste,Breakfast,21.56,Base
+861,20-02-2026 07:54,CFS01,Production Waste,Breakfast,29.31,Base
+862,20-02-2026 07:56,CFS01,Production Waste,Breakfast,21.16,Base
+863,20-02-2026 09:24,CFS01,Plate Waste,Breakfast,12.47,Plate Waste
+864,20-02-2026 09:28,CFS01,Bain Marie Waste,Breakfast,10.6,Base
+865,20-02-2026 10:05,CFSO3,Peel Waste,Breakfast,11.79,Base
+866,20-02-2026 10:06,CFSO3,Peel Waste,Breakfast,4.36,Base
+867,20-02-2026 10:40,CFSO3,Peel Waste,Breakfast,12.61,Base
+868,20-02-2026 10:41,CFSO3,Production Waste,Breakfast,4.48,Base
+869,20-02-2026 10:42,CFSO3,Bain Marie Waste,Dinner,4.49,Indian Desserts
+870,20-02-2026 11:14,CFSO3,Peel Waste,Breakfast,3.91,Indian Breads
+871,20-02-2026 11:21,CFSO3,Peel Waste,Breakfast,3.84,Indian Breads
+872,20-02-2026 11:21,CFSO3,Production Waste,Breakfast,12.84,Indian Breads
+873,20-02-2026 11:22,CFSO3,Peel Waste,Lunch,3.82,Indian Breads
+874,20-02-2026 11:23,CFSO3,Peel Waste,Breakfast,3.82,Base
+875,20-02-2026 11:23,CFSO3,Plate Waste,Breakfast,3.82,Plate Waste
+876,20-02-2026 11:23,CFSO3,Bain Marie Waste,Breakfast,3.82,North Breakfast & Snacks Non Veg
+877,20-02-2026 11:23,CFSO3,Peel Waste,Breakfast,3.82,Indian Desserts
+878,20-02-2026 11:24,CFSO3,Production Waste,Breakfast,3.82,Indian Desserts
+879,20-02-2026 11:24,CFSO3,Production Waste,Lunch,3.82,Non Veg Gravy
+880,20-02-2026 11:24,CFSO3,Bain Marie Waste,Breakfast,3.82,Non Veg Gravy
+881,20-02-2026 11:24,CFSO3,Repurpose,Breakfast,3.82,Snacks / Starters Veg
+882,20-02-2026 11:25,CFSO3,Bain Marie Waste,Breakfast,3.8,North Breakfast & Snacks Veg
+883,20-02-2026 11:26,CFSO3,Donation,Breakfast,3.82,Non Veg Gravy
+884,20-02-2026 11:26,CFSO3,Bain Marie Waste,Dinner,3.82,North Breakfast & Snacks Veg
+885,20-02-2026 11:27,CFSO3,Bain Marie Waste,Lunch,3.8,South Indian All Day
+886,20-02-2026 11:27,CFSO3,Production Waste,Breakfast,3.8,Salads
+887,20-02-2026 11:28,CFSO3,Spoiled Waste,Breakfast,3.82,Indian Desserts
+888,20-02-2026 11:28,CFSO3,Peel Waste,Breakfast,3.8,Indian Breads
+889,20-02-2026 11:28,CFSO3,Production Waste,Breakfast,3.8,Non Veg Dry
+890,20-02-2026 11:28,CFSO3,Donation,Breakfast,3.82,Rice & Biryanis
+891,20-02-2026 11:29,CFSO3,Plate Waste,Breakfast,3.81,Plate Waste
+892,20-02-2026 11:29,CFSO3,Repurpose,Breakfast,3.8,South Indian All Day
+893,20-02-2026 11:29,CFSO3,Bain Marie Waste,Snacks,3.8,Non Veg Dry
+894,20-02-2026 11:30,CFSO3,Production Waste,Dinner,3.82,Snacks / Starters Veg
+895,20-02-2026 11:30,CFSO3,Spoiled Waste,Snacks,3.82,Non Veg Dry
+896,20-02-2026 11:30,CFSO3,Bain Marie Waste,Dinner,3.82,Rice & Biryanis
+897,20-02-2026 11:39,CFS01,Peel Waste,Lunch,30.94,Base
+898,20-02-2026 12:09,CFS01,Production Waste,Lunch,7.85,Base
+899,20-02-2026 12:11,CFSO3,Peel Waste,Breakfast,1.12,Indian Desserts
+900,20-02-2026 12:11,CFSO3,Bain Marie Waste,Breakfast,1.12,Indian Desserts
+901,20-02-2026 12:12,CFSO3,Production Waste,Breakfast,1.12,Indian Desserts
+902,20-02-2026 12:12,CFSO3,Production Waste,Dinner,1.12,Indian Desserts
+903,20-02-2026 12:12,CFSO3,Production Waste,Breakfast,1.12,Indian Desserts
+904,20-02-2026 12:12,CFSO3,Peel Waste,Breakfast,1.12,Indian Breads
+905,20-02-2026 12:13,CFSO3,Bain Marie Waste,Breakfast,1.12,North Breakfast & Snacks Veg
+906,20-02-2026 12:13,CFSO3,Production Waste,Dinner,1.12,Indian Desserts
+907,20-02-2026 12:13,CFSO3,Bain Marie Waste,Breakfast,1.14,Indian Breads
+908,20-02-2026 12:14,CFSO3,Plate Waste,Breakfast,1.14,Plate Waste
+909,20-02-2026 12:14,CFSO3,Production Waste,Lunch,1.14,Indian Breads
+910,20-02-2026 12:14,CFSO3,Production Waste,Breakfast,1.14,Non Veg Dry
+911,20-02-2026 12:15,CFSO3,Production Waste,Breakfast,1.14,Indian Desserts
+912,20-02-2026 12:15,CFSO3,Production Waste,Breakfast,1.14,Rice & Biryanis
+913,20-02-2026 12:15,CFSO3,Production Waste,Dinner,1.14,Indian Desserts
+914,20-02-2026 12:16,CFSO3,Bain Marie Waste,Dinner,1.14,North Breakfast & Snacks Veg
+915,20-02-2026 12:16,CFSO3,Production Waste,Breakfast,1.14,Indian Desserts
+916,20-02-2026 12:17,CFSO3,Bain Marie Waste,Dinner,1.14,North Breakfast & Snacks Veg
+917,20-02-2026 12:17,CFSO3,Bain Marie Waste,Snacks,1.14,North Breakfast & Snacks Veg
+918,20-02-2026 12:18,CFSO3,Bain Marie Waste,Dinner,1.14,North Breakfast & Snacks Veg
+919,20-02-2026 12:20,CFSO3,Production Waste,Dinner,1.14,Indian Desserts
+920,20-02-2026 12:44,CFS01,Production Waste,Lunch,8.85,Base
+921,20-02-2026 14:32,CFS02,Peel Waste,Others,5.45,Vegetable Dry
+922,20-02-2026 14:35,CFS02,Bain Marie Waste,Lunch,5.39,Rice & Biryanis
+923,20-02-2026 14:37,CFS02,Plate Waste,Lunch,17.39,Plate Waste
+924,20-02-2026 15:12,CFS01,Peel Waste,Lunch,16.77,Base
+925,20-02-2026 15:13,CFS01,Peel Waste,Lunch,22.79,Base
+926,20-02-2026 15:22,CFS01,Production Waste,Lunch,39.44,Base
+927,20-02-2026 15:29,CFS01,Plate Waste,Lunch,5.2,Plate Waste
+928,20-02-2026 15:32,CFS01,Bain Marie Waste,Lunch,2.63,Base
+929,21-02-2026 06:09,CFS01,Production Waste,Breakfast,28.32,Base
+930,21-02-2026 06:14,CFS01,Spoiled Waste,Breakfast,16.55,Base
+931,21-02-2026 16:28,CFS01,Production Waste,Lunch,26.21,Base
+932,21-02-2026 16:30,CFS01,Peel Waste,Lunch,14.7,Base
+933,21-02-2026 16:31,CFS01,Peel Waste,Lunch,13.43,Base
+934,21-02-2026 16:33,CFS01,Bain Marie Waste,Lunch,9.07,Base
+935,21-02-2026 16:33,CFS01,Plate Waste,Lunch,4.75,Plate Waste
+936,21-02-2026 16:36,CFS01,Peel Waste,Lunch,22.49,Base
+937,21-02-2026 16:37,CFS01,Production Waste,Lunch,11.64,Base
+938,21-02-2026 16:45,CFS01,Peel Waste,Lunch,10.02,Base
+939,22-02-2026 09:24,CFS01,Production Waste,Breakfast,15.83,Base
+940,22-02-2026 09:32,CFS01,Production Waste,Breakfast,22.85,Base
+941,22-02-2026 13:51,CFS01,Production Waste,Lunch,8.66,Base
+942,22-02-2026 14:01,CFS01,Peel Waste,Lunch,12.97,Base
+943,22-02-2026 14:02,CFS01,Spoiled Waste,Lunch,1.67,Base
+944,22-02-2026 14:07,CFS01,Spoiled Waste,Lunch,11.29,Base
+945,22-02-2026 14:50,CFS01,Peel Waste,Lunch,20.66,Base
+946,22-02-2026 14:54,CFS01,Bain Marie Waste,Lunch,16.28,Base
+947,22-02-2026 15:23,CFS01,Plate Waste,Lunch,7.81,Plate Waste
+948,22-02-2026 15:31,CFS01,Peel Waste,Lunch,29.31,Base
+949,23-02-2026 09:39,CFS01,Plate Waste,Breakfast,3.35,Plate Waste
+950,23-02-2026 09:41,CFS01,Bain Marie Waste,Breakfast,18.35,Base
+951,23-02-2026 12:46,CFS01,Peel Waste,Breakfast,20.13,Base
+952,23-02-2026 13:37,CFS01,Production Waste,Lunch,17.29,Base
+953,23-02-2026 13:39,CFS01,Production Waste,Lunch,11.98,Base
+954,23-02-2026 13:43,CFS01,Production Waste,Lunch,24.53,Base
+955,23-02-2026 13:57,CFS01,Production Waste,Lunch,22.58,Base
+956,23-02-2026 14:03,CFS01,Peel Waste,Lunch,17.19,Base
+957,23-02-2026 14:10,CFSO3,Peel Waste,Breakfast,1,Base
+958,23-02-2026 14:13,CFSO3,Peel Waste,Breakfast,16.75,Base
+959,23-02-2026 14:14,CFSO3,Production Waste,Lunch,1.03,Indian Desserts
+960,23-02-2026 14:15,CFSO3,Peel Waste,Breakfast,1.02,Base
+961,23-02-2026 14:15,CFSO3,Peel Waste,Breakfast,1.93,Indian Desserts
+962,23-02-2026 14:16,CFSO3,Production Waste,Dinner,1,Indian Desserts
+963,23-02-2026 14:22,CFS01,Peel Waste,Lunch,13.95,Base
+964,23-02-2026 14:22,CFSO3,Production Waste,Breakfast,12.18,Indian Breads
+965,23-02-2026 14:25,CFSO3,Production Waste,Breakfast,24.24,Base
+966,23-02-2026 14:31,CFSO3,Peel Waste,Breakfast,1.93,Base
+967,23-02-2026 14:31,CFSO3,Bain Marie Waste,Breakfast,1.94,North Breakfast & Snacks Non Veg
+968,23-02-2026 14:32,CFSO3,Spoiled Waste,Snacks,1.94,Non Veg Dry
+969,23-02-2026 14:32,CFSO3,Plate Waste,Breakfast,1.94,Plate Waste
+970,23-02-2026 14:32,CFSO3,Spoiled Waste,Snacks,1.94,Non Veg Dry
+971,23-02-2026 14:33,CFSO3,Peel Waste,Dinner,1.94,Base
+972,23-02-2026 14:33,CFSO3,Plate Waste,Breakfast,1.94,Plate Waste
+973,23-02-2026 14:33,CFSO3,Spoiled Waste,Breakfast,1.94,Non Veg Dry
+974,23-02-2026 14:34,CFSO3,Bain Marie Waste,Snacks,1.94,North Breakfast & Snacks Veg
+975,23-02-2026 14:34,CFSO3,Spoiled Waste,Breakfast,1.92,Non Veg Dry
+976,23-02-2026 14:35,CFS01,Peel Waste,Lunch,16.62,Base
+977,23-02-2026 14:42,CFS01,Peel Waste,Lunch,13.71,Base
+978,23-02-2026 14:44,CFS02,Plate Waste,Lunch,20.53,Plate Waste
+979,23-02-2026 14:45,CFS02,Peel Waste,Others,4.24,Vegetable Dry
+980,23-02-2026 15:11,CFSO3,Peel Waste,Breakfast,1.92,Base
+981,23-02-2026 15:12,CFSO3,Peel Waste,Breakfast,1.92,Indian Desserts
+982,23-02-2026 15:13,CFSO3,Production Waste,Breakfast,1.92,North Breakfast & Snacks Veg
+983,23-02-2026 15:14,CFSO3,Donation,Breakfast,1.92,North Breakfast & Snacks Veg
+984,23-02-2026 15:14,CFSO3,Bain Marie Waste,Dinner,1.92,Indian Desserts
+985,23-02-2026 15:14,CFSO3,Donation,Breakfast,1.92,Rice & Biryanis
+986,23-02-2026 15:15,CFSO3,Donation,Breakfast,1.91,North Breakfast & Snacks Veg
+987,23-02-2026 15:16,CFSO3,Plate Waste,Dinner,1.92,Plate Waste
+988,23-02-2026 15:16,CFS01,Peel Waste,Lunch,15.59,Base
+989,23-02-2026 15:17,CFSO3,Spoiled Waste,Lunch,1.92,Indian Desserts
+990,23-02-2026 15:24,CFS01,Bain Marie Waste,Lunch,12.51,Base
+991,23-02-2026 15:35,CFSO3,Spoiled Waste,Breakfast,1.96,Non Veg Dry
+992,23-02-2026 15:39,CFS01,Production Waste,Lunch,19.44,Base
+993,23-02-2026 15:41,CFS01,Production Waste,Lunch,7.51,Base
+994,23-02-2026 15:48,CFS01,Peel Waste,Lunch,18.18,Base
+995,23-02-2026 15:51,CFS01,Peel Waste,Lunch,19.91,Base
+996,23-02-2026 15:57,CFSO3,Peel Waste,Breakfast,1.96,Base
+997,23-02-2026 15:57,CFSO3,Peel Waste,Breakfast,1.96,Base
+998,23-02-2026 17:13,CFSO3,Peel Waste,Breakfast,1.96,Base
+999,23-02-2026 17:13,CFSO3,Peel Waste,Dinner,1.96,North Breakfast & Snacks Non Veg
+1000,23-02-2026 18:38,CFS01,Peel Waste,Dinner,12.47,Base
+1001,24-02-2026 05:35,CFS01,Production Waste,Breakfast,25.06,Base
+1002,24-02-2026 06:21,CFS01,Peel Waste,Breakfast,7.67,Base
+1003,24-02-2026 06:34,CFS01,Production Waste,Breakfast,23,Base
+1004,24-02-2026 08:53,CFS01,Production Waste,Breakfast,17.87,Base
+1005,24-02-2026 09:33,CFS01,Plate Waste,Breakfast,11.39,Plate Waste
+1006,24-02-2026 09:37,CFS01,Bain Marie Waste,Breakfast,13.37,Base
+1007,24-02-2026 11:17,CFSO3,Peel Waste,Breakfast,1.06,Indian Breads
+1008,24-02-2026 11:17,CFSO3,Donation,Breakfast,1.06,Vegetable Dry
+1009,24-02-2026 11:17,CFSO3,Production Waste,Snacks,1.06,North Breakfast & Snacks Veg
+1010,24-02-2026 11:20,CFSO3,Plate Waste,Breakfast,1.06,Plate Waste
+1011,24-02-2026 11:20,CFSO3,Production Waste,Dinner,12.99,Indian Desserts
+1012,24-02-2026 11:22,CFSO3,Spoiled Waste,Snacks,12.4,Non Veg Dry
+1013,24-02-2026 11:31,CFSO3,Production Waste,Breakfast,1.02,Indian Desserts
+1014,24-02-2026 11:34,CFS01,Production Waste,Lunch,31.82,Base
+1015,24-02-2026 11:36,CFS01,Peel Waste,Lunch,12.75,Base
+1016,24-02-2026 11:39,CFSO3,Plate Waste,Breakfast,10.95,Plate Waste
+1017,24-02-2026 11:40,CFSO3,Donation,Dinner,6.16,Rice & Biryanis
+1018,24-02-2026 11:40,CFSO3,Plate Waste,Breakfast,29.95,Plate Waste
+1019,24-02-2026 11:41,CFSO3,Production Waste,Breakfast,27.07,North Breakfast & Snacks Veg
+1020,24-02-2026 11:41,CFSO3,Plate Waste,Breakfast,3.09,Plate Waste
+1021,24-02-2026 11:42,CFSO3,Peel Waste,Breakfast,26.24,Base
+1022,24-02-2026 11:42,CFSO3,Bain Marie Waste,Breakfast,13.01,North Breakfast & Snacks Veg
+1023,24-02-2026 11:43,CFSO3,Plate Waste,Breakfast,11.93,Plate Waste
+1024,24-02-2026 11:43,CFSO3,Bain Marie Waste,Snacks,11.59,Vegetable Dry
+1025,24-02-2026 11:44,CFSO3,Peel Waste,Breakfast,5.32,Base
+1026,24-02-2026 11:44,CFSO3,Plate Waste,Breakfast,11.69,Plate Waste
+1027,24-02-2026 11:45,CFSO3,Donation,Breakfast,1.32,Rice & Biryanis
+1028,24-02-2026 11:45,CFSO3,Plate Waste,Breakfast,16,Plate Waste
+1029,24-02-2026 11:46,CFSO3,Peel Waste,Breakfast,0.6,Non Veg Gravy
+1030,24-02-2026 11:47,CFSO3,Donation,Breakfast,11.42,Rice & Biryanis
+1031,24-02-2026 11:48,CFSO3,Plate Waste,Breakfast,16.13,Plate Waste
+1032,24-02-2026 11:49,CFSO3,Plate Waste,Breakfast,11.97,Plate Waste
+1033,24-02-2026 11:51,CFSO3,Donation,Breakfast,13.41,North Breakfast & Snacks Veg
+1034,24-02-2026 11:52,CFSO3,Donation,Breakfast,11.39,Rice & Biryanis
+1035,24-02-2026 11:53,CFSO3,Bain Marie Waste,Breakfast,11.43,North Breakfast & Snacks Veg
+1036,24-02-2026 11:55,CFSO3,Peel Waste,Breakfast,17.1,Base
+1037,24-02-2026 11:55,CFSO3,Donation,Snacks,12.69,Rice & Biryanis
+1038,24-02-2026 11:55,CFSO3,Peel Waste,Breakfast,13.23,North Breakfast & Snacks Non Veg
+1039,24-02-2026 11:57,CFS01,Production Waste,Lunch,11.58,Base
+1040,24-02-2026 11:58,CFS01,Peel Waste,Dinner,17.65,Base
+1041,24-02-2026 12:21,CFSO3,Bain Marie Waste,Dinner,0.9,North Breakfast & Snacks Veg
+1042,24-02-2026 12:21,CFSO3,Production Waste,Snacks,0.9,North Breakfast & Snacks Veg
+1043,24-02-2026 12:27,CFSO3,Peel Waste,Lunch,0.9,Base
+1044,24-02-2026 12:56,CFS01,Production Waste,Lunch,26.01,Base
+1045,24-02-2026 13:48,CFS01,Peel Waste,Lunch,23.92,Base
+1046,24-02-2026 14:25,CFS02,Peel Waste,Others,3.3,Vegetable Dry
+1047,24-02-2026 14:29,CFS02,Plate Waste,Lunch,19.05,Plate Waste
+1048,24-02-2026 14:30,CFS02,Bain Marie Waste,Lunch,1.69,Rice & Biryanis
+1049,24-02-2026 15:27,CFS01,Production Waste,Lunch,9.55,Base
+1050,24-02-2026 15:28,CFS01,Peel Waste,Lunch,11.08,Base
+1051,24-02-2026 15:29,CFS01,Peel Waste,Lunch,17.8,Base
+1052,24-02-2026 15:35,CFS01,Plate Waste,Lunch,3.23,Plate Waste
+1053,24-02-2026 15:36,CFS01,Bain Marie Waste,Lunch,8.33,Base
+1054,24-02-2026 15:46,CFS01,Peel Waste,Lunch,20.1,Base
+1055,24-02-2026 16:08,CFSO3,Bain Marie Waste,Breakfast,1.04,North Breakfast & Snacks Veg
+1056,25-02-2026 06:28,CFS01,Production Waste,Breakfast,16.7,Base
+1057,25-02-2026 06:34,CFS01,Peel Waste,Breakfast,19.84,Base
+1058,25-02-2026 06:49,CFS01,Production Waste,Breakfast,22.8,Base
+1059,25-02-2026 09:23,CFS01,Bain Marie Waste,Breakfast,4.43,Base
+1060,25-02-2026 11:49,CFS01,Production Waste,Lunch,28.86,Base
+1061,25-02-2026 12:23,CFS01,Production Waste,Lunch,26.22,Base
+1062,25-02-2026 12:48,CFSO6,Plate Waste,Lunch,3.87,Plate Waste
+1063,25-02-2026 12:50,CFS01,Peel Waste,Lunch,38.31,Base
+1064,25-02-2026 13:29,CFSO6,Peel Waste,Breakfast,0.2,Indian Desserts
+1065,25-02-2026 13:45,CFSO6,Peel Waste,Breakfast,0.8,Non Veg Dry
+1066,25-02-2026 13:47,CFSO6,Production Waste,Lunch,0.3,Rice & Biryanis
+1067,25-02-2026 13:48,CFS01,Peel Waste,Dinner,26.23,Base
+1068,25-02-2026 13:54,CFSO6,Production Waste,Lunch,1.64,Indian Breads
+1069,25-02-2026 13:56,CFSO6,Peel Waste,Lunch,2.23,Base
+1070,25-02-2026 13:56,CFSO6,Peel Waste,Breakfast,0.7,Base
+1071,25-02-2026 13:57,CFSO6,Production Waste,Lunch,0.6,Indian Breads
+1072,25-02-2026 13:59,CFSO6,Spoiled Waste,Lunch,0.8,Indian Desserts
+1073,25-02-2026 13:59,CFSO6,Peel Waste,Lunch,0.7,Indian Breads
+1074,25-02-2026 14:06,CFSO6,Peel Waste,Breakfast,0.8,Base
+1075,25-02-2026 14:07,CFSO6,Production Waste,Lunch,0.5,Non Veg Dry
+1076,25-02-2026 14:13,CFSO6,Peel Waste,Breakfast,0.7,Non Veg Dry
+1077,25-02-2026 14:13,CFSO6,Spoiled Waste,Lunch,0.6,Non Veg Dry
+1078,25-02-2026 14:14,CFSO6,Peel Waste,Breakfast,1,Non Veg Dry
+1079,25-02-2026 14:14,CFS01,Peel Waste,Dinner,18.99,Base
+1080,25-02-2026 14:25,CFSO6,Plate Waste,Breakfast,13.55,Plate Waste
+1081,25-02-2026 14:32,CFSO6,Production Waste,Lunch,9.35,Indian Breads
+1082,25-02-2026 14:37,CFS02,Peel Waste,Others,3.31,Vegetable Dry
+1083,25-02-2026 14:41,CFS02,Plate Waste,Lunch,20.69,Plate Waste
+1084,25-02-2026 15:24,CFS01,Plate Waste,Lunch,6.87,Plate Waste
+1085,25-02-2026 15:26,CFS01,Bain Marie Waste,Lunch,10.2,Base
+1086,25-02-2026 15:44,CFS01,Production Waste,Lunch,9.82,Base
+1087,25-02-2026 15:45,CFS01,Peel Waste,Lunch,14.94,Base
+1088,25-02-2026 15:46,CFS01,Peel Waste,Lunch,21.26,Base
+1089,25-02-2026 15:47,CFS01,Peel Waste,Lunch,20.93,Base
+1090,25-02-2026 15:50,CFS01,Peel Waste,Lunch,19.11,Base
+1091,25-02-2026 15:51,CFS01,Peel Waste,Lunch,27.68,Base
+1092,25-02-2026 15:54,CFSO6,Bain Marie Waste,Lunch,4.67,Rice & Biryanis
+1093,25-02-2026 15:56,CFSO6,Peel Waste,Lunch,2.93,Base
+1094,25-02-2026 16:10,CFSO6,Peel Waste,Breakfast,4.63,Eggs
+1095,25-02-2026 16:30,CFSO6,Production Waste,Lunch,6.48,Base
+1096,25-02-2026 17:03,CFSO6,Plate Waste,Breakfast,7.92,Plate Waste
+1097,25-02-2026 17:06,CFSO6,Plate Waste,Breakfast,9.29,Plate Waste
+1098,25-02-2026 17:11,CFSO6,Plate Waste,Breakfast,19.5,Plate Waste
+1099,25-02-2026 20:27,CFSO6,Plate Waste,Breakfast,3.2,Plate Waste
+1100,26-02-2026 06:38,CFS01,Peel Waste,Breakfast,23.6,Base
+1101,26-02-2026 06:41,CFS01,Production Waste,Breakfast,26.73,Base
+1102,26-02-2026 06:44,CFS01,Production Waste,Breakfast,14.34,Base
+1103,26-02-2026 06:47,CFS01,Production Waste,Breakfast,30.52,Base
+1104,26-02-2026 07:52,CFSO6,Peel Waste,Dinner,10.66,North Breakfast & Snacks Non Veg
+1105,26-02-2026 09:29,CFS01,Plate Waste,Breakfast,2.25,Plate Waste
+1106,26-02-2026 09:31,CFS01,Bain Marie Waste,Breakfast,6.02,Base
+1107,26-02-2026 09:57,CFSO6,Peel Waste,Breakfast,15.52,Base
+1108,26-02-2026 10:00,CFS01,Production Waste,Lunch,23.48,Base
+1109,26-02-2026 11:27,CFS01,Spoiled Waste,Lunch,15.22,Base
+1110,26-02-2026 12:06,CFSO6,Production Waste,Breakfast,7,South Indian All Day
+1111,26-02-2026 12:10,CFSO6,Production Waste,Breakfast,25.04,South Indian All Day
+1112,26-02-2026 12:14,CFS01,Spoiled Waste,Lunch,9.37,Base
+1113,26-02-2026 12:15,CFS01,Peel Waste,Lunch,15.31,Base
+1114,26-02-2026 12:25,CFS01,Production Waste,Lunch,22.48,Base
+1115,26-02-2026 12:42,CFSO6,Plate Waste,Breakfast,4.92,Plate Waste
+1116,26-02-2026 12:43,CFSO6,Plate Waste,Breakfast,8.94,Plate Waste
+1117,26-02-2026 12:44,CFSO6,Plate Waste,Breakfast,11.73,Plate Waste
+1118,26-02-2026 12:46,CFSO6,Plate Waste,Breakfast,11.35,Plate Waste
+1119,26-02-2026 13:05,CFS01,Peel Waste,Dinner,23.65,Base
+1120,26-02-2026 13:35,CFSO6,Peel Waste,Lunch,3.46,Vegetable Dry
+1121,26-02-2026 13:37,CFSO6,Peel Waste,Lunch,14.58,Vegetable Dry
+1122,26-02-2026 13:47,CFSO6,Spoiled Waste,Lunch,12.24,Base
+1123,26-02-2026 13:52,CFSO6,Plate Waste,Lunch,8.28,Plate Waste
+1124,26-02-2026 14:34,CFSO6,Plate Waste,Lunch,9,Plate Waste
+1125,26-02-2026 14:37,CFS02,Bain Marie Waste,Lunch,2.57,Non Veg Dry
+1126,26-02-2026 14:38,CFS02,Bain Marie Waste,Lunch,1.05,Rice & Biryanis
+1127,26-02-2026 14:43,CFS02,Plate Waste,Lunch,27.22,Plate Waste
+1128,26-02-2026 14:44,CFSO6,Peel Waste,Lunch,5.46,Vegetable Dry
+1129,26-02-2026 14:49,CFSO6,Peel Waste,Lunch,9.06,Base
+1130,26-02-2026 14:54,CFS02,Peel Waste,Others,2.71,Vegetable Dry
+1131,26-02-2026 15:20,CFS01,Production Waste,Lunch,21.31,Base
+1132,26-02-2026 15:22,CFS01,Plate Waste,Lunch,9.85,Plate Waste
+1133,26-02-2026 15:26,CFS01,Bain Marie Waste,Lunch,5.98,Base
+1134,26-02-2026 15:49,CFS01,Production Waste,Lunch,9.33,Base
+1135,26-02-2026 15:50,CFS01,Production Waste,Lunch,20.75,Base
+1136,26-02-2026 16:20,CFS01,Production Waste,Lunch,24.36,Base
+1137,26-02-2026 16:30,CFSO6,Plate Waste,Lunch,4.11,Plate Waste
+1138,26-02-2026 16:37,CFSO6,Plate Waste,Lunch,4.98,Plate Waste
+1139,26-02-2026 16:39,CFSO6,Plate Waste,Lunch,11.22,Plate Waste
+1140,26-02-2026 16:42,CFSO6,Plate Waste,Lunch,0.8,Plate Waste
+1141,26-02-2026 16:44,CFSO6,Plate Waste,Lunch,5.7,Plate Waste
+1142,26-02-2026 16:57,CFSO6,Peel Waste,Lunch,4.2,Non Veg Dry
+1143,26-02-2026 17:36,CFSO6,Plate Waste,Lunch,10.42,Plate Waste
+1144,26-02-2026 17:38,CFSO6,Plate Waste,Lunch,7.36,Plate Waste
+1145,26-02-2026 17:40,CFSO6,Plate Waste,Lunch,17.58,Plate Waste
+1146,26-02-2026 17:41,CFSO6,Production Waste,Lunch,15.02,Vegetable Dry
+1147,26-02-2026 17:43,CFSO6,Production Waste,Lunch,3.56,Vegetable Dry
+1148,26-02-2026 17:44,CFSO6,Production Waste,Lunch,3.58,Vegetable Dry
+1149,26-02-2026 17:45,CFSO6,Peel Waste,Lunch,4.9,Vegetable Dry
+1150,26-02-2026 17:47,CFSO6,Production Waste,Lunch,10.72,Vegetable Dry
+1151,26-02-2026 17:48,CFSO6,Production Waste,Lunch,10.38,Rice & Biryanis
+1152,26-02-2026 17:49,CFSO6,Production Waste,Lunch,9.18,Rice & Biryanis
+1153,26-02-2026 17:50,CFSO6,Production Waste,Lunch,0.4,Vegetable Gravy
+1154,26-02-2026 17:51,CFSO6,Production Waste,Lunch,4.95,Rice & Biryanis
+1155,26-02-2026 17:52,CFSO6,Production Waste,Lunch,6.34,Rice & Biryanis
+1156,26-02-2026 17:53,CFSO6,Production Waste,Lunch,10.54,Indian Breads
+1157,26-02-2026 18:51,CFS01,Peel Waste,Dinner,32.7,Base
+1158,26-02-2026 18:57,CFS01,Peel Waste,Dinner,16.38,Base
+1159,26-02-2026 19:23,CFS01,Peel Waste,Dinner,19.08,Base
+1160,26-02-2026 20:11,CFSO6,Peel Waste,Snacks,5.64,Vegetable Dry
+1161,26-02-2026 20:11,CFSO6,Plate Waste,Snacks,1.46,Plate Waste
+1162,26-02-2026 20:14,CFSO6,Production Waste,Snacks,10.3,Base
+1163,26-02-2026 20:23,CFSO6,Plate Waste,Snacks,5.87,Plate Waste
+1164,26-02-2026 20:28,CFSO6,Peel Waste,Snacks,3.75,Indian Breads
+1165,26-02-2026 20:30,CFSO6,Peel Waste,Snacks,13.92,Indian Breads
+1166,26-02-2026 21:10,CFSO6,Production Waste,Snacks,9.58,Base
+1167,26-02-2026 21:49,CFSO6,Plate Waste,Dinner,1.76,Plate Waste
+1168,27-02-2026 06:37,CFS01,Peel Waste,Breakfast,18.67,Base
+1169,27-02-2026 06:59,CFS01,Production Waste,Breakfast,22.44,Base
+1170,27-02-2026 07:02,CFS01,Production Waste,Breakfast,10.82,Base
+1171,27-02-2026 08:02,CFSO6,Peel Waste,Breakfast,7.98,Base
+1172,27-02-2026 08:19,CFS01,Production Waste,Breakfast,36.01,Base
+1173,27-02-2026 08:42,CFSO6,Peel Waste,Breakfast,0.5,Base
+1174,27-02-2026 09:16,CFS01,Plate Waste,Breakfast,5.06,Plate Waste
+1175,27-02-2026 09:19,CFS01,Bain Marie Waste,Breakfast,25.77,Base
+1176,27-02-2026 09:28,CFSO6,Peel Waste,Breakfast,5.26,Base
+1177,27-02-2026 09:40,CFS01,Peel Waste,Lunch,10.01,Base
+1178,27-02-2026 09:44,CFS01,Production Waste,Lunch,23.42,Base
+1179,27-02-2026 10:05,CFSO6,Peel Waste,Breakfast,7.44,Vegetable Dry
+1180,27-02-2026 10:07,CFSO6,Peel Waste,Breakfast,1.86,Vegetable Dry
+1181,27-02-2026 10:09,CFSO6,Peel Waste,Breakfast,5.94,Vegetable Dry
+1182,27-02-2026 10:25,CFS01,Spoiled Waste,Lunch,6.87,Base
+1183,27-02-2026 10:33,CFSO6,Peel Waste,Breakfast,7.65,Base
+1184,27-02-2026 12:11,CFS01,Production Waste,Lunch,21,Base
+1185,27-02-2026 12:19,CFSO6,Peel Waste,Breakfast,1.86,Vegetable Gravy
+1186,27-02-2026 12:21,CFSO6,Peel Waste,Breakfast,2.62,Non Veg Gravy
+1187,27-02-2026 12:22,CFSO6,Peel Waste,Breakfast,13.49,Non Veg Gravy
+1188,27-02-2026 12:39,CFSO6,Peel Waste,Breakfast,8.28,Eggs
+1189,27-02-2026 12:46,CFSO6,Peel Waste,Breakfast,12.09,Base
+1190,27-02-2026 13:10,CFS01,Production Waste,Lunch,23.44,Base
+1191,27-02-2026 13:36,CFSO6,Plate Waste,Lunch,4.58,Plate Waste
+1192,27-02-2026 13:37,CFSO6,Plate Waste,Lunch,5.96,Plate Waste
+1193,27-02-2026 13:39,CFSO6,Peel Waste,Lunch,3.61,Non Veg Dry
+1194,27-02-2026 13:41,CFSO6,Peel Waste,Lunch,2.33,Non Veg Dry
+1195,27-02-2026 13:56,CFSO6,Peel Waste,Breakfast,6.51,Rice & Biryanis
+1196,27-02-2026 13:59,CFSO6,Peel Waste,Breakfast,10.18,Rice & Biryanis
+1197,27-02-2026 14:06,CFSO6,Peel Waste,Breakfast,8.43,Rice & Biryanis
+1198,27-02-2026 14:07,CFSO6,Peel Waste,Breakfast,8.25,Rice & Biryanis
+1199,27-02-2026 14:22,CFSO6,Peel Waste,Breakfast,5.85,Rice & Biryanis
+1200,27-02-2026 14:25,CFSO6,Peel Waste,Breakfast,16.47,Salads
+1201,27-02-2026 14:31,CFS02,Peel Waste,Others,5.72,Vegetable Dry
+1202,27-02-2026 14:34,CFS02,Bain Marie Waste,Lunch,1.21,Vegetable Dry
+1203,27-02-2026 14:35,CFS02,Bain Marie Waste,Lunch,1.22,Rice & Biryanis
+1204,27-02-2026 14:39,CFS02,Plate Waste,Lunch,19.4,Plate Waste
+1205,27-02-2026 14:48,CFSO6,Plate Waste,Lunch,8.4,Plate Waste
+1206,27-02-2026 14:49,CFSO6,Production Waste,Lunch,0.1,Non Veg Dry
+1207,27-02-2026 14:50,CFSO6,Production Waste,Lunch,2.18,Non Veg Dry
+1208,27-02-2026 14:50,CFSO6,Production Waste,Lunch,10.95,Base
+1209,27-02-2026 14:52,CFSO6,Plate Waste,Lunch,10.28,Plate Waste
+1210,27-02-2026 15:12,CFSO6,Bain Marie Waste,Lunch,2.58,Vegetable Gravy
+1211,27-02-2026 15:15,CFSO6,Bain Marie Waste,Lunch,4.48,Rice & Biryanis
+1212,27-02-2026 15:17,CFSO6,Bain Marie Waste,Lunch,4.96,Vegetable Gravy
+1213,27-02-2026 15:22,CFSO6,Bain Marie Waste,Lunch,3.6,Non Veg Gravy
+1214,27-02-2026 15:23,CFS01,Plate Waste,Lunch,12.18,Plate Waste
+1215,27-02-2026 15:23,CFSO6,Bain Marie Waste,Lunch,12.18,Non Veg Gravy
+1216,27-02-2026 15:24,CFSO6,Bain Marie Waste,Lunch,3.88,Vegetable Gravy
+1217,27-02-2026 15:28,CFSO6,Bain Marie Waste,Lunch,8.98,Vegetable Gravy
+1218,27-02-2026 15:28,CFS01,Spoiled Waste,Lunch,6.39,Base
+1219,27-02-2026 15:29,CFSO6,Bain Marie Waste,Lunch,9.98,Rice & Biryanis
+1220,27-02-2026 15:30,CFS01,Bain Marie Waste,Lunch,18.22,Base
+1221,27-02-2026 15:32,CFSO6,Production Waste,Lunch,13.18,Base
+1222,27-02-2026 15:33,CFSO6,Bain Marie Waste,Lunch,9.84,Base
+1223,27-02-2026 15:36,CFSO6,Bain Marie Waste,Lunch,21.24,Vegetable Gravy
+1224,27-02-2026 15:45,CFSO6,Bain Marie Waste,Lunch,26.3,Vegetable Gravy
+1225,27-02-2026 15:45,CFS01,Production Waste,Lunch,21.96,Base
+1226,27-02-2026 15:53,CFSO6,Bain Marie Waste,Lunch,15.08,Vegetable Gravy
+1227,27-02-2026 15:58,CFSO6,Bain Marie Waste,Lunch,2.2,Rice & Biryanis
+1228,27-02-2026 16:01,CFSO6,Bain Marie Waste,Lunch,6.96,Vegetable Dry
+1229,27-02-2026 16:03,CFSO6,Bain Marie Waste,Lunch,1.14,Non Veg Dry
+1230,27-02-2026 16:05,CFSO6,Bain Marie Waste,Lunch,7.72,Vegetable Gravy
+1231,27-02-2026 16:08,CFSO6,Plate Waste,Lunch,15.24,Plate Waste
+1232,27-02-2026 16:10,CFSO6,Plate Waste,Lunch,16.04,Plate Waste
+1233,27-02-2026 16:13,CFSO6,Peel Waste,Breakfast,7.54,Rice & Biryanis
+1234,27-02-2026 16:15,CFSO6,Peel Waste,Breakfast,2.02,Rice & Biryanis
+1235,27-02-2026 16:16,CFSO6,Plate Waste,Lunch,3.4,Plate Waste
+1236,27-02-2026 16:20,CFSO6,Plate Waste,Lunch,8.56,Plate Waste
+1237,27-02-2026 16:23,CFSO6,Plate Waste,Lunch,4.62,Plate Waste
+1238,27-02-2026 16:28,CFSO6,Plate Waste,Lunch,9.66,Plate Waste
+1239,27-02-2026 16:28,CFSO7,Peel Waste,Breakfast,0.1,Base
+1240,27-02-2026 16:29,CFSO6,Donation,Breakfast,5.88,Salads
+1241,27-02-2026 16:29,CFSO7,Production Waste,Lunch,0.09,Base
+1242,27-02-2026 16:30,CFSO6,Peel Waste,Breakfast,14.2,Rice & Biryanis
+1243,27-02-2026 16:43,CFSO7,Peel Waste,Lunch,5.9,Base
+1244,27-02-2026 16:46,CFSO7,Bain Marie Waste,Lunch,0.2,Indian Breads
+1245,27-02-2026 16:48,CFSO7,Plate Waste,Lunch,3.66,Plate Waste
+1246,27-02-2026 16:56,CFSO7,Peel Waste,Lunch,1.78,Base
+1247,27-02-2026 17:19,CFSO6,Bain Marie Waste,Lunch,1.96,Vegetable Dry
+1248,27-02-2026 17:23,CFSO6,Repurpose,Breakfast,8.6,Salads
+1249,27-02-2026 17:24,CFSO6,Repurpose,Lunch,7.38,Vegetable Dry
+1250,27-02-2026 17:34,CFSO6,Bain Marie Waste,Lunch,3.98,Vegetable Gravy
+1251,27-02-2026 17:34,CFSO6,Bain Marie Waste,Lunch,0.1,Vegetable Dry
+1252,27-02-2026 17:35,CFSO6,Production Waste,Lunch,2.3,Vegetable Gravy
+1253,27-02-2026 17:36,CFSO6,Production Waste,Lunch,1.28,Indian Breads
+1254,27-02-2026 17:50,CFSO6,Bain Marie Waste,Lunch,1.28,Base
+1255,27-02-2026 19:05,CFSO6,Bain Marie Waste,Snacks,2.27,South Indian All Day
+1256,27-02-2026 19:06,CFSO6,Bain Marie Waste,Snacks,4.73,South Indian All Day
+1257,27-02-2026 19:10,CFSO6,Bain Marie Waste,Snacks,14.78,South Indian All Day
+1258,27-02-2026 19:15,CFSO6,Bain Marie Waste,Snacks,1.36,South Indian All Day
+1259,27-02-2026 19:25,CFS01,Peel Waste,Dinner,61.99,Base
+1260,27-02-2026 19:42,CFSO6,Plate Waste,Snacks,9.54,Plate Waste
+1261,27-02-2026 19:46,CFSO6,Plate Waste,Snacks,5.8,Plate Waste
+1262,27-02-2026 19:48,CFSO6,Peel Waste,Snacks,1.22,Vegetable Dry
+1263,27-02-2026 20:32,CFSO6,Peel Waste,Snacks,8.72,Vegetable Dry
+1264,27-02-2026 20:34,CFSO6,Production Waste,Snacks,5.36,Base
+1265,27-02-2026 21:21,CFSO6,Plate Waste,Dinner,5.04,Plate Waste
+1266,27-02-2026 21:22,CFSO6,Peel Waste,Snacks,4.57,Vegetable Dry
+1267,27-02-2026 22:44,CFSO6,Bain Marie Waste,Dinner,7.72,Base
+1268,27-02-2026 22:46,CFSO6,Bain Marie Waste,Dinner,7.62,Base
+1269,27-02-2026 22:50,CFSO6,Bain Marie Waste,Dinner,3.86,Non Veg Gravy
+1270,27-02-2026 22:53,CFSO6,Bain Marie Waste,Dinner,9.56,Vegetable Gravy
+1271,27-02-2026 22:56,CFSO6,Bain Marie Waste,Dinner,6.44,Rice & Biryanis
+1272,28-02-2026 02:30,CFSO6,Plate Waste,Breakfast,11.16,Plate Waste
+1273,28-02-2026 02:34,CFSO6,Plate Waste,Dinner,17.05,Plate Waste
+1274,28-02-2026 02:36,CFSO6,Plate Waste,Dinner,13.4,Plate Waste
+1275,28-02-2026 02:42,CFSO6,Peel Waste,Dinner,17.84,Base
+1276,28-02-2026 06:30,CFS01,Production Waste,Breakfast,8.98,Base
+1277,28-02-2026 06:48,CFS01,Production Waste,Breakfast,20.12,Base
+1278,28-02-2026 09:38,CFS01,Bain Marie Waste,Breakfast,17.28,Base
+1279,28-02-2026 13:58,CFSO6,Bain Marie Waste,Snacks,4.32,Indian Breads
+1280,28-02-2026 15:09,CFSO6,Bain Marie Waste,Lunch,10.1,Vegetable Gravy
+1281,28-02-2026 15:25,CFSO6,Bain Marie Waste,Lunch,6.18,Rice & Biryanis
+1282,28-02-2026 15:28,CFSO8,Peel Waste,Breakfast,1.87,Indian Breads
+1283,28-02-2026 15:29,CFSO8,Bain Marie Waste,Breakfast,2.16,Base
+1284,28-02-2026 15:31,CFSO8,Bain Marie Waste,Lunch,2.3,Rice & Biryanis
+1285,28-02-2026 15:32,CFSO6,Bain Marie Waste,Lunch,10,Vegetable Gravy
+1286,28-02-2026 15:36,CFSO8,Peel Waste,Breakfast,1.31,Base
+1287,28-02-2026 15:48,CFSO6,Bain Marie Waste,Lunch,7.8,Vegetable Gravy
+1288,28-02-2026 16:03,CFS01,Plate Waste,Lunch,7.24,Plate Waste
+1289,28-02-2026 16:04,CFS01,Production Waste,Lunch,15.93,Base
+1290,28-02-2026 16:05,CFS01,Production Waste,Lunch,15.27,Base
+1291,28-02-2026 16:07,CFS01,Production Waste,Lunch,18.79,Base
+1292,28-02-2026 16:10,CFS01,Production Waste,Lunch,8.32,Base
+1293,28-02-2026 16:19,CFS01,Peel Waste,Lunch,8.84,Base
+1294,28-02-2026 16:21,CFS01,Peel Waste,Lunch,25.83,Base
+1295,28-02-2026 17:03,CFSO6,Bain Marie Waste,Lunch,4.8,Rice & Biryanis
+1296,01-03-2026 9:42,CFS01,Plate Waste,Breakfast,2.32,Plate Waste
+1297,01-03-2026 9:45,CFS01,Bain Marie Waste,Breakfast,6.53,Base
+1298,01-03-2026 9:48,CFSO3,Peel Waste,Breakfast,13.1,Base
+1299,01-03-2026 9:49,CFS01,Peel Waste,Breakfast,13.48,Base
+1300,01-03-2026 10:48,CFSO3,Peel Waste,Breakfast,0.3,Base
+1301,01-03-2026 10:49,CFSO3,Peel Waste,Breakfast,11.4,Base
+1302,01-03-2026 10:51,CFSO3,Peel Waste,Breakfast,4.08,Base
+1303,01-03-2026 10:51,CFSO3,Peel Waste,Breakfast,12.12,Base
+1304,01-03-2026 10:52,CFSO3,Peel Waste,Breakfast,14.4,Base
+1305,01-03-2026 10:55,CFSO3,Peel Waste,Breakfast,11.12,Base
+1306,01-03-2026 10:56,CFSO3,Peel Waste,Breakfast,11,Base
+1307,01-03-2026 10:57,CFSO3,Peel Waste,Breakfast,13.06,Base
+1308,01-03-2026 10:58,CFSO3,Peel Waste,Breakfast,12.96,Base
+1309,01-03-2026 11:01,CFSO3,Peel Waste,Breakfast,12.82,Base
+1310,01-03-2026 11:03,CFSO3,Peel Waste,Breakfast,12.18,Base
+1311,01-03-2026 11:10,CFSO3,Peel Waste,Breakfast,11.98,Base
+1312,01-03-2026 11:10,CFSO3,Peel Waste,Breakfast,11.98,Base
+1313,01-03-2026 11:10,CFSO3,Peel Waste,Breakfast,11.98,Base
+1314,01-03-2026 11:26,CFSO3,Peel Waste,Breakfast,14.46,Base
+1315,01-03-2026 11:29,CFSO3,Peel Waste,Breakfast,10.46,Base
+1316,01-03-2026 15:18,CFS01,Peel Waste,Lunch,42.74,Base
+1317,01-03-2026 15:27,CFS01,Peel Waste,Dinner,15.52,Base
+1318,01-03-2026 15:34,CFS01,Peel Waste,Lunch,14.07,Base
+1319,01-03-2026 15:35,CFS01,Plate Waste,Lunch,6.47,Plate Waste
+1320,01-03-2026 16:29,CFSO3,Bain Marie Waste,Lunch,8.96,Rice & Biryanis
+1321,01-03-2026 16:31,CFSO3,Peel Waste,Snacks,5.85,Base
+1322,01-03-2026 16:52,CFSO3,Bain Marie Waste,Breakfast,1.28,Base
+1323,01-03-2026 18:58,CFSO3,Peel Waste,Breakfast,13.36,Vegetable Dry
+1324,01-03-2026 21:28,CFS01,Production Waste,Lunch,23.69,Base
+1325,01-03-2026 21:40,CFS01,Production Waste,Dinner,21.08,Base
+1326,01-03-2026 21:45,CFS01,Production Waste,Dinner,8.65,Base
+1327,01-03-2026 21:47,CFS01,Production Waste,Dinner,18.76,Base
+1328,02-03-2026 6:31,CFS01,Peel Waste,Breakfast,23.53,Base
+1329,02-03-2026 8:00,CFSO3,Peel Waste,Breakfast,11.36,Base
+1330,02-03-2026 8:33,CFS01,Production Waste,Breakfast,16.98,Base
+1331,02-03-2026 8:34,CFS01,Peel Waste,Breakfast,23.29,Base
+1332,02-03-2026 8:36,CFS01,Production Waste,Breakfast,19.81,Base
+1333,02-03-2026 9:06,CFSO3,Peel Waste,Breakfast,11.3,Base
+1334,02-03-2026 9:09,CFSO3,Peel Waste,Breakfast,14.36,Base
+1335,02-03-2026 9:41,CFS01,Plate Waste,Breakfast,2.46,Plate Waste
+1336,02-03-2026 9:43,CFS01,Bain Marie Waste,Breakfast,24.94,Base
+1337,02-03-2026 10:35,CFSO3,Peel Waste,Breakfast,14.75,Base
+1338,02-03-2026 10:38,CFSO3,Peel Waste,Breakfast,4.94,Indian Breads

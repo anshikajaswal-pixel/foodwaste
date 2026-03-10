@@ -1,0 +1,672 @@
+{
+  "summary": {
+    "total_waste_kg": 1406.44,
+    "waste_by_meal_type": {
+      "Lunch": 604.61,
+      "Dinner": 472.44,
+      "Breakfast": 329.39
+    },
+    "waste_by_food_type": {
+      "Bain Marie Waste": 533.54,
+      "Plate Waste": 473.11,
+      "Production Waste": 399.79
+    },
+    "top_wasted_commodities": {
+      "Chicken": 270.86,
+      "Rice": 252.05,
+      "Salad": 227.84,
+      "Roti": 226.92,
+      "Vegetables": 223.79
+    },
+    "waste_by_device": {
+      "DEV-03": 481.05,
+      "DEV-02": 472.34,
+      "DEV-01": 453.05
+    },
+    "waste_by_meal_service": [
+      {
+        "date": "2026-02-03",
+        "Meal Type": "Breakfast",
+        "waste_kg": 5.38
+      },
+      {
+        "date": "2026-02-03",
+        "Meal Type": "Dinner",
+        "waste_kg": 13.02
+      },
+      {
+        "date": "2026-02-03",
+        "Meal Type": "Lunch",
+        "waste_kg": 10.11
+      },
+      {
+        "date": "2026-02-04",
+        "Meal Type": "Breakfast",
+        "waste_kg": 3.8499999999999996
+      },
+      {
+        "date": "2026-02-04",
+        "Meal Type": "Dinner",
+        "waste_kg": 12.23
+      },
+      {
+        "date": "2026-02-04",
+        "Meal Type": "Lunch",
+        "waste_kg": 15.94
+      },
+      {
+        "date": "2026-02-05",
+        "Meal Type": "Breakfast",
+        "waste_kg": 5.04
+      },
+      {
+        "date": "2026-02-05",
+        "Meal Type": "Dinner",
+        "waste_kg": 14.379999999999999
+      },
+      {
+        "date": "2026-02-05",
+        "Meal Type": "Lunch",
+        "waste_kg": 23.71
+      },
+      {
+        "date": "2026-02-06",
+        "Meal Type": "Breakfast",
+        "waste_kg": 12.39
+      },
+      {
+        "date": "2026-02-06",
+        "Meal Type": "Dinner",
+        "waste_kg": 21.54
+      },
+      {
+        "date": "2026-02-06",
+        "Meal Type": "Lunch",
+        "waste_kg": 21.46
+      },
+      {
+        "date": "2026-02-07",
+        "Meal Type": "Breakfast",
+        "waste_kg": 7.73
+      },
+      {
+        "date": "2026-02-07",
+        "Meal Type": "Dinner",
+        "waste_kg": 10.24
+      },
+      {
+        "date": "2026-02-07",
+        "Meal Type": "Lunch",
+        "waste_kg": 30.21
+      },
+      {
+        "date": "2026-02-08",
+        "Meal Type": "Breakfast",
+        "waste_kg": 12.5
+      },
+      {
+        "date": "2026-02-08",
+        "Meal Type": "Dinner",
+        "waste_kg": 12.06
+      },
+      {
+        "date": "2026-02-08",
+        "Meal Type": "Lunch",
+        "waste_kg": 22.5
+      },
+      {
+        "date": "2026-02-09",
+        "Meal Type": "Breakfast",
+        "waste_kg": 1.96
+      },
+      {
+        "date": "2026-02-09",
+        "Meal Type": "Dinner",
+        "waste_kg": 13.93
+      },
+      {
+        "date": "2026-02-09",
+        "Meal Type": "Lunch",
+        "waste_kg": 28.27
+      },
+      {
+        "date": "2026-02-10",
+        "Meal Type": "Breakfast",
+        "waste_kg": 8.52
+      },
+      {
+        "date": "2026-02-10",
+        "Meal Type": "Dinner",
+        "waste_kg": 12.18
+      },
+      {
+        "date": "2026-02-10",
+        "Meal Type": "Lunch",
+        "waste_kg": 21.87
+      },
+      {
+        "date": "2026-02-11",
+        "Meal Type": "Breakfast",
+        "waste_kg": 4.04
+      },
+      {
+        "date": "2026-02-11",
+        "Meal Type": "Dinner",
+        "waste_kg": 14.22
+      },
+      {
+        "date": "2026-02-11",
+        "Meal Type": "Lunch",
+        "waste_kg": 16.38
+      },
+      {
+        "date": "2026-02-12",
+        "Meal Type": "Breakfast",
+        "waste_kg": 15.65
+      },
+      {
+        "date": "2026-02-12",
+        "Meal Type": "Dinner",
+        "waste_kg": 22.47
+      },
+      {
+        "date": "2026-02-12",
+        "Meal Type": "Lunch",
+        "waste_kg": 4.36
+      },
+      {
+        "date": "2026-02-13",
+        "Meal Type": "Breakfast",
+        "waste_kg": 5.17
+      },
+      {
+        "date": "2026-02-13",
+        "Meal Type": "Dinner",
+        "waste_kg": 17.53
+      },
+      {
+        "date": "2026-02-13",
+        "Meal Type": "Lunch",
+        "waste_kg": 17.58
+      },
+      {
+        "date": "2026-02-14",
+        "Meal Type": "Breakfast",
+        "waste_kg": 13.34
+      },
+      {
+        "date": "2026-02-14",
+        "Meal Type": "Dinner",
+        "waste_kg": 10.05
+      },
+      {
+        "date": "2026-02-14",
+        "Meal Type": "Lunch",
+        "waste_kg": 30.16
+      },
+      {
+        "date": "2026-02-15",
+        "Meal Type": "Breakfast",
+        "waste_kg": 9.46
+      },
+      {
+        "date": "2026-02-15",
+        "Meal Type": "Dinner",
+        "waste_kg": 14.64
+      },
+      {
+        "date": "2026-02-15",
+        "Meal Type": "Lunch",
+        "waste_kg": 13.379999999999999
+      },
+      {
+        "date": "2026-02-16",
+        "Meal Type": "Breakfast",
+        "waste_kg": 13.92
+      },
+      {
+        "date": "2026-02-16",
+        "Meal Type": "Dinner",
+        "waste_kg": 27.72
+      },
+      {
+        "date": "2026-02-16",
+        "Meal Type": "Lunch",
+        "waste_kg": 11.27
+      },
+      {
+        "date": "2026-02-17",
+        "Meal Type": "Breakfast",
+        "waste_kg": 7.26
+      },
+      {
+        "date": "2026-02-17",
+        "Meal Type": "Dinner",
+        "waste_kg": 5.23
+      },
+      {
+        "date": "2026-02-17",
+        "Meal Type": "Lunch",
+        "waste_kg": 13.85
+      },
+      {
+        "date": "2026-02-18",
+        "Meal Type": "Breakfast",
+        "waste_kg": 10.48
+      },
+      {
+        "date": "2026-02-18",
+        "Meal Type": "Dinner",
+        "waste_kg": 19.78
+      },
+      {
+        "date": "2026-02-18",
+        "Meal Type": "Lunch",
+        "waste_kg": 18.89
+      },
+      {
+        "date": "2026-02-19",
+        "Meal Type": "Breakfast",
+        "waste_kg": 24.48
+      },
+      {
+        "date": "2026-02-19",
+        "Meal Type": "Dinner",
+        "waste_kg": 25.59
+      },
+      {
+        "date": "2026-02-19",
+        "Meal Type": "Lunch",
+        "waste_kg": 17.88
+      },
+      {
+        "date": "2026-02-20",
+        "Meal Type": "Breakfast",
+        "waste_kg": 9.37
+      },
+      {
+        "date": "2026-02-20",
+        "Meal Type": "Dinner",
+        "waste_kg": 14.08
+      },
+      {
+        "date": "2026-02-20",
+        "Meal Type": "Lunch",
+        "waste_kg": 5.949999999999999
+      },
+      {
+        "date": "2026-02-21",
+        "Meal Type": "Breakfast",
+        "waste_kg": 12.72
+      },
+      {
+        "date": "2026-02-21",
+        "Meal Type": "Dinner",
+        "waste_kg": 20.14
+      },
+      {
+        "date": "2026-02-21",
+        "Meal Type": "Lunch",
+        "waste_kg": 28.21
+      },
+      {
+        "date": "2026-02-22",
+        "Meal Type": "Breakfast",
+        "waste_kg": 7.16
+      },
+      {
+        "date": "2026-02-22",
+        "Meal Type": "Dinner",
+        "waste_kg": 8.68
+      },
+      {
+        "date": "2026-02-22",
+        "Meal Type": "Lunch",
+        "waste_kg": 28.88
+      },
+      {
+        "date": "2026-02-23",
+        "Meal Type": "Breakfast",
+        "waste_kg": 13.879999999999999
+      },
+      {
+        "date": "2026-02-23",
+        "Meal Type": "Dinner",
+        "waste_kg": 12.17
+      },
+      {
+        "date": "2026-02-23",
+        "Meal Type": "Lunch",
+        "waste_kg": 33.51
+      },
+      {
+        "date": "2026-02-24",
+        "Meal Type": "Breakfast",
+        "waste_kg": 9.76
+      },
+      {
+        "date": "2026-02-24",
+        "Meal Type": "Dinner",
+        "waste_kg": 14.22
+      },
+      {
+        "date": "2026-02-24",
+        "Meal Type": "Lunch",
+        "waste_kg": 16.05
+      },
+      {
+        "date": "2026-02-25",
+        "Meal Type": "Breakfast",
+        "waste_kg": 18.689999999999998
+      },
+      {
+        "date": "2026-02-25",
+        "Meal Type": "Dinner",
+        "waste_kg": 18.37
+      },
+      {
+        "date": "2026-02-25",
+        "Meal Type": "Lunch",
+        "waste_kg": 11.629999999999999
+      },
+      {
+        "date": "2026-02-26",
+        "Meal Type": "Breakfast",
+        "waste_kg": 14.16
+      },
+      {
+        "date": "2026-02-26",
+        "Meal Type": "Dinner",
+        "waste_kg": 17.52
+      },
+      {
+        "date": "2026-02-26",
+        "Meal Type": "Lunch",
+        "waste_kg": 28.57
+      },
+      {
+        "date": "2026-02-27",
+        "Meal Type": "Breakfast",
+        "waste_kg": 9.67
+      },
+      {
+        "date": "2026-02-27",
+        "Meal Type": "Dinner",
+        "waste_kg": 22.61
+      },
+      {
+        "date": "2026-02-27",
+        "Meal Type": "Lunch",
+        "waste_kg": 17.11
+      },
+      {
+        "date": "2026-02-28",
+        "Meal Type": "Breakfast",
+        "waste_kg": 11.35
+      },
+      {
+        "date": "2026-02-28",
+        "Meal Type": "Dinner",
+        "waste_kg": 7.33
+      },
+      {
+        "date": "2026-02-28",
+        "Meal Type": "Lunch",
+        "waste_kg": 22.73
+      },
+      {
+        "date": "2026-03-01",
+        "Meal Type": "Breakfast",
+        "waste_kg": 23.92
+      },
+      {
+        "date": "2026-03-01",
+        "Meal Type": "Dinner",
+        "waste_kg": 16.4
+      },
+      {
+        "date": "2026-03-01",
+        "Meal Type": "Lunch",
+        "waste_kg": 27.060000000000002
+      },
+      {
+        "date": "2026-03-02",
+        "Meal Type": "Breakfast",
+        "waste_kg": 11.02
+      },
+      {
+        "date": "2026-03-02",
+        "Meal Type": "Dinner",
+        "waste_kg": 9.040000000000001
+      },
+      {
+        "date": "2026-03-02",
+        "Meal Type": "Lunch",
+        "waste_kg": 14.280000000000001
+      },
+      {
+        "date": "2026-03-03",
+        "Meal Type": "Breakfast",
+        "waste_kg": 11.96
+      },
+      {
+        "date": "2026-03-03",
+        "Meal Type": "Dinner",
+        "waste_kg": 6.4399999999999995
+      },
+      {
+        "date": "2026-03-03",
+        "Meal Type": "Lunch",
+        "waste_kg": 16.97
+      },
+      {
+        "date": "2026-03-04",
+        "Meal Type": "Breakfast",
+        "waste_kg": 8.3
+      },
+      {
+        "date": "2026-03-04",
+        "Meal Type": "Dinner",
+        "waste_kg": 23.39
+      },
+      {
+        "date": "2026-03-04",
+        "Meal Type": "Lunch",
+        "waste_kg": 29.77
+      },
+      {
+        "date": "2026-03-05",
+        "Meal Type": "Breakfast",
+        "waste_kg": 6.26
+      },
+      {
+        "date": "2026-03-05",
+        "Meal Type": "Dinner",
+        "waste_kg": 15.24
+      },
+      {
+        "date": "2026-03-05",
+        "Meal Type": "Lunch",
+        "waste_kg": 6.069999999999999
+      }
+    ],
+    "daily_trend": [
+      {
+        "date": "2026-02-03",
+        "waste_kg": 28.509999999999998
+      },
+      {
+        "date": "2026-02-04",
+        "waste_kg": 32.019999999999996
+      },
+      {
+        "date": "2026-02-05",
+        "waste_kg": 43.13
+      },
+      {
+        "date": "2026-02-06",
+        "waste_kg": 55.39
+      },
+      {
+        "date": "2026-02-07",
+        "waste_kg": 48.18
+      },
+      {
+        "date": "2026-02-08",
+        "waste_kg": 47.06
+      },
+      {
+        "date": "2026-02-09",
+        "waste_kg": 44.16
+      },
+      {
+        "date": "2026-02-10",
+        "waste_kg": 42.57
+      },
+      {
+        "date": "2026-02-11",
+        "waste_kg": 34.64
+      },
+      {
+        "date": "2026-02-12",
+        "waste_kg": 42.480000000000004
+      },
+      {
+        "date": "2026-02-13",
+        "waste_kg": 40.28
+      },
+      {
+        "date": "2026-02-14",
+        "waste_kg": 53.55
+      },
+      {
+        "date": "2026-02-15",
+        "waste_kg": 37.480000000000004
+      },
+      {
+        "date": "2026-02-16",
+        "waste_kg": 52.910000000000004
+      },
+      {
+        "date": "2026-02-17",
+        "waste_kg": 26.34
+      },
+      {
+        "date": "2026-02-18",
+        "waste_kg": 49.15
+      },
+      {
+        "date": "2026-02-19",
+        "waste_kg": 67.95
+      },
+      {
+        "date": "2026-02-20",
+        "waste_kg": 29.4
+      },
+      {
+        "date": "2026-02-21",
+        "waste_kg": 61.07
+      },
+      {
+        "date": "2026-02-22",
+        "waste_kg": 44.72
+      },
+      {
+        "date": "2026-02-23",
+        "waste_kg": 59.56
+      },
+      {
+        "date": "2026-02-24",
+        "waste_kg": 40.03
+      },
+      {
+        "date": "2026-02-25",
+        "waste_kg": 48.69
+      },
+      {
+        "date": "2026-02-26",
+        "waste_kg": 60.25
+      },
+      {
+        "date": "2026-02-27",
+        "waste_kg": 49.39
+      },
+      {
+        "date": "2026-02-28",
+        "waste_kg": 41.410000000000004
+      },
+      {
+        "date": "2026-03-01",
+        "waste_kg": 67.38
+      },
+      {
+        "date": "2026-03-02",
+        "waste_kg": 34.34
+      },
+      {
+        "date": "2026-03-03",
+        "waste_kg": 35.37
+      },
+      {
+        "date": "2026-03-04",
+        "waste_kg": 61.46
+      },
+      {
+        "date": "2026-03-05",
+        "waste_kg": 27.57
+      }
+    ],
+    "operational_efficiency_metrics": {
+      "avg_waste_per_service_kg": 2.813,
+      "plate_waste_ratio_pct": 33.64,
+      "prep_to_plate_ratio": 1.97,
+      "top3_commodity_concentration_pct": 53.38,
+      "device_waste_cv": 0.031
+    }
+  },
+  "anomalies": [],
+  "forecast_next_7_days": [
+    {
+      "date": "2026-03-06",
+      "predicted_waste_kg": 52.39,
+      "lower_kg": 38.11,
+      "upper_kg": 66.66
+    },
+    {
+      "date": "2026-03-07",
+      "predicted_waste_kg": 46.49,
+      "lower_kg": 31.61,
+      "upper_kg": 61.37
+    },
+    {
+      "date": "2026-03-08",
+      "predicted_waste_kg": 44.61,
+      "lower_kg": 29.55,
+      "upper_kg": 59.68
+    },
+    {
+      "date": "2026-03-09",
+      "predicted_waste_kg": 46.71,
+      "lower_kg": 31.42,
+      "upper_kg": 62.01
+    },
+    {
+      "date": "2026-03-10",
+      "predicted_waste_kg": 46.02,
+      "lower_kg": 30.68,
+      "upper_kg": 61.36
+    },
+    {
+      "date": "2026-03-11",
+      "predicted_waste_kg": 45.96,
+      "lower_kg": 30.51,
+      "upper_kg": 61.41
+    },
+    {
+      "date": "2026-03-12",
+      "predicted_waste_kg": 46.13,
+      "lower_kg": 30.57,
+      "upper_kg": 61.69
+    }
+  ]
+}

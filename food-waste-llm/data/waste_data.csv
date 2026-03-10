@@ -1,0 +1,501 @@
+SR NO,Date,Device Serial No,Food Waste Type,Meal Type,Weight (KG),Commodity
+1,2026-02-16 19:04:19,DEV-03,Production Waste,Breakfast,0.95,Salad
+2,2026-03-01 22:02:16,DEV-01,Plate Waste,Breakfast,3.81,Chicken
+3,2026-02-04 17:33:22,DEV-03,Plate Waste,Dinner,1.51,Chicken
+4,2026-02-23 19:24:56,DEV-02,Production Waste,Breakfast,1.6,Roti
+5,2026-02-23 23:01:16,DEV-01,Bain Marie Waste,Lunch,2.24,Rice
+6,2026-02-07 22:41:47,DEV-02,Plate Waste,Lunch,1.3,Dal
+7,2026-02-05 13:15:47,DEV-01,Bain Marie Waste,Dinner,2.71,Rice
+8,2026-03-02 05:48:49,DEV-03,Bain Marie Waste,Lunch,5.11,Chicken
+9,2026-02-12 18:40:19,DEV-02,Production Waste,Dinner,0.92,Roti
+10,2026-02-08 08:18:53,DEV-03,Bain Marie Waste,Lunch,2.25,Roti
+11,2026-02-21 09:55:54,DEV-02,Plate Waste,Lunch,1.89,Salad
+12,2026-02-06 21:49:46,DEV-03,Plate Waste,Dinner,3.52,Roti
+13,2026-02-11 09:01:02,DEV-03,Plate Waste,Lunch,2.77,Chicken
+14,2026-02-14 02:30:35,DEV-01,Production Waste,Dinner,2.09,Rice
+15,2026-02-18 18:10:08,DEV-01,Plate Waste,Lunch,2.19,Salad
+16,2026-02-18 17:15:57,DEV-02,Plate Waste,Breakfast,2.2,Vegetables
+17,2026-02-10 09:05:49,DEV-03,Plate Waste,Lunch,1.53,Chicken
+18,2026-02-16 04:45:21,DEV-03,Bain Marie Waste,Dinner,3.29,Dal
+19,2026-02-14 02:10:00,DEV-01,Production Waste,Breakfast,1.78,Rice
+20,2026-02-10 20:42:45,DEV-03,Bain Marie Waste,Dinner,1.34,Chicken
+21,2026-02-06 12:39:17,DEV-02,Plate Waste,Lunch,2.78,Dal
+22,2026-03-02 07:11:40,DEV-01,Plate Waste,Breakfast,2.27,Chicken
+23,2026-02-16 09:30:48,DEV-02,Bain Marie Waste,Dinner,2.16,Roti
+24,2026-02-25 11:15:58,DEV-03,Bain Marie Waste,Breakfast,3.07,Chicken
+25,2026-02-12 02:47:03,DEV-02,Plate Waste,Dinner,4.8,Chicken
+26,2026-03-05 00:08:29,DEV-01,Plate Waste,Breakfast,0.74,Chicken
+27,2026-02-03 11:18:21,DEV-01,Production Waste,Dinner,2.09,Dal
+28,2026-02-18 08:55:10,DEV-03,Production Waste,Breakfast,0.47,Rice
+29,2026-02-27 00:51:34,DEV-03,Production Waste,Breakfast,3.14,Roti
+30,2026-02-26 12:23:01,DEV-03,Plate Waste,Dinner,1.36,Vegetables
+31,2026-02-13 17:24:09,DEV-03,Production Waste,Dinner,4.07,Salad
+32,2026-02-18 13:48:55,DEV-03,Bain Marie Waste,Lunch,5.97,Vegetables
+33,2026-02-28 13:39:33,DEV-01,Production Waste,Lunch,1.43,Dal
+34,2026-02-04 11:08:47,DEV-03,Production Waste,Dinner,3.15,Rice
+35,2026-02-06 21:21:09,DEV-01,Production Waste,Dinner,3.5,Rice
+36,2026-02-19 11:37:00,DEV-02,Plate Waste,Breakfast,1.79,Vegetables
+37,2026-02-13 20:14:37,DEV-03,Plate Waste,Dinner,1.21,Vegetables
+38,2026-02-15 05:45:07,DEV-01,Production Waste,Lunch,5.0,Rice
+39,2026-02-24 08:51:02,DEV-02,Plate Waste,Lunch,3.0,Rice
+40,2026-02-08 05:18:17,DEV-02,Production Waste,Breakfast,1.47,Roti
+41,2026-02-12 17:51:30,DEV-02,Production Waste,Breakfast,3.68,Rice
+42,2026-02-24 22:55:28,DEV-03,Plate Waste,Dinner,1.05,Rice
+43,2026-02-07 23:17:55,DEV-02,Bain Marie Waste,Breakfast,0.78,Roti
+44,2026-02-22 21:53:07,DEV-01,Bain Marie Waste,Breakfast,0.78,Dal
+45,2026-02-25 12:45:46,DEV-03,Plate Waste,Lunch,3.0,Salad
+46,2026-02-27 01:39:10,DEV-01,Production Waste,Breakfast,0.85,Chicken
+47,2026-03-01 18:20:34,DEV-03,Plate Waste,Breakfast,5.89,Roti
+48,2026-02-06 04:54:33,DEV-01,Production Waste,Dinner,0.97,Chicken
+49,2026-02-06 17:49:11,DEV-02,Production Waste,Dinner,4.56,Chicken
+50,2026-02-15 09:30:05,DEV-03,Production Waste,Dinner,3.33,Vegetables
+51,2026-03-03 18:40:02,DEV-02,Production Waste,Dinner,3.0,Salad
+52,2026-02-18 16:41:25,DEV-01,Plate Waste,Breakfast,1.07,Salad
+53,2026-02-18 00:09:41,DEV-01,Production Waste,Lunch,2.44,Vegetables
+54,2026-03-02 18:34:29,DEV-01,Plate Waste,Breakfast,0.51,Dal
+55,2026-02-09 20:57:46,DEV-01,Bain Marie Waste,Lunch,5.38,Dal
+56,2026-02-11 02:25:41,DEV-03,Bain Marie Waste,Lunch,5.14,Chicken
+57,2026-03-01 02:54:01,DEV-03,Production Waste,Breakfast,2.24,Roti
+58,2026-02-16 06:45:53,DEV-03,Plate Waste,Breakfast,2.88,Roti
+59,2026-02-16 15:56:54,DEV-03,Bain Marie Waste,Lunch,3.95,Roti
+60,2026-02-16 06:12:11,DEV-01,Production Waste,Dinner,2.85,Salad
+61,2026-02-24 00:08:28,DEV-02,Production Waste,Lunch,1.03,Salad
+62,2026-02-16 03:50:23,DEV-03,Plate Waste,Breakfast,2.45,Vegetables
+63,2026-03-02 16:08:36,DEV-03,Production Waste,Breakfast,0.62,Chicken
+64,2026-02-05 04:36:55,DEV-01,Bain Marie Waste,Lunch,3.83,Roti
+65,2026-02-05 11:22:25,DEV-01,Bain Marie Waste,Lunch,2.7,Roti
+66,2026-02-15 13:21:46,DEV-03,Bain Marie Waste,Dinner,1.07,Chicken
+67,2026-02-10 22:42:26,DEV-01,Bain Marie Waste,Breakfast,2.81,Rice
+68,2026-02-12 03:36:36,DEV-02,Plate Waste,Dinner,4.85,Salad
+69,2026-02-15 11:46:31,DEV-03,Production Waste,Lunch,1.63,Vegetables
+70,2026-02-05 07:45:25,DEV-02,Bain Marie Waste,Lunch,1.96,Dal
+71,2026-02-14 11:48:27,DEV-01,Bain Marie Waste,Breakfast,0.37,Dal
+72,2026-02-16 23:14:08,DEV-02,Bain Marie Waste,Breakfast,3.1,Salad
+73,2026-02-28 04:08:25,DEV-03,Bain Marie Waste,Lunch,4.33,Rice
+74,2026-02-09 01:01:21,DEV-02,Production Waste,Lunch,1.73,Rice
+75,2026-03-04 09:41:44,DEV-02,Plate Waste,Lunch,2.6,Chicken
+76,2026-02-09 01:22:36,DEV-01,Bain Marie Waste,Lunch,5.48,Rice
+77,2026-02-24 14:41:00,DEV-03,Plate Waste,Breakfast,1.81,Salad
+78,2026-02-13 00:12:08,DEV-03,Bain Marie Waste,Lunch,3.04,Chicken
+79,2026-02-18 16:22:40,DEV-03,Bain Marie Waste,Dinner,4.5,Chicken
+80,2026-02-18 10:58:56,DEV-02,Plate Waste,Dinner,2.48,Dal
+81,2026-03-02 08:34:37,DEV-03,Bain Marie Waste,Breakfast,0.86,Salad
+82,2026-02-11 21:23:46,DEV-02,Plate Waste,Dinner,3.22,Rice
+83,2026-02-18 04:40:46,DEV-03,Plate Waste,Lunch,1.89,Salad
+84,2026-02-19 02:05:14,DEV-03,Production Waste,Lunch,3.1,Chicken
+85,2026-02-26 09:56:29,DEV-01,Bain Marie Waste,Dinner,1.38,Chicken
+86,2026-02-19 17:09:44,DEV-01,Plate Waste,Breakfast,2.67,Dal
+87,2026-02-14 08:21:54,DEV-01,Production Waste,Breakfast,0.73,Vegetables
+88,2026-03-05 02:49:31,DEV-03,Plate Waste,Breakfast,1.62,Roti
+89,2026-02-22 02:00:25,DEV-01,Plate Waste,Lunch,2.88,Salad
+90,2026-02-03 17:05:59,DEV-01,Production Waste,Breakfast,2.56,Salad
+91,2026-02-28 14:06:15,DEV-01,Production Waste,Lunch,1.06,Vegetables
+92,2026-02-09 21:59:27,DEV-03,Plate Waste,Lunch,4.27,Dal
+93,2026-02-24 22:16:30,DEV-03,Bain Marie Waste,Dinner,4.35,Chicken
+94,2026-02-25 02:10:00,DEV-02,Bain Marie Waste,Breakfast,2.46,Dal
+95,2026-02-15 10:41:41,DEV-03,Bain Marie Waste,Dinner,1.88,Salad
+96,2026-02-15 01:22:52,DEV-03,Bain Marie Waste,Lunch,3.09,Roti
+97,2026-02-16 15:12:38,DEV-03,Production Waste,Lunch,2.46,Roti
+98,2026-02-10 18:22:12,DEV-01,Plate Waste,Breakfast,1.41,Roti
+99,2026-02-06 13:28:18,DEV-03,Bain Marie Waste,Lunch,2.92,Vegetables
+100,2026-02-06 11:11:04,DEV-02,Plate Waste,Breakfast,2.72,Salad
+101,2026-02-04 09:23:45,DEV-01,Bain Marie Waste,Dinner,2.35,Dal
+102,2026-02-22 09:00:25,DEV-03,Plate Waste,Lunch,3.6,Chicken
+103,2026-02-14 03:35:09,DEV-02,Bain Marie Waste,Lunch,1.94,Rice
+104,2026-02-22 07:41:28,DEV-02,Plate Waste,Lunch,4.28,Roti
+105,2026-02-26 03:11:19,DEV-03,Production Waste,Breakfast,3.14,Vegetables
+106,2026-03-04 04:14:41,DEV-02,Production Waste,Dinner,8.13,Rice
+107,2026-02-16 01:44:37,DEV-02,Bain Marie Waste,Lunch,2.5,Dal
+108,2026-02-21 20:21:13,DEV-02,Bain Marie Waste,Lunch,4.71,Rice
+109,2026-02-26 06:35:12,DEV-01,Bain Marie Waste,Breakfast,2.47,Roti
+110,2026-02-06 18:35:09,DEV-01,Production Waste,Dinner,0.79,Roti
+111,2026-02-04 10:23:02,DEV-01,Bain Marie Waste,Dinner,1.3,Salad
+112,2026-02-08 23:54:47,DEV-02,Plate Waste,Dinner,4.96,Dal
+113,2026-02-21 08:26:01,DEV-03,Plate Waste,Breakfast,2.06,Rice
+114,2026-02-11 09:26:26,DEV-01,Bain Marie Waste,Lunch,1.36,Chicken
+115,2026-02-21 15:54:14,DEV-01,Production Waste,Lunch,5.7,Chicken
+116,2026-02-15 05:34:47,DEV-02,Plate Waste,Breakfast,2.32,Chicken
+117,2026-02-09 07:40:44,DEV-02,Plate Waste,Dinner,4.2,Vegetables
+118,2026-02-21 10:23:09,DEV-02,Production Waste,Breakfast,1.77,Vegetables
+119,2026-02-27 05:45:57,DEV-02,Plate Waste,Breakfast,1.56,Vegetables
+120,2026-02-10 20:53:14,DEV-03,Plate Waste,Lunch,1.72,Dal
+121,2026-03-05 08:13:46,DEV-02,Bain Marie Waste,Dinner,4.16,Salad
+122,2026-03-04 04:55:21,DEV-02,Bain Marie Waste,Lunch,6.77,Roti
+123,2026-02-26 00:03:51,DEV-02,Bain Marie Waste,Dinner,3.41,Rice
+124,2026-02-27 10:32:54,DEV-01,Bain Marie Waste,Lunch,1.75,Dal
+125,2026-02-19 23:09:47,DEV-03,Bain Marie Waste,Lunch,5.38,Chicken
+126,2026-02-03 22:27:59,DEV-01,Production Waste,Dinner,4.96,Salad
+127,2026-02-23 04:09:46,DEV-01,Plate Waste,Lunch,3.69,Vegetables
+128,2026-02-27 06:29:16,DEV-01,Bain Marie Waste,Lunch,4.92,Roti
+129,2026-02-23 01:48:04,DEV-03,Plate Waste,Dinner,1.72,Dal
+130,2026-02-26 10:01:41,DEV-02,Plate Waste,Dinner,3.04,Chicken
+131,2026-02-19 12:02:22,DEV-02,Bain Marie Waste,Lunch,4.45,Dal
+132,2026-02-14 15:14:09,DEV-02,Production Waste,Breakfast,2.39,Salad
+133,2026-03-01 10:57:59,DEV-03,Plate Waste,Dinner,3.32,Chicken
+134,2026-03-04 09:57:04,DEV-02,Production Waste,Lunch,5.9,Dal
+135,2026-02-12 03:42:15,DEV-02,Production Waste,Lunch,0.87,Rice
+136,2026-03-02 07:20:58,DEV-01,Plate Waste,Lunch,4.43,Vegetables
+137,2026-02-08 10:09:46,DEV-02,Bain Marie Waste,Breakfast,1.96,Vegetables
+138,2026-02-19 23:35:27,DEV-02,Bain Marie Waste,Breakfast,3.1,Rice
+139,2026-02-06 14:46:13,DEV-03,Plate Waste,Lunch,3.36,Salad
+140,2026-02-06 01:05:55,DEV-03,Bain Marie Waste,Breakfast,0.73,Rice
+141,2026-02-15 11:48:11,DEV-02,Plate Waste,Breakfast,1.92,Chicken
+142,2026-02-14 09:35:03,DEV-02,Bain Marie Waste,Dinner,2.35,Chicken
+143,2026-02-24 06:15:45,DEV-01,Plate Waste,Lunch,3.76,Salad
+144,2026-02-08 06:15:18,DEV-02,Plate Waste,Breakfast,2.11,Rice
+145,2026-02-11 01:37:28,DEV-01,Production Waste,Breakfast,0.8,Rice
+146,2026-02-23 06:35:49,DEV-02,Bain Marie Waste,Lunch,4.38,Rice
+147,2026-02-14 16:19:44,DEV-03,Bain Marie Waste,Lunch,4.48,Rice
+148,2026-02-14 18:35:53,DEV-03,Plate Waste,Lunch,4.9,Salad
+149,2026-02-13 01:06:56,DEV-01,Plate Waste,Lunch,1.4,Roti
+150,2026-02-16 08:07:26,DEV-01,Bain Marie Waste,Breakfast,0.51,Chicken
+151,2026-03-03 01:48:50,DEV-02,Plate Waste,Lunch,3.08,Dal
+152,2026-02-22 23:35:46,DEV-02,Bain Marie Waste,Lunch,3.4,Rice
+153,2026-03-04 11:24:10,DEV-03,Bain Marie Waste,Breakfast,2.88,Rice
+154,2026-02-07 21:02:35,DEV-03,Plate Waste,Breakfast,3.09,Rice
+155,2026-02-16 12:38:34,DEV-01,Bain Marie Waste,Dinner,0.79,Chicken
+156,2026-02-24 21:52:27,DEV-03,Bain Marie Waste,Lunch,1.74,Salad
+157,2026-02-27 07:32:30,DEV-02,Bain Marie Waste,Breakfast,1.66,Dal
+158,2026-02-08 12:30:26,DEV-03,Bain Marie Waste,Breakfast,1.26,Dal
+159,2026-02-22 21:12:01,DEV-01,Bain Marie Waste,Dinner,0.77,Dal
+160,2026-02-19 03:16:51,DEV-02,Plate Waste,Breakfast,3.11,Rice
+161,2026-03-01 18:48:25,DEV-02,Plate Waste,Lunch,6.37,Vegetables
+162,2026-02-05 22:46:18,DEV-01,Bain Marie Waste,Breakfast,1.07,Vegetables
+163,2026-02-26 23:22:11,DEV-03,Plate Waste,Breakfast,0.38,Roti
+164,2026-02-11 03:09:49,DEV-03,Bain Marie Waste,Lunch,3.66,Rice
+165,2026-02-14 08:26:05,DEV-01,Plate Waste,Breakfast,1.64,Roti
+166,2026-02-27 15:17:21,DEV-03,Bain Marie Waste,Dinner,1.94,Vegetables
+167,2026-02-26 20:47:32,DEV-03,Production Waste,Lunch,2.07,Vegetables
+168,2026-02-12 16:43:00,DEV-01,Bain Marie Waste,Dinner,2.94,Vegetables
+169,2026-02-19 22:37:23,DEV-01,Bain Marie Waste,Dinner,1.83,Salad
+170,2026-02-17 22:28:56,DEV-03,Bain Marie Waste,Dinner,3.27,Roti
+171,2026-02-25 02:54:18,DEV-02,Plate Waste,Dinner,2.83,Chicken
+172,2026-02-21 18:07:16,DEV-01,Plate Waste,Lunch,5.65,Roti
+173,2026-03-03 04:49:56,DEV-02,Production Waste,Lunch,2.01,Dal
+174,2026-02-26 09:41:49,DEV-02,Bain Marie Waste,Dinner,4.8,Salad
+175,2026-02-10 19:51:18,DEV-01,Plate Waste,Lunch,5.82,Chicken
+176,2026-02-19 13:26:29,DEV-02,Production Waste,Breakfast,2.84,Chicken
+177,2026-02-25 14:59:58,DEV-02,Plate Waste,Breakfast,2.4,Roti
+178,2026-02-07 01:49:15,DEV-02,Bain Marie Waste,Lunch,4.86,Chicken
+179,2026-02-22 17:44:28,DEV-02,Plate Waste,Dinner,0.97,Chicken
+180,2026-02-21 21:22:57,DEV-02,Plate Waste,Lunch,4.06,Rice
+181,2026-03-05 10:01:55,DEV-03,Bain Marie Waste,Breakfast,0.98,Roti
+182,2026-02-07 19:56:21,DEV-03,Plate Waste,Lunch,5.89,Rice
+183,2026-02-24 23:33:45,DEV-01,Production Waste,Breakfast,2.31,Dal
+184,2026-02-06 04:01:24,DEV-02,Production Waste,Lunch,2.66,Roti
+185,2026-03-01 05:29:36,DEV-01,Production Waste,Lunch,3.74,Rice
+186,2026-03-05 00:44:56,DEV-01,Bain Marie Waste,Lunch,4.02,Chicken
+187,2026-02-10 09:23:02,DEV-02,Bain Marie Waste,Breakfast,1.64,Dal
+188,2026-02-03 21:35:18,DEV-03,Plate Waste,Lunch,5.49,Roti
+189,2026-02-07 00:41:42,DEV-03,Bain Marie Waste,Lunch,5.72,Salad
+190,2026-02-24 00:59:43,DEV-02,Production Waste,Dinner,1.75,Vegetables
+191,2026-02-26 21:37:04,DEV-03,Bain Marie Waste,Breakfast,0.99,Chicken
+192,2026-02-17 19:21:21,DEV-03,Bain Marie Waste,Dinner,1.96,Dal
+193,2026-02-03 20:04:28,DEV-03,Production Waste,Dinner,4.58,Chicken
+194,2026-02-27 13:22:08,DEV-01,Plate Waste,Lunch,4.83,Dal
+195,2026-02-14 01:47:54,DEV-02,Plate Waste,Dinner,1.47,Salad
+196,2026-02-10 01:59:56,DEV-03,Plate Waste,Dinner,1.05,Rice
+197,2026-02-18 10:34:21,DEV-02,Plate Waste,Lunch,0.97,Roti
+198,2026-02-07 19:39:09,DEV-02,Production Waste,Lunch,2.5,Roti
+199,2026-02-09 20:37:01,DEV-02,Plate Waste,Dinner,4.63,Chicken
+200,2026-02-16 16:09:25,DEV-02,Bain Marie Waste,Breakfast,1.05,Salad
+201,2026-02-19 21:16:17,DEV-01,Production Waste,Breakfast,1.66,Roti
+202,2026-02-22 17:39:27,DEV-02,Production Waste,Dinner,2.28,Dal
+203,2026-03-01 11:47:30,DEV-03,Bain Marie Waste,Breakfast,1.62,Chicken
+204,2026-02-21 22:33:59,DEV-01,Plate Waste,Dinner,4.93,Roti
+205,2026-02-26 07:57:00,DEV-03,Bain Marie Waste,Breakfast,2.1,Chicken
+206,2026-02-14 04:33:04,DEV-02,Plate Waste,Dinner,0.89,Dal
+207,2026-02-23 06:20:19,DEV-01,Bain Marie Waste,Breakfast,0.71,Vegetables
+208,2026-02-09 01:55:47,DEV-03,Production Waste,Breakfast,0.98,Vegetables
+209,2026-02-25 11:10:22,DEV-03,Plate Waste,Lunch,4.29,Chicken
+210,2026-02-23 18:57:28,DEV-01,Bain Marie Waste,Dinner,4.01,Salad
+211,2026-02-08 06:00:29,DEV-02,Production Waste,Lunch,4.0,Salad
+212,2026-02-21 10:20:18,DEV-01,Bain Marie Waste,Breakfast,1.59,Rice
+213,2026-02-21 06:36:57,DEV-03,Bain Marie Waste,Dinner,4.75,Rice
+214,2026-02-22 18:30:21,DEV-01,Bain Marie Waste,Lunch,1.79,Rice
+215,2026-02-13 17:45:39,DEV-01,Production Waste,Dinner,3.54,Dal
+216,2026-02-15 06:25:04,DEV-01,Production Waste,Breakfast,2.58,Chicken
+217,2026-02-13 11:59:43,DEV-01,Bain Marie Waste,Dinner,1.59,Roti
+218,2026-03-04 09:00:31,DEV-01,Plate Waste,Breakfast,1.1,Dal
+219,2026-02-11 21:56:36,DEV-01,Production Waste,Breakfast,2.22,Rice
+220,2026-02-20 20:01:20,DEV-01,Production Waste,Breakfast,2.01,Dal
+221,2026-02-05 23:41:20,DEV-03,Production Waste,Breakfast,2.45,Salad
+222,2026-02-06 12:41:24,DEV-02,Plate Waste,Lunch,3.13,Chicken
+223,2026-02-08 17:41:48,DEV-03,Production Waste,Lunch,3.42,Salad
+224,2026-02-28 18:10:27,DEV-01,Production Waste,Lunch,3.18,Vegetables
+225,2026-02-22 22:33:27,DEV-02,Plate Waste,Lunch,4.37,Vegetables
+226,2026-02-07 00:15:45,DEV-01,Production Waste,Breakfast,1.23,Roti
+227,2026-02-16 19:03:23,DEV-03,Plate Waste,Dinner,3.51,Dal
+228,2026-02-21 22:25:31,DEV-02,Plate Waste,Dinner,3.04,Chicken
+229,2026-02-24 07:51:29,DEV-01,Plate Waste,Breakfast,2.6,Salad
+230,2026-03-02 04:59:30,DEV-02,Bain Marie Waste,Dinner,4.58,Roti
+231,2026-02-23 12:46:02,DEV-02,Bain Marie Waste,Lunch,5.1,Salad
+232,2026-02-08 01:25:21,DEV-03,Bain Marie Waste,Lunch,3.02,Dal
+233,2026-02-10 20:28:37,DEV-01,Production Waste,Dinner,4.85,Rice
+234,2026-02-07 23:15:38,DEV-03,Bain Marie Waste,Lunch,1.3,Roti
+235,2026-03-02 10:51:31,DEV-03,Plate Waste,Breakfast,2.0,Dal
+236,2026-02-09 09:02:58,DEV-03,Bain Marie Waste,Lunch,2.64,Salad
+237,2026-02-05 22:34:43,DEV-02,Production Waste,Lunch,3.92,Chicken
+238,2026-02-28 01:49:05,DEV-02,Production Waste,Breakfast,0.75,Rice
+239,2026-02-20 10:33:07,DEV-02,Plate Waste,Dinner,2.29,Roti
+240,2026-02-24 06:35:30,DEV-03,Plate Waste,Dinner,5.08,Salad
+241,2026-03-02 11:17:18,DEV-03,Plate Waste,Breakfast,2.07,Dal
+242,2026-02-04 20:22:21,DEV-02,Bain Marie Waste,Breakfast,1.09,Dal
+243,2026-02-03 17:45:12,DEV-03,Plate Waste,Breakfast,2.82,Vegetables
+244,2026-02-06 19:42:45,DEV-01,Production Waste,Breakfast,2.45,Salad
+245,2026-03-01 04:41:48,DEV-01,Bain Marie Waste,Breakfast,1.39,Dal
+246,2026-02-19 04:34:23,DEV-01,Production Waste,Dinner,3.34,Roti
+247,2026-03-05 10:28:24,DEV-02,Bain Marie Waste,Breakfast,2.25,Salad
+248,2026-02-24 00:39:09,DEV-02,Bain Marie Waste,Lunch,3.96,Roti
+249,2026-02-28 07:33:59,DEV-01,Bain Marie Waste,Breakfast,1.3,Salad
+250,2026-03-04 05:41:28,DEV-03,Production Waste,Lunch,7.15,Rice
+251,2026-02-13 08:48:35,DEV-01,Bain Marie Waste,Lunch,5.72,Dal
+252,2026-02-19 08:55:47,DEV-03,Bain Marie Waste,Breakfast,0.32,Roti
+253,2026-02-09 17:09:07,DEV-01,Plate Waste,Lunch,3.57,Chicken
+254,2026-02-20 15:16:27,DEV-03,Production Waste,Breakfast,1.45,Vegetables
+255,2026-02-04 08:28:30,DEV-02,Plate Waste,Lunch,5.59,Vegetables
+256,2026-03-03 06:41:55,DEV-02,Bain Marie Waste,Lunch,4.49,Rice
+257,2026-02-23 02:32:11,DEV-01,Plate Waste,Breakfast,3.1,Vegetables
+258,2026-02-21 00:13:43,DEV-01,Production Waste,Breakfast,1.57,Vegetables
+259,2026-03-04 00:43:28,DEV-02,Plate Waste,Lunch,3.52,Dal
+260,2026-02-14 04:47:23,DEV-01,Plate Waste,Lunch,4.85,Salad
+261,2026-02-08 23:29:25,DEV-02,Bain Marie Waste,Dinner,2.95,Salad
+262,2026-02-10 14:42:39,DEV-02,Production Waste,Breakfast,0.6,Roti
+263,2026-03-04 16:29:07,DEV-01,Plate Waste,Breakfast,2.5,Vegetables
+264,2026-02-25 23:11:03,DEV-02,Plate Waste,Dinner,4.1,Chicken
+265,2026-02-19 03:12:16,DEV-02,Production Waste,Dinner,2.05,Vegetables
+266,2026-02-24 21:50:58,DEV-02,Plate Waste,Dinner,1.99,Rice
+267,2026-02-20 12:40:55,DEV-02,Bain Marie Waste,Dinner,0.94,Rice
+268,2026-02-06 04:55:17,DEV-01,Plate Waste,Lunch,5.12,Rice
+269,2026-03-05 07:10:35,DEV-02,Plate Waste,Dinner,2.93,Chicken
+270,2026-02-05 10:26:04,DEV-03,Plate Waste,Lunch,5.53,Roti
+271,2026-02-19 01:14:43,DEV-01,Production Waste,Dinner,2.79,Vegetables
+272,2026-02-08 11:13:41,DEV-01,Plate Waste,Lunch,5.91,Salad
+273,2026-02-11 19:41:07,DEV-02,Bain Marie Waste,Breakfast,1.02,Chicken
+274,2026-02-28 19:41:07,DEV-02,Bain Marie Waste,Dinner,1.33,Vegetables
+275,2026-02-23 06:53:26,DEV-01,Plate Waste,Lunch,4.33,Salad
+276,2026-02-19 16:32:04,DEV-03,Plate Waste,Breakfast,1.26,Vegetables
+277,2026-02-17 05:41:41,DEV-03,Plate Waste,Lunch,4.56,Roti
+278,2026-02-19 15:02:04,DEV-01,Bain Marie Waste,Breakfast,1.99,Dal
+279,2026-02-22 11:18:13,DEV-01,Bain Marie Waste,Breakfast,2.03,Chicken
+280,2026-02-21 17:30:10,DEV-01,Plate Waste,Dinner,4.24,Salad
+281,2026-02-28 23:55:56,DEV-02,Plate Waste,Breakfast,2.17,Dal
+282,2026-02-04 07:52:47,DEV-01,Bain Marie Waste,Lunch,2.41,Vegetables
+283,2026-02-12 18:20:31,DEV-01,Plate Waste,Breakfast,6.71,Chicken
+284,2026-03-01 00:05:36,DEV-03,Production Waste,Breakfast,2.22,Chicken
+285,2026-02-21 17:33:00,DEV-03,Plate Waste,Breakfast,0.77,Roti
+286,2026-02-24 16:33:58,DEV-03,Plate Waste,Breakfast,1.49,Roti
+287,2026-02-25 00:10:07,DEV-03,Bain Marie Waste,Dinner,1.91,Roti
+288,2026-03-01 08:48:28,DEV-02,Production Waste,Breakfast,1.2,Dal
+289,2026-03-03 03:13:35,DEV-02,Bain Marie Waste,Lunch,3.2,Chicken
+290,2026-03-01 01:10:29,DEV-03,Production Waste,Lunch,5.82,Dal
+291,2026-02-05 23:26:00,DEV-02,Plate Waste,Dinner,2.81,Rice
+292,2026-02-28 11:43:03,DEV-01,Bain Marie Waste,Breakfast,1.13,Vegetables
+293,2026-02-28 08:44:20,DEV-01,Production Waste,Breakfast,2.71,Vegetables
+294,2026-02-20 09:56:09,DEV-02,Plate Waste,Breakfast,1.5,Dal
+295,2026-02-14 21:20:27,DEV-02,Production Waste,Lunch,5.97,Rice
+296,2026-02-18 21:56:04,DEV-03,Bain Marie Waste,Breakfast,2.73,Roti
+297,2026-02-10 02:57:17,DEV-02,Plate Waste,Breakfast,1.13,Roti
+298,2026-02-26 05:11:33,DEV-01,Production Waste,Lunch,4.0,Dal
+299,2026-02-13 21:53:44,DEV-03,Plate Waste,Breakfast,1.89,Chicken
+300,2026-02-23 23:46:02,DEV-01,Bain Marie Waste,Breakfast,2.55,Rice
+301,2026-02-05 18:16:18,DEV-03,Bain Marie Waste,Breakfast,1.52,Rice
+302,2026-02-08 19:47:54,DEV-01,Plate Waste,Lunch,3.9,Chicken
+303,2026-03-03 08:37:06,DEV-02,Bain Marie Waste,Breakfast,2.38,Rice
+304,2026-03-05 06:56:41,DEV-02,Production Waste,Lunch,2.05,Salad
+305,2026-02-07 14:23:13,DEV-01,Plate Waste,Dinner,5.08,Chicken
+306,2026-02-28 01:43:09,DEV-02,Bain Marie Waste,Dinner,3.15,Rice
+307,2026-02-22 05:23:20,DEV-01,Bain Marie Waste,Lunch,2.12,Rice
+308,2026-02-20 04:21:49,DEV-03,Production Waste,Breakfast,2.43,Chicken
+309,2026-02-19 14:03:07,DEV-03,Bain Marie Waste,Breakfast,0.43,Salad
+310,2026-02-11 22:38:00,DEV-03,Bain Marie Waste,Dinner,2.74,Salad
+311,2026-02-12 07:00:32,DEV-02,Production Waste,Breakfast,0.48,Dal
+312,2026-02-13 05:30:36,DEV-01,Bain Marie Waste,Breakfast,2.59,Dal
+313,2026-02-28 11:06:18,DEV-03,Bain Marie Waste,Lunch,5.94,Dal
+314,2026-02-05 05:18:21,DEV-02,Production Waste,Dinner,1.48,Salad
+315,2026-02-19 13:21:36,DEV-02,Bain Marie Waste,Lunch,1.45,Vegetables
+316,2026-02-24 18:58:12,DEV-01,Bain Marie Waste,Lunch,2.56,Salad
+317,2026-02-27 14:17:47,DEV-03,Bain Marie Waste,Lunch,5.61,Rice
+318,2026-02-24 01:13:03,DEV-01,Plate Waste,Breakfast,1.55,Dal
+319,2026-02-19 00:52:41,DEV-03,Bain Marie Waste,Breakfast,0.53,Dal
+320,2026-02-25 02:10:09,DEV-01,Plate Waste,Dinner,3.9,Vegetables
+321,2026-02-20 12:13:17,DEV-02,Plate Waste,Lunch,1.02,Vegetables
+322,2026-02-16 18:31:11,DEV-01,Production Waste,Dinner,5.11,Salad
+323,2026-02-23 03:54:32,DEV-03,Plate Waste,Lunch,3.47,Roti
+324,2026-02-04 22:55:16,DEV-03,Bain Marie Waste,Breakfast,2.76,Rice
+325,2026-02-09 13:42:30,DEV-03,Bain Marie Waste,Breakfast,0.98,Dal
+326,2026-02-22 00:41:50,DEV-01,Plate Waste,Dinner,0.75,Vegetables
+327,2026-02-21 10:50:40,DEV-01,Plate Waste,Lunch,3.11,Roti
+328,2026-03-01 03:30:18,DEV-01,Production Waste,Lunch,2.87,Rice
+329,2026-02-12 11:24:05,DEV-01,Bain Marie Waste,Lunch,3.49,Dal
+330,2026-02-25 02:35:08,DEV-02,Plate Waste,Breakfast,3.19,Vegetables
+331,2026-02-13 03:51:51,DEV-01,Bain Marie Waste,Breakfast,0.69,Roti
+332,2026-02-25 01:13:54,DEV-02,Plate Waste,Breakfast,2.65,Dal
+333,2026-02-06 14:17:57,DEV-02,Production Waste,Dinner,3.09,Salad
+334,2026-02-11 21:28:13,DEV-01,Production Waste,Lunch,3.45,Roti
+335,2026-02-14 22:27:26,DEV-03,Plate Waste,Lunch,0.94,Dal
+336,2026-02-26 03:12:25,DEV-01,Production Waste,Dinner,1.2,Dal
+337,2026-02-22 18:31:46,DEV-03,Bain Marie Waste,Dinner,3.91,Vegetables
+338,2026-03-03 08:26:50,DEV-02,Plate Waste,Breakfast,0.66,Rice
+339,2026-02-25 06:53:52,DEV-02,Production Waste,Lunch,4.34,Chicken
+340,2026-03-03 23:27:36,DEV-01,Bain Marie Waste,Breakfast,2.53,Chicken
+341,2026-02-06 03:12:01,DEV-02,Production Waste,Breakfast,1.8,Roti
+342,2026-02-19 02:34:00,DEV-03,Bain Marie Waste,Dinner,1.64,Rice
+343,2026-02-15 14:36:57,DEV-03,Bain Marie Waste,Breakfast,2.14,Roti
+344,2026-02-18 03:27:21,DEV-03,Plate Waste,Dinner,3.05,Roti
+345,2026-03-04 04:08:47,DEV-03,Plate Waste,Dinner,1.31,Dal
+346,2026-03-02 19:18:08,DEV-01,Production Waste,Breakfast,2.69,Rice
+347,2026-03-03 10:37:36,DEV-03,Bain Marie Waste,Lunch,4.19,Chicken
+348,2026-02-04 21:55:31,DEV-03,Bain Marie Waste,Lunch,5.42,Salad
+349,2026-02-18 02:36:17,DEV-03,Bain Marie Waste,Lunch,2.07,Dal
+350,2026-02-25 11:03:24,DEV-01,Bain Marie Waste,Breakfast,2.3,Vegetables
+351,2026-02-26 22:49:59,DEV-03,Production Waste,Lunch,1.86,Dal
+352,2026-02-18 22:40:13,DEV-02,Bain Marie Waste,Dinner,5.14,Roti
+353,2026-02-21 10:21:01,DEV-02,Production Waste,Dinner,3.18,Vegetables
+354,2026-02-09 09:23:17,DEV-01,Production Waste,Lunch,3.14,Rice
+355,2026-02-17 12:45:40,DEV-02,Production Waste,Lunch,5.29,Roti
+356,2026-02-19 08:07:48,DEV-01,Production Waste,Dinner,3.92,Vegetables
+357,2026-02-28 10:20:15,DEV-02,Bain Marie Waste,Lunch,3.39,Rice
+358,2026-02-07 19:33:16,DEV-01,Production Waste,Lunch,3.43,Chicken
+359,2026-02-20 13:47:32,DEV-02,Plate Waste,Breakfast,0.45,Salad
+360,2026-02-26 06:54:47,DEV-01,Bain Marie Waste,Lunch,3.59,Roti
+361,2026-02-16 06:46:22,DEV-02,Bain Marie Waste,Dinner,2.28,Rice
+362,2026-02-22 21:21:04,DEV-01,Bain Marie Waste,Breakfast,1.95,Chicken
+363,2026-02-17 10:53:06,DEV-02,Plate Waste,Breakfast,1.42,Dal
+364,2026-03-05 02:33:23,DEV-01,Bain Marie Waste,Breakfast,0.67,Dal
+365,2026-02-19 21:42:09,DEV-01,Production Waste,Dinner,4.92,Chicken
+366,2026-02-28 03:48:37,DEV-01,Production Waste,Lunch,3.4,Roti
+367,2026-02-19 14:39:36,DEV-01,Plate Waste,Lunch,3.5,Chicken
+368,2026-02-10 05:29:46,DEV-02,Production Waste,Lunch,5.64,Vegetables
+369,2026-03-05 08:54:53,DEV-03,Bain Marie Waste,Dinner,4.48,Chicken
+370,2026-02-28 04:29:58,DEV-03,Bain Marie Waste,Dinner,2.85,Vegetables
+371,2026-02-04 06:01:23,DEV-01,Bain Marie Waste,Lunch,2.52,Chicken
+372,2026-02-18 09:06:37,DEV-03,Production Waste,Dinner,4.61,Chicken
+373,2026-02-26 11:34:38,DEV-03,Plate Waste,Lunch,5.83,Roti
+374,2026-02-05 22:28:22,DEV-03,Plate Waste,Dinner,2.81,Salad
+375,2026-02-21 21:35:36,DEV-01,Production Waste,Breakfast,2.68,Chicken
+376,2026-02-08 18:40:38,DEV-02,Bain Marie Waste,Breakfast,0.35,Roti
+377,2026-02-23 11:46:23,DEV-03,Plate Waste,Dinner,1.54,Vegetables
+378,2026-02-06 11:12:09,DEV-01,Plate Waste,Dinner,1.24,Dal
+379,2026-02-26 15:58:56,DEV-01,Bain Marie Waste,Dinner,2.33,Chicken
+380,2026-02-20 01:28:46,DEV-03,Plate Waste,Dinner,2.23,Salad
+381,2026-02-16 06:38:38,DEV-01,Bain Marie Waste,Dinner,2.83,Chicken
+382,2026-02-17 22:24:59,DEV-02,Bain Marie Waste,Breakfast,3.03,Salad
+383,2026-02-13 12:08:09,DEV-02,Bain Marie Waste,Dinner,3.84,Dal
+384,2026-03-02 15:39:18,DEV-01,Plate Waste,Dinner,1.86,Salad
+385,2026-03-01 19:30:10,DEV-02,Production Waste,Lunch,5.46,Dal
+386,2026-02-05 11:39:02,DEV-01,Bain Marie Waste,Lunch,5.77,Vegetables
+387,2026-02-15 21:25:06,DEV-01,Plate Waste,Dinner,2.8,Dal
+388,2026-03-02 17:26:17,DEV-01,Plate Waste,Dinner,1.85,Salad
+389,2026-03-03 22:20:48,DEV-03,Plate Waste,Breakfast,1.0,Roti
+390,2026-02-14 17:54:50,DEV-02,Plate Waste,Breakfast,0.59,Vegetables
+391,2026-02-08 07:46:58,DEV-01,Plate Waste,Dinner,4.15,Roti
+392,2026-02-23 04:43:16,DEV-02,Bain Marie Waste,Dinner,4.9,Salad
+393,2026-02-13 03:01:21,DEV-03,Production Waste,Lunch,2.47,Rice
+394,2026-03-03 07:33:12,DEV-03,Production Waste,Breakfast,1.85,Roti
+395,2026-02-23 17:30:39,DEV-01,Bain Marie Waste,Breakfast,3.01,Vegetables
+396,2026-02-12 11:42:30,DEV-01,Production Waste,Dinner,5.03,Dal
+397,2026-03-03 00:21:47,DEV-02,Bain Marie Waste,Dinner,1.09,Vegetables
+398,2026-03-01 19:37:50,DEV-03,Bain Marie Waste,Dinner,2.87,Dal
+399,2026-02-12 19:16:52,DEV-03,Bain Marie Waste,Breakfast,1.26,Salad
+400,2026-02-12 11:34:38,DEV-03,Plate Waste,Breakfast,2.44,Roti
+401,2026-02-11 23:06:22,DEV-02,Bain Marie Waste,Dinner,4.54,Chicken
+402,2026-02-19 08:42:07,DEV-01,Production Waste,Breakfast,1.46,Roti
+403,2026-02-26 14:54:50,DEV-01,Bain Marie Waste,Lunch,5.67,Vegetables
+404,2026-02-14 21:02:30,DEV-02,Bain Marie Waste,Lunch,4.72,Chicken
+405,2026-03-03 06:05:24,DEV-02,Plate Waste,Breakfast,1.06,Roti
+406,2026-02-06 11:01:11,DEV-02,Production Waste,Dinner,1.14,Vegetables
+407,2026-02-27 20:07:06,DEV-03,Production Waste,Dinner,4.14,Salad
+408,2026-02-17 18:23:00,DEV-01,Production Waste,Lunch,4.0,Vegetables
+409,2026-02-10 21:06:49,DEV-03,Bain Marie Waste,Lunch,4.69,Vegetables
+410,2026-03-02 02:32:39,DEV-03,Production Waste,Lunch,4.74,Roti
+411,2026-03-04 08:48:49,DEV-02,Production Waste,Breakfast,1.82,Chicken
+412,2026-02-08 21:22:20,DEV-03,Production Waste,Breakfast,2.7,Chicken
+413,2026-03-01 11:53:38,DEV-02,Production Waste,Breakfast,0.78,Salad
+414,2026-02-13 09:56:59,DEV-01,Plate Waste,Dinner,3.28,Vegetables
+415,2026-02-06 03:27:36,DEV-02,Bain Marie Waste,Lunch,1.49,Chicken
+416,2026-02-06 05:54:28,DEV-02,Plate Waste,Dinner,2.73,Rice
+417,2026-02-22 15:57:12,DEV-03,Production Waste,Lunch,5.05,Chicken
+418,2026-02-06 23:43:31,DEV-03,Production Waste,Breakfast,1.53,Chicken
+419,2026-02-06 08:50:33,DEV-02,Production Waste,Breakfast,3.16,Dal
+420,2026-02-23 07:00:15,DEV-03,Plate Waste,Breakfast,2.53,Salad
+421,2026-02-23 20:23:48,DEV-02,Bain Marie Waste,Lunch,5.96,Vegetables
+422,2026-02-21 16:17:54,DEV-03,Plate Waste,Breakfast,2.28,Roti
+423,2026-02-20 07:49:15,DEV-03,Bain Marie Waste,Breakfast,0.82,Chicken
+424,2026-02-09 15:00:35,DEV-01,Production Waste,Dinner,5.1,Dal
+425,2026-02-25 22:04:42,DEV-02,Plate Waste,Dinner,3.91,Vegetables
+426,2026-02-14 14:13:03,DEV-01,Bain Marie Waste,Breakfast,1.64,Roti
+427,2026-02-08 22:06:47,DEV-02,Plate Waste,Breakfast,2.65,Rice
+428,2026-02-15 03:02:10,DEV-03,Production Waste,Breakfast,0.5,Vegetables
+429,2026-03-04 11:06:34,DEV-02,Bain Marie Waste,Dinner,9.74,Roti
+430,2026-03-01 15:30:19,DEV-01,Plate Waste,Breakfast,2.49,Dal
+431,2026-02-14 19:27:27,DEV-03,Plate Waste,Dinner,3.25,Salad
+432,2026-02-19 00:14:29,DEV-01,Plate Waste,Breakfast,1.18,Chicken
+433,2026-02-14 04:10:23,DEV-01,Plate Waste,Lunch,2.36,Chicken
+434,2026-02-11 22:41:04,DEV-03,Bain Marie Waste,Dinner,3.72,Rice
+435,2026-02-20 03:54:43,DEV-03,Bain Marie Waste,Dinner,3.69,Salad
+436,2026-02-23 15:41:35,DEV-02,Production Waste,Lunch,1.58,Chicken
+437,2026-02-26 10:19:44,DEV-02,Plate Waste,Breakfast,2.76,Roti
+438,2026-02-25 22:06:11,DEV-02,Plate Waste,Breakfast,1.93,Chicken
+439,2026-02-09 22:52:08,DEV-01,Bain Marie Waste,Lunch,2.06,Salad
+440,2026-02-07 06:45:48,DEV-01,Plate Waste,Lunch,5.21,Salad
+441,2026-02-12 16:34:00,DEV-03,Production Waste,Breakfast,1.08,Rice
+442,2026-02-12 13:51:57,DEV-02,Production Waste,Dinner,3.93,Dal
+443,2026-02-18 03:52:45,DEV-01,Plate Waste,Breakfast,0.91,Rice
+444,2026-02-26 16:37:22,DEV-03,Production Waste,Breakfast,2.32,Vegetables
+445,2026-02-15 01:28:49,DEV-02,Bain Marie Waste,Dinner,2.08,Vegetables
+446,2026-03-01 08:23:13,DEV-02,Bain Marie Waste,Dinner,5.21,Rice
+447,2026-02-26 05:38:08,DEV-02,Bain Marie Waste,Lunch,5.55,Vegetables
+448,2026-02-05 15:54:07,DEV-03,Production Waste,Dinner,4.57,Rice
+449,2026-02-16 02:27:48,DEV-03,Plate Waste,Dinner,4.9,Vegetables
+450,2026-02-17 18:33:49,DEV-01,Bain Marie Waste,Breakfast,0.87,Chicken
+451,2026-02-15 08:56:09,DEV-03,Bain Marie Waste,Lunch,3.66,Dal
+452,2026-02-27 03:55:28,DEV-02,Bain Marie Waste,Dinner,3.55,Roti
+453,2026-02-20 12:57:16,DEV-03,Bain Marie Waste,Breakfast,0.71,Roti
+454,2026-03-01 18:16:29,DEV-01,Plate Waste,Dinner,5.0,Rice
+455,2026-02-03 18:04:38,DEV-03,Production Waste,Lunch,1.51,Rice
+456,2026-02-10 18:36:07,DEV-02,Bain Marie Waste,Breakfast,0.93,Rice
+457,2026-03-05 10:28:11,DEV-03,Bain Marie Waste,Dinner,3.67,Salad
+458,2026-02-27 03:01:52,DEV-03,Bain Marie Waste,Breakfast,0.32,Rice
+459,2026-02-04 06:07:37,DEV-03,Bain Marie Waste,Dinner,3.92,Rice
+460,2026-02-27 19:45:49,DEV-01,Production Waste,Dinner,3.7,Rice
+461,2026-02-28 21:35:34,DEV-03,Plate Waste,Breakfast,1.0,Dal
+462,2026-02-20 15:35:36,DEV-01,Bain Marie Waste,Lunch,4.93,Vegetables
+463,2026-02-25 17:24:39,DEV-03,Production Waste,Dinner,1.72,Dal
+464,2026-02-07 08:33:54,DEV-03,Production Waste,Dinner,5.16,Rice
+465,2026-02-23 02:49:23,DEV-02,Production Waste,Lunch,2.76,Salad
+466,2026-02-03 21:38:59,DEV-02,Bain Marie Waste,Dinner,1.39,Salad
+467,2026-02-19 12:35:52,DEV-01,Plate Waste,Dinner,5.1,Rice
+468,2026-02-14 14:20:13,DEV-03,Plate Waste,Breakfast,2.91,Vegetables
+469,2026-02-16 14:29:18,DEV-03,Bain Marie Waste,Breakfast,2.98,Chicken
+470,2026-03-02 19:10:34,DEV-02,Production Waste,Dinner,0.75,Roti
+471,2026-03-03 22:35:10,DEV-03,Bain Marie Waste,Breakfast,2.48,Rice
+472,2026-02-17 23:19:21,DEV-03,Bain Marie Waste,Breakfast,1.94,Salad
+473,2026-03-01 16:26:26,DEV-03,Plate Waste,Lunch,2.8,Rice
+474,2026-02-27 18:06:20,DEV-01,Production Waste,Dinner,5.08,Vegetables
+475,2026-02-14 17:06:25,DEV-03,Plate Waste,Breakfast,1.29,Vegetables
+476,2026-02-19 06:53:45,DEV-02,Bain Marie Waste,Breakfast,2.14,Roti
+477,2026-02-20 17:11:23,DEV-02,Production Waste,Dinner,4.93,Salad
+478,2026-03-03 21:14:01,DEV-03,Bain Marie Waste,Dinner,2.35,Roti
+479,2026-02-07 00:16:52,DEV-02,Plate Waste,Breakfast,1.08,Salad
+480,2026-02-10 22:23:07,DEV-02,Production Waste,Dinner,2.39,Rice
+481,2026-02-03 16:41:33,DEV-02,Production Waste,Lunch,3.11,Roti
+482,2026-02-07 16:20:54,DEV-03,Plate Waste,Breakfast,1.55,Chicken
+483,2026-02-23 06:02:44,DEV-02,Plate Waste,Breakfast,0.38,Rice
+484,2026-03-04 10:06:26,DEV-01,Bain Marie Waste,Dinner,4.21,Vegetables
+485,2026-02-22 06:27:32,DEV-03,Production Waste,Breakfast,2.4,Chicken
+486,2026-02-28 17:46:13,DEV-01,Production Waste,Breakfast,2.29,Dal
+487,2026-02-18 01:28:59,DEV-01,Production Waste,Lunch,3.36,Vegetables
+488,2026-02-16 20:09:30,DEV-01,Bain Marie Waste,Lunch,2.36,Dal
+489,2026-02-15 09:56:16,DEV-03,Plate Waste,Dinner,3.48,Roti
+490,2026-02-25 16:05:13,DEV-01,Bain Marie Waste,Breakfast,0.69,Dal
+491,2026-02-21 21:14:36,DEV-02,Plate Waste,Lunch,3.09,Chicken
+492,2026-02-10 01:14:10,DEV-03,Production Waste,Lunch,2.47,Vegetables
+493,2026-02-18 16:41:23,DEV-02,Bain Marie Waste,Breakfast,3.1,Salad
+494,2026-02-27 06:42:16,DEV-02,Bain Marie Waste,Dinner,4.2,Dal
+495,2026-02-22 12:26:32,DEV-03,Production Waste,Lunch,1.39,Chicken
+496,2026-03-01 22:20:37,DEV-03,Bain Marie Waste,Breakfast,2.28,Salad
+497,2026-02-13 14:53:52,DEV-03,Production Waste,Lunch,4.95,Vegetables
+498,2026-02-27 16:22:12,DEV-01,Bain Marie Waste,Breakfast,2.14,Salad
+499,2026-02-10 22:13:46,DEV-02,Production Waste,Dinner,2.55,Vegetables
+500,2026-03-04 11:16:59,DEV-03,Bain Marie Waste,Lunch,3.83,Chicken

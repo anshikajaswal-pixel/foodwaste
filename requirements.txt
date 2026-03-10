@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+plotly
+streamlit
+scikit-learn
+prophet
+python-dotenv
+openai
+
+google-generativeai>=0.7.0
