@@ -534,8 +534,46 @@ def _answer_data_question(
         return "I’m sorry, but I can only assist with questions related to food waste data and sustainability insights."
 
     try:
-        return answer_question_with_sheet(question)
+        answer = answer_question_with_sheet(question)
+        if answer and ("PERMISSION_DENIED" in answer or "Assistant error" in answer):
+            fallback = _answer_local_fallback(df, summary, anomalies, question)
+            if fallback:
+                return f"{fallback}\n\n(Note: Gemini is unavailable right now.)"
+        return answer
     except Exception as exc:
+        fallback = _answer_local_fallback(df, summary, anomalies, question)
+        if fallback:
+            return f"{fallback}\n\n(Note: Gemini is unavailable right now.)"
+        return f"Assistant error: {exc}"
+
+
+def _get_chat_answer(
+    df: pd.DataFrame,
+    question: str,
+    summary: dict[str, Any],
+    anomalies: list[dict[str, Any]],
+    use_local_calc: bool,
+) -> str:
+    if not question.strip():
+        return "Please enter a question."
+    if not _is_domain_question(question):
+        return "Iâ€™m sorry, but I can only assist with questions related to food waste data and sustainability insights."
+
+    if use_local_calc:
+        local_answer = _answer_local_question(df, question)
+        return local_answer or _answer_data_question(df, question, summary, anomalies)
+
+    try:
+        answer = answer_question_with_sheet(question)
+        if answer and ("PERMISSION_DENIED" in answer or "Assistant error" in answer):
+            fallback = _answer_local_fallback(df, summary, anomalies, question)
+            if fallback:
+                return f"{fallback}\n\n(Note: Gemini is unavailable right now.)"
+        return answer or "No response from Gemini."
+    except Exception as exc:
+        fallback = _answer_local_fallback(df, summary, anomalies, question)
+        if fallback:
+            return f"{fallback}\n\n(Note: Gemini is unavailable right now.)"
         return f"Assistant error: {exc}"
 
 
@@ -665,6 +703,48 @@ def _answer_local_question(df: pd.DataFrame, question: str) -> str | None:
             if not by_day.empty:
                 d = by_day.idxmax()
                 return f"The most waste was on {d.isoformat()} with {float(by_day.loc[d]):.2f} kg."
+    return None
+
+
+def _answer_local_fallback(
+    df: pd.DataFrame,
+    summary: dict[str, Any],
+    anomalies: list[dict[str, Any]],
+    question: str,
+) -> str | None:
+    q = question.lower().strip()
+    local = _answer_local_question(df, question)
+    if local:
+        return local
+
+    if "total waste" in q:
+        total = float(summary.get("total_waste_kg", 0.0))
+        return f"The total waste is {total:.2f} kg."
+
+    if "top kitchen" in q or "which kitchen" in q or "maximum waste" in q:
+        by_kitchen = summary.get("waste_by_kitchen", {})
+        if by_kitchen:
+            kitchen = max(by_kitchen, key=by_kitchen.get)
+            return f"Top kitchen: {kitchen} with {float(by_kitchen[kitchen]):.2f} kg."
+
+    if "top commodity" in q or "which commodity" in q:
+        by_commodity = summary.get("waste_by_commodity", {})
+        if by_commodity:
+            commodity = max(by_commodity, key=by_commodity.get)
+            return f"Top commodity: {commodity} with {float(by_commodity[commodity]):.2f} kg."
+
+    if "meal" in q and ("highest" in q or "top" in q):
+        by_meal = summary.get("waste_by_meal", {})
+        if by_meal:
+            meal = max(by_meal, key=by_meal.get)
+            return f"Highest waste meal: {meal} with {float(by_meal[meal]):.2f} kg."
+
+    if "spike" in q or "anomal" in q:
+        if anomalies:
+            top = max(anomalies, key=lambda x: x.get("waste_kg", 0))
+            return f"Spike on {top.get('date')} with {float(top.get('waste_kg', 0)):.2f} kg."
+        return "No anomaly spikes found in the current filters."
+
     return None
 
 
@@ -908,8 +988,7 @@ div[data-testid="stChatMessage"] {
         if send and prompt:
             st.session_state["chat_messages"].append({"role": "user", "content": prompt})
             with st.spinner("Assistant is typing..."):
-                local_answer = _answer_local_question(filtered_df, prompt) if use_local_calc else None
-                answer = local_answer or _answer_data_question(filtered_df, prompt, summary, anomalies) if use_local_calc else answer_question_with_sheet(prompt)
+                answer = _get_chat_answer(filtered_df, prompt, summary, anomalies, use_local_calc)
             st.session_state["chat_messages"].append({"role": "assistant", "content": answer})
             st.rerun()
 
