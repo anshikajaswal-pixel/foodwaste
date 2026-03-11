@@ -538,12 +538,12 @@ def _answer_data_question(
         if answer and ("PERMISSION_DENIED" in answer or "Assistant error" in answer):
             fallback = _answer_local_fallback(df, summary, anomalies, question)
             if fallback:
-                return f"{fallback}\n\n(Note: Gemini is unavailable right now.)"
+                return fallback
         return answer
     except Exception as exc:
         fallback = _answer_local_fallback(df, summary, anomalies, question)
         if fallback:
-            return f"{fallback}\n\n(Note: Gemini is unavailable right now.)"
+            return fallback
         return f"Assistant error: {exc}"
 
 
@@ -568,12 +568,12 @@ def _get_chat_answer(
         if answer and ("PERMISSION_DENIED" in answer or "Assistant error" in answer):
             fallback = _answer_local_fallback(df, summary, anomalies, question)
             if fallback:
-                return f"{fallback}\n\n(Note: Gemini is unavailable right now.)"
+                return fallback
         return answer or "No response from Gemini."
     except Exception as exc:
         fallback = _answer_local_fallback(df, summary, anomalies, question)
         if fallback:
-            return f"{fallback}\n\n(Note: Gemini is unavailable right now.)"
+            return fallback
         return f"Assistant error: {exc}"
 
 
@@ -957,21 +957,6 @@ div[data-testid="stChatMessage"] {
         parse_hint = st.session_state.get("last_weight_parse")
         parse_text = f" | last weight parse: {parse_hint}" if parse_hint is not None else ""
         st.caption(f"Assistant mode: {'Local (exact calculations)' if use_local_calc else 'Gemini (best effort)'}{parse_text}")
-        q1, q2, q3, q4 = st.columns(4)
-        selected_sample = None
-        with q1:
-            if st.button("Top Kitchen?", use_container_width=True, key="sample_q_top_kitchen"):
-                selected_sample = "Which kitchen generates the most waste?"
-        with q2:
-            if st.button("Top Commodity?", use_container_width=True, key="sample_q_top_commodity"):
-                selected_sample = "Which commodity contributes the highest waste?"
-        with q3:
-            if st.button("Highest Waste Meal?", use_container_width=True, key="sample_q_highest_meal"):
-                selected_sample = "Which meal type has the highest waste and by how much?"
-        with q4:
-            if st.button("Any Spike Days?", use_container_width=True, key="sample_q_spikes"):
-                selected_sample = "Were there any unusual spike days in this filter range?"
-
         for message in st.session_state["chat_messages"]:
             with st.chat_message(message["role"]):
                 st.markdown(message["content"])
@@ -980,10 +965,6 @@ div[data-testid="stChatMessage"] {
             prompt = st.text_input("Ask a question about waste data", label_visibility="collapsed", placeholder="Ask a question about waste data", key="chat_text")
         with c_send:
             send = st.button("Send", use_container_width=True)
-
-        if selected_sample:
-            prompt = selected_sample
-            send = True
 
         if send and prompt:
             st.session_state["chat_messages"].append({"role": "user", "content": prompt})
