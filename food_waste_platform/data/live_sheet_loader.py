@@ -8,9 +8,11 @@ import pandas as pd
 
 
 REQUIRED_COLUMNS = ["date", "kitchen", "meal_type", "commodity", "waste_kg"]
+OPTIONAL_COLUMNS = ["waste_type"]
 COLUMN_MAP = {
     "Date": "date",
     "Device Serial No": "kitchen",
+    "Food Waste Type": "waste_type",
     "Meal Type": "meal_type",
     "Commodity": "commodity",
     "Weight (KG)": "waste_kg",
@@ -74,7 +76,8 @@ def fetch_live_sheet(sheet_url: str) -> pd.DataFrame:
     if missing:
         raise ValueError(f"Missing required columns: {missing}")
 
-    df = df[REQUIRED_COLUMNS].copy()
+    selected_columns = REQUIRED_COLUMNS + [col for col in OPTIONAL_COLUMNS if col in df.columns]
+    df = df[selected_columns].copy()
     # Source sheet uses DD-MM-YYYY HH:MM; parse day-first to avoid dropping valid rows.
     df["date"] = pd.to_datetime(df["date"], errors="coerce", dayfirst=True)
     df["waste_kg"] = pd.to_numeric(df["waste_kg"], errors="coerce")

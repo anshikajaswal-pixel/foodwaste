@@ -18,7 +18,7 @@ sys.path.append(
         os.path.join(os.path.dirname(__file__), "../../")
     )
 )
-from food_waste_platform.ai.eco_ai_agent import eco_ai
+from food_waste_platform.ai.gemini_sheet_assistant import answer_question_with_sheet
 
 # Allow running this file directly via:
 # streamlit run food_waste_platform/dashboard/dashboard_app.py
@@ -45,6 +45,12 @@ if "ask_waste_question" not in st.session_state:
     st.session_state["ask_waste_question"] = ""
 if "ai_question_answer" not in st.session_state:
     st.session_state["ai_question_answer"] = ""
+if "chat_messages" not in st.session_state:
+    st.session_state["chat_messages"] = []
+if "use_local_calc" not in st.session_state:
+    st.session_state["use_local_calc"] = True
+if "last_weight_parse" not in st.session_state:
+    st.session_state["last_weight_parse"] = None
 
 
 def _df_signature(df: pd.DataFrame) -> str:
@@ -351,8 +357,6 @@ def _render_executive_summary(summary: dict[str, Any], anomalies: list[dict[str,
     st.markdown(f"• Highest contributing kitchen: **{top_kitchen}**")
     st.markdown(f"• Anomaly alerts identified: **{len(anomalies)}**")
 
-    st.markdown("</div>", unsafe_allow_html=True)
-
 
 def _parse_report_sections(report: str) -> dict[str, str]:
     if not report:
@@ -529,11 +533,139 @@ def _answer_data_question(
     if not _is_domain_question(question):
         return "I’m sorry, but I can only assist with questions related to food waste data and sustainability insights."
 
-    deterministic = _deterministic_question_answer(df, question)
     try:
-        return eco_ai(question)
+        return answer_question_with_sheet(question)
+    except Exception as exc:
+        return f"Assistant error: {exc}"
+
+
+def _extract_weight_kg(question: str) -> float | None:
+    q = question.lower().strip()
+    # Normalize decimal commas to dots (e.g., 0,3 -> 0.3)
+    q = re.sub(r"(?<=\d),(?=\d)", ".", q)
+    kg_matches = list(re.finditer(r"(\d+(?:\.\d+)?)\s*kg\b", q))
+    if not kg_matches:
+        kg_matches = list(re.finditer(r"(\d+(?:\.\d+)?)\s*kgs\b", q))
+    if kg_matches:
+        return float(kg_matches[-1].group(1))
+    return None
+
+
+def _extract_query_date(question: str) -> pd.Timestamp | None:
+    q = question.lower().strip()
+    # Remove weight fragments to avoid parsing them as dates.
+    q = re.sub(r"\d+(?:\.\d+)?\s*kg(?:s)?\b", " ", q)
+    # Normalize ordinals: 1st -> 1, 2nd -> 2
+    q = re.sub(r"(\d{1,2})(st|nd|rd|th)\b", r"\1", q)
+
+    # Explicit numeric date patterns.
+    m = re.search(r"\b(\d{1,2})[/-](\d{1,2})[/-](\d{2,4})\b", q)
+    if m:
+        day, month, year = m.groups()
+        year_i = int(year)
+        if year_i < 100:
+            year_i += 2000
+        return pd.Timestamp(year=year_i, month=int(month), day=int(day))
+
+    m = re.search(r"\b(\d{4})[/-](\d{1,2})[/-](\d{1,2})\b", q)
+    if m:
+        year, month, day = m.groups()
+        return pd.Timestamp(year=int(year), month=int(month), day=int(day))
+
+    # Month-name dates (e.g., 1 January 2026).
+    if re.search(r"\b(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)\b", q):
+        try:
+            dt = pd.to_datetime(q, dayfirst=True, errors="coerce")
+            if pd.notna(dt):
+                return pd.Timestamp(dt.date())
+        except Exception:
+            pass
+
+    # Fuzzy parse as last resort.
+    try:
+        from dateutil import parser as dateparser
+
+        dt = dateparser.parse(q, dayfirst=True, fuzzy=True)
+        if dt:
+            return pd.Timestamp(dt.date())
     except Exception:
-        return deterministic
+        return None
+    return None
+
+
+def _answer_local_question(df: pd.DataFrame, question: str) -> str | None:
+    q = question.lower().strip()
+    query_date = _extract_query_date(question)
+    if query_date is not None:
+        if "date" not in df.columns or "waste_kg" not in df.columns:
+            return "Date or weight column is missing in the current dataset."
+        work = df.copy()
+        work["date"] = pd.to_datetime(work["date"], errors="coerce", dayfirst=True)
+        work["waste_kg"] = pd.to_numeric(work["waste_kg"], errors="coerce")
+        work = work.dropna(subset=["date", "waste_kg"])
+        day = query_date.date()
+        work["day"] = work["date"].dt.date
+        if "production" in q and "waste" in q:
+            if "waste_type" not in work.columns:
+                return "Waste type column is missing, so I cannot isolate production waste."
+            prod = work[work["waste_type"].astype(str).str.contains("Production", case=False, na=False)]
+            total = prod.loc[prod["day"] == day, "waste_kg"].sum()
+            if total <= 0:
+                return f"No production waste recorded on {day.isoformat()}."
+            return f"Production waste on {day.isoformat()} was {total:.2f} kg."
+        total = work.loc[work["day"] == day, "waste_kg"].sum()
+        if total <= 0:
+            return f"No waste recorded on {day.isoformat()}."
+        return f"Total waste on {day.isoformat()} was {total:.2f} kg."
+    if "weight" in q or "kg" in q or "exactly" in q:
+        target = _extract_weight_kg(question)
+        if target is None:
+            st.session_state["last_weight_parse"] = None
+            return "Please include a numeric weight (e.g., 0.3 kg)."
+        st.session_state["last_weight_parse"] = target
+        work = df.copy()
+        if "waste_kg" not in work.columns and "weight_(kg)" in work.columns:
+            work = work.rename(columns={"weight_(kg)": "waste_kg"})
+        if "date" not in work.columns:
+            return "Date column is missing in the current dataset."
+        if "waste_kg" not in work.columns:
+            return "Weight column is missing in the current dataset."
+        work["waste_kg"] = pd.to_numeric(work["waste_kg"], errors="coerce")
+        work["date"] = pd.to_datetime(work["date"], errors="coerce", dayfirst=True)
+        work = work.dropna(subset=["waste_kg", "date"])
+        hits = work[work["waste_kg"].sub(target).abs() <= 1e-6]
+        if hits.empty:
+            return f"No rows found with weight exactly {target:.2f} kg in the current filters."
+        days = sorted({d.date().isoformat() for d in hits["date"]})
+        if len(days) <= 20:
+            return f"Exact weight {target:.2f} kg occurred on {len(days)} days: {', '.join(days)}."
+        return f"Exact weight {target:.2f} kg occurred on {len(days)} days. First 20: {', '.join(days[:20])}."
+    if "production waste" in q:
+        if "waste_type" in df.columns and "waste_kg" in df.columns:
+            prod = df.loc[df["waste_type"].astype(str).str.contains("Production", case=False, na=False), "waste_kg"]
+            total = pd.to_numeric(prod, errors="coerce").sum()
+            return f"The total amount of production waste is {total:.2f} kg."
+    if "least waste" in q or "minimum waste" in q:
+        if "date" in df.columns and "waste_kg" in df.columns:
+            work = df.copy()
+            work["date"] = pd.to_datetime(work["date"], errors="coerce", dayfirst=True)
+            work["waste_kg"] = pd.to_numeric(work["waste_kg"], errors="coerce")
+            work = work.dropna(subset=["date", "waste_kg"])
+            by_day = work.groupby(work["date"].dt.date)["waste_kg"].sum()
+            if not by_day.empty:
+                d = by_day.idxmin()
+                return f"The least waste was on {d.isoformat()} with {float(by_day.loc[d]):.2f} kg."
+    if "most waste" in q or "highest waste" in q:
+        if "date" in df.columns and "waste_kg" in df.columns:
+            work = df.copy()
+            work["date"] = pd.to_datetime(work["date"], errors="coerce", dayfirst=True)
+            work["waste_kg"] = pd.to_numeric(work["waste_kg"], errors="coerce")
+            work = work.dropna(subset=["date", "waste_kg"])
+            by_day = work.groupby(work["date"].dt.date)["waste_kg"].sum()
+            if not by_day.empty:
+                d = by_day.idxmax()
+                return f"The most waste was on {d.isoformat()} with {float(by_day.loc[d]):.2f} kg."
+    return None
 
 
 def app() -> None:
@@ -542,42 +674,117 @@ def app() -> None:
     st.markdown(
         """
         <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-        .stApp {background: #F0F2F6; color: #262730;}
-        .block-container {padding-top: 2rem; padding-bottom: 3rem;}
-        html, body, [class*="css"]  {font-family: 'Inter', 'Source Sans Pro', sans-serif;}
-        h1, h2, h3, h4, h5, h6, p, span, label, div, li {color: #262730 !important;}
-        div[data-testid="stMetric"] {background: #F5F8FA; border: 1px solid #E6EEF2; border-radius: 10px; padding: 8px 14px;}
-        section[data-testid="stSidebar"] {background: #EDF1F7;}
-        section[data-testid="stSidebar"] * {color: #000000 !important; font-weight: 600;}
-        section[data-testid="stSidebar"] div[data-baseweb="select"] > div {background: #FFFFFF !important; color: #000000 !important;}
-        section[data-testid="stSidebar"] [data-baseweb="tag"] {background: #E5E7EB !important; color: #000000 !important; border-radius: 14px !important;}
-        section[data-testid="stSidebar"] [data-baseweb="tag"] span {color: #000000 !important; font-weight: 700 !important;}
-        section[data-testid="stSidebar"] [data-baseweb="tag"] svg {color: #000000 !important; fill: #000000 !important;}
-        section[data-testid="stSidebar"] [data-baseweb="select"] svg {color: #000000 !important; fill: #000000 !important;}
-        section[data-testid="stSidebar"] input, section[data-testid="stSidebar"] textarea {color: #000000 !important;}
-        section[data-testid="stSidebar"] [data-baseweb="input"] {background: #FFFFFF !important;}
-        section[data-testid="stSidebar"] .stDateInput > div > div {background: #FFFFFF !important;}
-        section[data-testid="stSidebar"] .stCheckbox label {color: #000000 !important; font-weight: 700 !important;}
-        .stTextInput > div > div > input {background: #FFFFFF !important; color: #000000 !important; caret-color: #000000 !important;}
-        .stTextInput > div > div > input::placeholder {color: #4B5563 !important; opacity: 1 !important;}
-        .stButton > button {background: #DCEBFF !important; color: #000000 !important; border: 1px solid #B9D3FF !important;}
-        .stButton > button:hover {background: #CFE3FF !important; color: #000000 !important;}
-        div[data-testid="stForm"] button[kind="primary"] {background: #2563EB !important; color: #FFFFFF !important; border: 1px solid #2563EB !important;}
-        div[data-testid="stForm"] button[kind="primary"] span,
-        div[data-testid="stForm"] button[kind="primary"] p,
-        div[data-testid="stForm"] button[kind="primary"] div {color: #FFFFFF !important; fill: #FFFFFF !important;}
-        div[data-testid="stForm"] button[kind="primary"]:hover {background: #1D4ED8 !important; color: #FFFFFF !important;}
-        div[data-testid="stForm"] button[kind="primary"]:disabled,
-        div[data-testid="stForm"] button[kind="primary"][disabled] {color: #FFFFFF !important; opacity: 1 !important;}
-        div[data-testid="stForm"] button[kind="primary"]:disabled span,
-        div[data-testid="stForm"] button[kind="primary"][disabled] span {color: #FFFFFF !important;}
-        div[data-testid="stChatMessage"] {background: #F7FAFF !important; border: 1px solid #D8E6FF !important; border-radius: 12px;}
-        div[data-testid="stDataFrame"] [role="columnheader"] {background: #EAF2FF !important; color: #111827 !important; font-weight: 700 !important;}
-        div[data-testid="stDataFrame"] [role="gridcell"] {background: #FFFFFF !important; color: #111827 !important;}
-        [data-baseweb="popover"] * {color: #000000 !important;}
-        [data-testid="stMarkdownContainer"] ul {padding-left: 1.2rem;}
-        .question-box {background:#F7FAFF;border:1px solid #D8E6FF;padding:14px 16px;border-radius:12px;}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap');
+  :root {
+    --ink: #3A1D10;
+    --ink-soft: #7A5A4A;
+    --glass: rgba(255, 248, 242, 0.7);
+    --glass-strong: rgba(255, 246, 236, 0.95);
+    --stroke: rgba(176, 120, 90, 0.25);
+    --accent: #FF6B2C;
+    --accent-2: #FFB703;
+    --shadow: 0 18px 40px rgba(12, 24, 48, 0.15);
+}
+.stApp {
+    background:
+      radial-gradient(1200px 520px at 10% 0%, rgba(255, 107, 44, 0.2), transparent 60%),
+      radial-gradient(900px 520px at 90% 10%, rgba(255, 183, 3, 0.2), transparent 55%),
+      linear-gradient(180deg, #FFF4EC 0%, #FFE9D9 60%, #FFE2CF 100%);
+    color: var(--ink);
+}
+        .block-container {padding-top: 2rem; padding-bottom: 3rem; max-width: 100%; padding-left: 2.5rem; padding-right: 2.5rem;}
+html, body, [class*="css"]  {font-family: 'Manrope', 'Source Sans Pro', sans-serif;}
+  h1, h2, h3, h4, h5, h6, p, span, label, div, li {color: var(--ink) !important;}
+h1 {letter-spacing: -0.8px; font-weight: 800;}
+
+/* Sidebar glass */
+  section[data-testid="stSidebar"] {
+      background: linear-gradient(180deg, rgba(255,250,244,0.92) 0%, rgba(255,239,224,0.98) 100%);
+      border-right: 1px solid var(--stroke);
+      box-shadow: 8px 0 20px rgba(15, 23, 42, 0.05);
+  }
+  section[data-testid="stSidebar"] * {color: var(--ink) !important; font-weight: 600;}
+  section[data-testid="stSidebar"] div[data-baseweb="select"] > div {background: #FFF6EE !important;}
+  section[data-testid="stSidebar"] [data-baseweb="tag"] {background: #FFE6D2 !important; border-radius: 14px !important;}
+section[data-testid="stSidebar"] [data-baseweb="tag"] span {font-weight: 700 !important;}
+  section[data-testid="stSidebar"] .stDateInput > div > div {background: #FFF6EE !important;}
+
+/* Metrics */
+div[data-testid="stMetric"] {
+    background: var(--glass-strong);
+    border: 1px solid var(--stroke);
+    border-radius: 18px;
+    padding: 12px 16px;
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(12px);
+}
+
+/* Buttons */
+.stButton > button {
+    background: rgba(255, 107, 44, 0.12) !important;
+    color: var(--ink) !important;
+    border: 1px solid rgba(255, 107, 44, 0.35) !important;
+    border-radius: 999px !important;
+    padding: 0.55rem 1.1rem;
+    box-shadow: 0 10px 20px rgba(255, 107, 44, 0.2);
+}
+.stButton > button:hover {background: rgba(255, 107, 44, 0.2) !important;}
+
+/* Chat */
+div[data-testid="stChatMessage"] {
+    background: var(--glass);
+    border: 1px solid var(--stroke);
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(14px);
+}
+        .chat-input {
+            display: flex;
+            gap: 0.75rem;
+            align-items: center;
+            background: var(--glass-strong);
+            border: 1px solid rgba(255, 107, 44, 0.35);
+            border-radius: 999px;
+            padding: 0.45rem 0.75rem;
+            box-shadow: 0 16px 32px rgba(255, 107, 44, 0.18);
+            backdrop-filter: blur(16px);
+        }
+        .chat-input input {
+            background: transparent !important;
+            border: none !important;
+            color: var(--ink) !important;
+        }
+
+/* DataFrame */
+  div[data-testid="stDataFrame"] [role="columnheader"] {background: #FFE4CC !important; font-weight: 700 !important;}
+
+  a {color: var(--accent) !important;}        div[data-testid="stTextInput"] > div {
+              background: rgba(255, 250, 244, 0.95) !important;
+              border: 1px solid rgba(255, 107, 44, 0.35) !important;
+              border-radius: 999px !important;
+              padding: 0.35rem 0.6rem !important;
+              box-shadow: 0 16px 32px rgba(255, 107, 44, 0.18);
+              backdrop-filter: blur(16px);
+          }
+          div[data-testid="stTextInput"] input {
+              background: #FFF6EE !important;
+              border: none !important;
+              color: var(--ink) !important;
+          }
+          div[data-testid="stTextInput"] input::placeholder {
+              color: #8A5B45 !important;
+          }
+        div[data-baseweb="input"] {
+            background: transparent !important;
+        }
+        div[data-baseweb="input"] input {
+            background: #FFF6EE !important;
+            color: var(--ink) !important;
+            caret-color: var(--accent) !important;
+        }
+        div[data-baseweb="input"] input::placeholder {
+            color: #8A5B45 !important;
+        }
         </style>
         """,
         unsafe_allow_html=True,
@@ -630,6 +837,13 @@ def app() -> None:
         default=(meals if select_all_meals else []),
     )
     st.sidebar.divider()
+    st.sidebar.subheader("Assistant Mode")
+    use_local_calc = st.sidebar.checkbox(
+        "Prefer local calculations (recommended)",
+        value=st.session_state.get("use_local_calc", True),
+        help="Uses exact calculations from the full dataset for numeric questions. Gemini is used for narrative answers.",
+    )
+    st.session_state["use_local_calc"] = use_local_calc
 
     filtered_df = df.copy()
     if len(date_range) == 2:
@@ -656,8 +870,13 @@ def app() -> None:
     )
 
     with st.container(border=True):
-        st.markdown("<div class='question-box'>", unsafe_allow_html=True)
-        st.subheader("🔍 EcoSync AI Intelligence")
+        st.subheader("EcoSync AI Assistant")
+        toggle_label = "Prefer local calculations (exact, recommended)"
+        use_local_calc = st.toggle(toggle_label, value=st.session_state.get("use_local_calc", True))
+        st.session_state["use_local_calc"] = use_local_calc
+        parse_hint = st.session_state.get("last_weight_parse")
+        parse_text = f" | last weight parse: {parse_hint}" if parse_hint is not None else ""
+        st.caption(f"Assistant mode: {'Local (exact calculations)' if use_local_calc else 'Gemini (best effort)'}{parse_text}")
         q1, q2, q3, q4 = st.columns(4)
         selected_sample = None
         with q1:
@@ -673,36 +892,31 @@ def app() -> None:
             if st.button("Any Spike Days?", use_container_width=True, key="sample_q_spikes"):
                 selected_sample = "Were there any unusual spike days in this filter range?"
 
+        for message in st.session_state["chat_messages"]:
+            with st.chat_message(message["role"]):
+                st.markdown(message["content"])
+        c_input, c_send = st.columns([10, 1])
+        with c_input:
+            prompt = st.text_input("Ask a question about waste data", label_visibility="collapsed", placeholder="Ask a question about waste data", key="chat_text")
+        with c_send:
+            send = st.button("Send", use_container_width=True)
+
         if selected_sample:
-            st.session_state["ask_waste_question"] = selected_sample
+            prompt = selected_sample
+            send = True
+
+        if send and prompt:
+            st.session_state["chat_messages"].append({"role": "user", "content": prompt})
+            with st.spinner("Assistant is typing..."):
+                local_answer = _answer_local_question(filtered_df, prompt) if use_local_calc else None
+                answer = local_answer or _answer_data_question(filtered_df, prompt, summary, anomalies) if use_local_calc else answer_question_with_sheet(prompt)
+            st.session_state["chat_messages"].append({"role": "assistant", "content": answer})
             st.rerun()
 
-        with st.form("ai_form", clear_on_submit=False):
-            question = st.text_input(
-                "Ask A Question",
-                placeholder="Example: Which kitchen generates the most waste?",
-                key="ask_waste_question",
-                label_visibility="collapsed",
-            )
-            _, center_btn, _ = st.columns([1, 1, 1])
-            with center_btn:
-                submit_q = st.form_submit_button("Get Insight", use_container_width=True)
-
-        st.caption("Sample Queries: Which kitchen generates the most waste? | Which commodity contributes the highest waste? | Which meal type has the highest waste? | Were there anomaly spike days?")
-        if submit_q:
-            answer = _answer_data_question(
-                filtered_df,
-                st.session_state.get("ask_waste_question", question),
-                summary,
-                anomalies,
-            )
-            st.session_state["ai_question_answer"] = answer
-
-        if st.session_state.get("ai_question_answer"):
-            with st.chat_message("assistant", avatar="🤖"):
-                st.markdown("**AI Data Analyst**")
-                st.markdown(st.session_state["ai_question_answer"])
-        st.markdown("</div>", unsafe_allow_html=True)
+        st.caption(
+            "Sample Queries: Which kitchen generates the most waste? | Which commodity contributes the highest waste? "
+            "| Which meal type has the highest waste? | Were there anomaly spike days?"
+        )
 
     st.divider()
 
